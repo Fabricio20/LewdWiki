@@ -1,2 +1,2 @@
-# LewdWiki
-LewdBot Wiki and Issue Tracker
+# leviathan
+leviathan Wiki and Issue Tracker
