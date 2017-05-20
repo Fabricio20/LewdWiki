@@ -1,2 +1,2 @@
 # LewdWiki
-LewdBot Wiki and Issue Tracker
+LewdBot Wiki, Issue Tracker and Translation database
