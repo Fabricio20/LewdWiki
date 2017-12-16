@@ -1,26 +1,26 @@
 # General Messages
-NO_USERS_FOUND = No users found.
-TOO_MANY_USERS_FOUND = Too many users found with that name.
-NO_ROLES_FOUND = No roles found.
-TOO_MANY_ROLES_FOUND = Too many roles found with that name.
-CANNOT_MODIFY = I cannot modify this role/member (My role is below his/hers).
+NO_USERS_FOUND = לא נמצאו משתמשים.
+TOO_MANY_USERS_FOUND = יותר מידי משתמשים עם השם הזה.
+NO_ROLES_FOUND = לא נמצאו רולים.
+TOO_MANY_ROLES_FOUND = יותר מידיי רולים עם השם הזה.
+CANNOT_MODIFY = אני לא יכול לשנות את רול הזה, הוא רמה יותר גבוהה ממני/ באותה רמה.
 INVALID_PATTERN = That's not a proper regex pattern.
-INVALID_NUMBER = That's not a number.
-USER_NO_PERMISSION = You do not have permission to do that.
-USER_NO_PERM_CMD = You do not have permission to use that command.
-USER_NO_PERM_SCMD = You do not have permission to use that subcommand.
-BOT_NO_PERMISSION = I don't have permission to do that! **(Missing: {0})**.
-USER_NOT_ON_VOICE = You are not in a voice channel!
-NO_CHANNEL_FOUND = No channels were found with that name.
-TOO_MANY_CHANNELS_FOUND = Too many channels found with that name.
-AMOUNT_LOWER_THAN = Amount cannot be lower than {0}.
-AMOUNT_HIGHER_THAN = Amount cannot be higher than {0}.
+INVALID_NUMBER = זה לא מספר.
+USER_NO_PERMISSION = אין לך הרשאות לעשות את זה.
+USER_NO_PERM_CMD = אין לך הרשאות לעשות פקודה זו.
+USER_NO_PERM_SCMD = אין לך הרשאות לעשות את הפקודה הזאת.
+BOT_NO_PERMISSION = אין לי הרשאות לעשות פקודה זו! **(Missing: {0})**.
+USER_NOT_ON_VOICE = אתה לא בתוך חדר!
+NO_CHANNEL_FOUND = לא נמצאו חדרים עם השם הזה.
+TOO_MANY_CHANNELS_FOUND = יותר מידי חדרים עם השם הזה.
+AMOUNT_LOWER_THAN = הכמות לא יכול להיות פחות מ {0}.
+AMOUNT_HIGHER_THAN = הכמות לא יכולה להיות יותר מ {0}.
 
 INVALID_LANGUAGE = '{0}' זה לא שפה.
 CHANGED_LANGUAGE = שפה הוגדרה.
 
-COMMAND_UNKNOWN = Unknown subcommand.
-COMMAND_RESTRICTED = This command is restricted to {0} users only.
+COMMAND_UNKNOWN = פקודה לא ידועה.
+COMMAND_RESTRICTED = הפקודה הזאת עובדת רק ל משתמשים עם הרול {0} .
 
 CONFIG_INVALID_KEY = No configuration was found with that name (`{0}`).
 CONFIG_INVALID_TYPE = That isn't a valid entry for this config type.
@@ -115,18 +115,18 @@ SHOP_NO_MONEY = You do not have enough cookies to purchase this item.
 SHOP_ITEM_PURCHASED = Item purchased successfully!
 SHOP_BE_MORE_SPECIFIC = More than one item found with that name, please be more specific.
 SHOP_NO_ITEMS_FOUND = No items found with that name.
-INVENTORY_EMPTY = You do not have any items in your inventory.
-INVENTORY_EMPTY_USER = This user has no items in their inventory.
-INVENTORY_NOT_OWNED = You do not own this item.
+INVENTORY_EMPTY = אין לך שום דבר ברשימת החפצים.
+INVENTORY_EMPTY_USER = למשתמש הזה אין שום דבר ברשימת החפצים.
+INVENTORY_NOT_OWNED = אין לך את החפץ הזה.
 
 # User Config
-USER_CONFIG_SAVED = Your settings have been saved.
-USER_CONFIG_UNKNOWN = Unknown setting '{0}'.
+USER_CONFIG_SAVED = ההגדרות נשמרו
+USER_CONFIG_UNKNOWN = הגדרה לא ידועה '{0}'.
 
 # Cookies
-COOKIES_DAILY_STREAK = +{0} :cookie:! (Streak = {1})\n> Come back tomorrow for more cookies!
+COOKIES_DAILY_STREAK = +{0} :cookie:! (Streak = {1})\n> בוא מחר בשביל עוד Cookies!
 COOKIES_DAILY_NO_STREAK = +{0} :cookie:!\n> Come back tomorrow to start your streak!
-COOKIE_DAILY_ALREADY = You already received your daily cookies for today, try again in {0}.
+COOKIE_DAILY_ALREADY = כבר קיבלת את העוגיות שלך היום, נסה שוב עוד {0} דקות.
 
 # GiveMe
 GIVEME_ROLE_NOT_FOUND = No roles found with that name.
@@ -137,7 +137,7 @@ GIVEME_PURGED = All broken roles have been removed.
 GIVEME_NAME_PROHIBITED = That role name is now allowed because it's the same as a subcommand.
 
 # Scramble
-SCRAMBLE_ALREADY = You are already playing scramble (Word is {0}), type in just the answer in the chat.
-SCRAMBLE_START = The word is {0}, you got 1 minute (Type just the answer in the chat).
-SCRAMBLE_CORRECT = That's correct! +{0} :cookie:
-SCRAMBLE_TIMED = Oops, Timed out! It was {0}, maybe try another word?
+SCRAMBLE_ALREADY = אתה כבר משחק Scramble (המילה היא {0}), כתוב רק את התשובה בצ'אט.
+SCRAMBLE_START = המילה היא {0}, יש לך דקה אחת (תרשום רק את התשובה בצ'אט).
+SCRAMBLE_CORRECT = זה נכון! +{0} :cookie:
+SCRAMBLE_TIMED = אופס, נגמר הזמן! המילה הייתה {0}, אולי ננסה עוד מילה?
