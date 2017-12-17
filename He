@@ -4,7 +4,7 @@ TOO_MANY_USERS_FOUND = יותר מידי משתמשים עם השם הזה.
 NO_ROLES_FOUND = לא נמצאו רולים.
 TOO_MANY_ROLES_FOUND = יותר מידיי רולים עם השם הזה.
 CANNOT_MODIFY = אני לא יכול לשנות את רול הזה, הוא רמה יותר גבוהה ממני/ באותה רמה.
-INVALID_PATTERN = That's not a proper regex pattern.
+INVALID_PATTERN = זה לא REGEX נכון.
 INVALID_NUMBER = זה לא מספר.
 USER_NO_PERMISSION = אין לך הרשאות לעשות את זה.
 USER_NO_PERM_CMD = אין לך הרשאות לעשות פקודה זו.
@@ -22,23 +22,23 @@ CHANGED_LANGUAGE = שפה הוגדרה.
 COMMAND_UNKNOWN = פקודה לא ידועה.
 COMMAND_RESTRICTED = הפקודה הזאת עובדת רק ל משתמשים עם הרול {0} .
 
-CONFIG_INVALID_KEY = No configuration was found with that name (`{0}`).
-CONFIG_INVALID_TYPE = That isn't a valid entry for this config type.
-CONFIG_SAVED = {0} has been set.
-CONFIG_ERROR = Failed to set {0}.
+CONFIG_INVALID_KEY = לא נמצאה הגדרה עם השם הזה (`{0}`).
+CONFIG_INVALID_TYPE = זה לא כניסה נכונה להגדרה זו.
+CONFIG_SAVED = {0} הוגדר.
+CONFIG_ERROR = לא הצליח להגדיר את {0}.
 
-NOTHING_FOUND = Nothing found.
-DATABASE_ERROR = Something happened while saving data to the database, please try again later.
-PROFILE_LOCKED = Hey, I'm waiting for an operation to complete, please try again in some seconds.
+NOTHING_FOUND = לא נמצא כלום.
+DATABASE_ERROR = משהו קרה בזמן שניסיתי להעביר את זה למאגר המידע שלי, בבקשה נסה אחר כך.
+PROFILE_LOCKED =היי, אני מחכה להזדמנות להשלים את זה ,בבקשה נסה בעוד כמה שניות.
 
 # VIP
-VIP_NOT_PREMIUM = You are not a premium user, if you want to become one, please visit <https://patreon.com/Fabricio20> for more information.
-VIP_ALREADY_PREMIUM = This guild is already in premium mode.
-VIP_MAX_GUILDS_REACHED = You have reached the limit of premium guilds for your account.
-VIP_GUILD_SET = This guild is now on premium mode.
-VIP_GUILD_NOT_PREMIUM = This guild is not in premium mode.
-VIP_GUILD_NOT_YOURS = You are not the patron for this guild's premium status.
-VIP_GUILD_REMOVED = Guild is no longer on premium mode.
+VIP_NOT_PREMIUM = אתה לא משתמש פרמיום, אם אתה רוצה להפוך לאחד,בבקשה בקר ב <https://patreon.com/Fabricio20> בשביל עוד אינפורמציה.
+VIP_ALREADY_PREMIUM = השרת כבר במצב פרימיום.
+VIP_MAX_GUILDS_REACHED = אתה הגעת למקסימום שרתי הפרימיום במשתמש שלך.
+VIP_GUILD_SET = השרת הזה עכשיו במצב פרמיום.
+VIP_GUILD_NOT_PREMIUM = השרת הזה הוא לא פרמיום.
+VIP_GUILD_NOT_YOURS = אתה לא משתמש פרמיום בשביל השרת הזה.
+VIP_GUILD_REMOVED = השרת כבר לא במצב פרמיום.
 
 # Music Module
 MUSIC_PAUSED = המוזיקה עוצרת.
@@ -82,39 +82,40 @@ COLOR_CHANGED = {0} רול שינו את הצבע שלהם ל #{1} ({2} errors).
 COLOR_ERROR = אחד או יותר מהרולים לא הצליחו לשנות את הצבע, תבדוק אם הם קיימים או אם לבוט יש גישות לתת צבע.
 
 # Ignore command
-IGNORE_ADD = Now ignoring {0} new text channel(s).
-IGNORE_REM = Stopped ignoring {0} text channel(s).
-IGNORE_ALREADY = The following channels were already ignored: {0}
-IGNORE_NOT_IGNORED = The following channels were not being ignored: {0}
-IGNORE_NONE = No channels are currently being ignored.
-IGNORE_CURRENTLY = Currently Ignoring: {0}
+IGNORE_ADD = עכשיו מתעלם מ {0} חדרים חדשים(s).
+IGNORE_REM = מפסיק להתעלם מ {0} חדרים (s).
+IGNORE_ALREADY = אני כבר מתעלמם מהחדרים האלה: {0}
+IGNORE_NOT_IGNORED = אני לא אתעלם מהחדרים הבאים: {0}
+IGNORE_NONE = אני לא מתעלמת משום חדר.
+IGNORE_CURRENTLY =כרגע מתעלמת מ: {0}
 
 # Slowmode Command
-SLOWMODE_MAX_TIME = Slowmode timeout has a limit of 5 minutes.
-SLOWMODE_ENABLED = Slowmode is now enabled.
-SLOWMODE_DISWABLED = Slowmode is now disabled.
-SLOWMODE_ALREADY_DISABLED = Slowmode was already disabled.
-SLOWMODE_NO_PERM_ALERT = Slowmode disabled (I don't have permissions to manage messages).
+SLOWMODE_MAX_TIME = מצב איטי הוגדר עם 5 דקות.
+SLOWMODE_ENABLED = מצב איטי מופעל.
+SLOWMODE_DISWABLED = מצב איטי כבוי.
+SLOWMODE_ALREADY_DISABLED = מצב איטי כבר מכובה.
+SLOWMODE_NO_PERM_ALERT = מצב איטי מכובה (אין לי את ההרשאות להדליק מצב איטי).
 
 # Prune command
-PRUNE_NOTHING_TO_DELETE = There's nothing to delete.
-PRUNE_DELETED_SINGLE = 1 Message deleted.
-PRUNE_DELETED_MULTIPLE = {0} Messages deleted.
+PRUNE_NOTHING_TO_DELETE = אין מה למחוק.
+PRUNE_DELETED_SINGLE = 1 הודעה נמחקה.
+PRUNE_DELETED_MULTIPLE = {0} הודעות נמחקו.
 
 # Advertising Command
-ADVERTISING_KICK = Users who advertise will now be kicked.
-ADVERTISING_BAN = Users who advertise will now be banned.
-ADVERTISING_OFF = Anti-Advertising is now disabled.
+ADVERTISING_KICK = משתמשים שמפרסמים יועפו מהשרת.
+ADVERTISING_BAN = משתמשים שמפרסמים יורחקו מהשרת.
+ADVERTISING_OFF = עוצר פרסומות עכשיו כבוי.
 
 # Cards/Badges Feature
 BADGE_NOT_FOUND = Badge not found, did you type it's id correctly?
 BADGE_NOT_CRAFTABLE = This badge is not craftable!
 
 # Shop
-SHOP_NO_MONEY = You do not have enough cookies to purchase this item.
-SHOP_ITEM_PURCHASED = Item purchased successfully!
-SHOP_BE_MORE_SPECIFIC = More than one item found with that name, please be more specific.
-SHOP_NO_ITEMS_FOUND = No items found with that name.
+SHOP_NO_MONEY = אין לך מספיק עוגיות בשביל לקנות את החפץ הזה.
+SHOP_ITEM_PURCHASED = חפץ נקנה בהצלחה!
+SHOP_BE_MORE_SPECIFIC = יותר מחפץ אחד עם השם הזה, בבקשה תהיה יותר ספציפי
+SHOP_NO_ITEMS_FOUND = לא נמצאו חפצים עם השם הזה
+
 INVENTORY_EMPTY = אין לך שום דבר ברשימת החפצים.
 INVENTORY_EMPTY_USER = למשתמש הזה אין שום דבר ברשימת החפצים.
 INVENTORY_NOT_OWNED = אין לך את החפץ הזה.
@@ -125,16 +126,16 @@ USER_CONFIG_UNKNOWN = הגדרה לא ידועה '{0}'.
 
 # Cookies
 COOKIES_DAILY_STREAK = +{0} :cookie:! (Streak = {1})\n> בוא מחר בשביל עוד Cookies!
-COOKIES_DAILY_NO_STREAK = +{0} :cookie:!\n> Come back tomorrow to start your streak!
+COOKIES_DAILY_NO_STREAK = +{0} :cookie:!\n> חזור מחר בשביל לקבל את הסטרייק לך!
 COOKIE_DAILY_ALREADY = כבר קיבלת את העוגיות שלך היום, נסה שוב עוד {0} דקות.
 
 # GiveMe
-GIVEME_ROLE_NOT_FOUND = No roles found with that name.
-GIVEME_ROLE_ALREADY_ADDED = This role is already available on the GiveMe list.
-GIVEME_ROLE_ADDED = Role has been added to the GiveMe list.
-GIVEME_ROLE_REMOVED = Role has been removed from the GiveMe list.
-GIVEME_PURGED = All broken roles have been removed.
-GIVEME_NAME_PROHIBITED = That role name is now allowed because it's the same as a subcommand.
+GIVEME_ROLE_NOT_FOUND = לא נמצא רול עם השם הזה.
+GIVEME_ROLE_ALREADY_ADDED = כבר יש רול כזה ברשימת הלקיחה.
+GIVEME_ROLE_ADDED = רול נוסף לרשימת הלקיחה.
+GIVEME_ROLE_REMOVED = רול הוסר מרשימת הלקיחה.
+GIVEME_PURGED = כל הרולים שלא עובדים הוסרו.
+GIVEME_NAME_PROHIBITED = הרול לא אושר בגלל שיש כבר פקודה עם השם הזה.
 
 # Scramble
 SCRAMBLE_ALREADY = אתה כבר משחק Scramble (המילה היא {0}), כתוב רק את התשובה בצ'אט.
