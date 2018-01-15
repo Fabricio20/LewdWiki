@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-The format is based on[Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 Date format is YYYY/MM/DD
 
 ## [5.0-xxx] - 2018-01-15 (Unreleased)
@@ -22,6 +22,7 @@ Date format is YYYY/MM/DD
 - Log system now uses Ansii colors that are read-able (happy now Minn?).
 - `L!logs` system now uses the new profile system.
 - `L!welcome` system now uses the new profile system.
+- https://notfab.net/LewdBot now displays an updated list of commands.
 
 ### Fixed
 - Music won't connect due to lack of resources (hopefully)
