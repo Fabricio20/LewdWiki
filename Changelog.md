@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 Date format is YYYY/MM/DD
 
-## [5.0-xxx] - 2018-01-15 (Unreleased)
+## [5.3-783] - 2018-01-15
 ### Added
 - New changelog system (yay).
 - Option to roll multiple-sided dice with the roll command. 
