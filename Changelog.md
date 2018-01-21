@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 Date format is YYYY/MM/DD
 
+## [5.3-xxx] - 2018-01-XX (Unreleased)
+### Added
+
+
+### Changed
+- Logging system now displays stacktraces on the console.
+
+### Fixed
+- `L!welcome` system didn't recognize channel names when prefixed with `#`.
+- ConcurrentModificationException on CopyOnWriteArrayList on R34 cache.
+
 ## [5.3-783] - 2018-01-15
 ### Added
 - New changelog system (yay).
