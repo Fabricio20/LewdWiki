@@ -63,6 +63,9 @@
     "list": "Available Languages: {0}"
   },
   "commands": {
+    "giveme": {
+      "description": "Allows users to add certain roles to themselves."
+    }
   },
   "badges": {
     "error": {
