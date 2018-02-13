@@ -78,6 +78,12 @@
     "badges": {
       "description": "LewdBot Badges! Display custom badges on your profile. Earn them by completing their designated tasks.",
       "owned": "You have this badge!"
+    },
+    "autoplay": {
+      "description": "(Premium) Auto starts playing when a user joins the selected voice channel.",
+      "enabled": "Autoplay has been enabled, make sure to configure the voice channel.",
+      "disabled": "Autoplay has been disabled.",
+      "channel_set": "Voice channel defined to {0}."
     }
   },
   "badges": {
@@ -86,6 +92,7 @@
     },
     "badge_beta": "Awarded to those who helped test the badge system.",
     "translator": "You are now a member of the LewdBot translation team.",
-    "halloween_2017": "Spoo.py!"
+    "halloween_2017": "Spoo.py!",
+    "fbi": "What have you done?"
   }
 }
