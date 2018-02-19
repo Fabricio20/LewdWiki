@@ -24,7 +24,8 @@
       },
       "regex": {
         "number": "That is not a valid number.",
-        "boolean": "That is not a valid boolean."
+        "boolean": "That is not a valid boolean.",
+        "url": "That is not a valid URL."
       },
       "search": {
         "text_none": "No text channels were found with that name.",
