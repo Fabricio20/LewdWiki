@@ -70,11 +70,11 @@
     "giveme": {
       "description": "Permite aos usuarios adicionar certas designações a si mesmos.",
       "purged": "Todas as designações quebradas foram removidas.",
-      "added": "Role has been added to the GiveMe list.",
-      "removed": "Role has been removed from the GiveMe list.",
+      "added": "Esta designaçõ foi adicionada à lista GiveMe.",
+      "removed": "Esta designação foi removida da lista GiveMe.",
       "deleted": "Designação deletada (por favor aplique purge)",
       "prohibited": "O nome dessa designação não é permitido pois é igual a um subcomando.",
-      "already": "This role is already part of the GiveMe list."
+      "already": "Esta designação ja faz parte da lista GiveMe."
     },
     "badges": {
       "description": "Emplemas da Lewdbot! Mostre emblemas customizados em seu perfil. Os ganhe completando tarefas específicas.",
