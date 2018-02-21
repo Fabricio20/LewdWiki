@@ -1,0 +1,99 @@
+{
+  "core": {
+    "permission": {
+      "command": "Bạn không có quyền thực hiện lệnh này.",
+      "action": "Bạn không có quyền thực hiện hành động này.",
+      "subcommand": "Bạn không có quyền thực hiện lệnh con này.",
+      "bot": "Mình không có quyền {0} , thứ bắt buộc cho lệnh này.",
+      "discord": "Bạn không có quyền buộc phải có để làm việc này. ({0})"
+    },
+    "error": {
+      "database": "Lỗi khi đang lưu dữ liệu vào cơ sở dữ liệu.",
+      "contact_devs": "Xin hãy liên lạc với người phát triển nếu như bạn nghĩ là chuyện nãy lẽ ra không nên xảy ra.",
+      "profile_locked": "Này, Mình đang chờ một tiến trình được hoàn thành, xin hãy thử lại sau một vài giây.",
+      "cooldown_hit": "Whoa bình tĩnh nào! Bạn đang gõ lệnh quá nhanh đấy! (còn lại {0} giây )",
+      "retry": "Xin hãy thử lại.",
+      "retry_later": "Xin hãy thử lại sau {0} giây.",
+      "embed": "Lỗi khi đang thực hiện nhúng. ${msg:error.contact_devs}",
+      "interact": "Mình không có quyền cần thiết cho việc này. (Tương tác của Role/Member bị cấm )",
+      "command": {
+        "unknown": "Lệnh không xác định.",
+        "unknown_near": "Lệnh không xác định, ý bạn có phải là {0}?",
+        "unknown_sub": "Lệnh con không xác định.",
+        "restricted": "Lệnh này giới hạn chỉ cho những thành viên thuộc {0}. Tìm hiểu thêm tại <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "Đó là một con số không tồn tại.",
+        "boolean": "Đó là một luận lí không tồn tại.",
+        "url": "Đó là một URL không tồn tại."
+      },
+      "search": {
+        "text_none": "Không có kênh chữ nào được tìm thấy với tên đó.",
+        "text_multiple": "Rất nhiều kênh chữ được tìm thấy, xin hãy cụ thể hơn.",
+        "voice_none": "Không có kênh giọng nói nào được tìm thấy với tên đó.",
+        "voice_multiple": "Rất nhiều kênh giọng được tìm thấy, xin hãy cụ thể hơn.",
+        "role_none": "Không có chức danh nào được tìm thấy với tên đó.",
+        "role_multiple": "Rất nhiều chức danh được tìm thấy, xin hãy cụ thể hơn."
+      }
+    },
+    "parts": {
+      "second": "giây",
+      "seconds": "giây",
+      "minute": "phút",
+      "minutes": "phút",
+      "hour": "giờ",
+      "hours": "giờ",
+      "day": "ngày",
+      "days": "ngày"
+    }
+  },
+  "economy": {
+    "success": "Giao dịch đã hoàn thành.",
+    "cookies": {
+      "error": {
+        "not_enough": "Bạn không có đủ :cookie: để làm việc này! (Cần {0})",
+        "nothing": "Bạn không hề có cái bánh quy nào."
+      },
+      "transferred_user": "Đã chuyển {0} :cookie: tới {1}.",
+      "daily": "+{0} :cookie:! Hãy quay trở lại vào ngày mai để bắt đầu chuỗi nhận!",
+      "daily_streak": "+{0} :cookie:! (Chuỗi = {1}) Quay trở lại vào ngày mai để có nhiều bánh quy hơn!",
+      "daily_already": "Bạn đã nhận bánh quy hằng ngày của bạn, hãy thử lại sau {0}."
+    }
+  },
+  "language": {
+    "invalid": "'{0}' là một ngôn ngữ không tồn tại.",
+    "saved": "Ngôn ngữ chuyển thành {0}.",
+    "hiring": "Chúng tôi đang tìm kiếm người dịch! Tìm hiểu thêm tại <https://notfab.net/LewdBot/Premium>",
+    "list": "Những ngôn ngữ đang có: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Cho phép các thành viên có thể tự thêm những chức danh nhất định.",
+      "purged": "Tấc cả những chức danh hỏng sẽ bị xóa.",
+      "added": "Chức danh đã được thêm vào GiveMe list.",
+      "removed": "Chức danh đã được xóa khỏi GiveMe list.",
+      "deleted": "Chức danh đã được xóa (xin hãy chạy purge)",
+      "prohibited": "Tên của chức danh không được phép bởi vì trùng với một lệnh con.",
+      "already": "Chức danh này đã thuộc GiveMe list rồi."
+    },
+    "badges": {
+      "description": "LewdBot Badges! Hiển thị những huy hiệu tùy chỉnh trong tiểu sử của bạn . Nhận nó bằng cách hoàn thành những nhiệm vụ được chỉ định.",
+      "owned": "Bạn đã có huy hiệu này rồi!"
+    },
+    "autoplay": {
+      "description": "(Premium) Tự động phát khi thành viên tham gia vào kênh giọng nói được chọn .",
+      "enabled": "Tự động phát đang được bật, hãy đảm bảo việc điều chỉnh kênh giọng nói.",
+      "disabled": "Tự động phát đang bị tắt.",
+      "channel_set": "Kênh giọng nói chia thành {0}."
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "Bạn đã có huy hiệu này rồi!"
+    },
+    "badge_beta": "Tặng cho những người giúp thử nghiệm hệ thống huy hiệu.",
+    "translator": "Bây giờ bạn là một thành viên của LewdBot translation team.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "Bạn đã làm gì vậy?"
+  }
+}
