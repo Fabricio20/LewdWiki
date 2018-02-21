@@ -1,0 +1,99 @@
+{
+  "core": {
+    "permission": {
+      "command": "Nu aveți permisiunea de a efectua această comandă.",
+      "action": "Nu aveți permisiunea de a efectua această acțiune.",
+      "subcommand": "Nu aveți permisiunea de a efectua această subcomanda .",
+      "bot": "Nu am permisiunea {0}, care este necesară pentru această comandă.",
+      "discord": "Nu aveți permisiunea Discord necesară pentru a face acest lucru. ({0})"
+    },
+    "error": {
+      "database": "Eroare la salvarea datelor în baza de date.",
+      "contact_devs": "Vă rugăm să contactați dezvoltatorii dacă credeți că acest lucru nu ar trebui să se întâmple.",
+      "profile_locked": "Hei, astept ca o operatie sa se termine, incercati din nou in cateva secunde.",
+      "cooldown_hit": "Uău calmeaza-te! Introduceți comenzi prea repede! ({0}s ramase)",
+      "retry": "Vă rugăm să încercați din nou.",
+      "retry_later": "Vă rugăm să încercați din nou în {0} secunde.",
+      "embed": "Eroare la încercarea de a crea încorporarea. ${msg:error.contact_devs}",
+      "interact": "Nu am permisiunea necesară pentru a face asta. (Role/Member interaction prohibited)",
+      "command": {
+        "unknown": "Comanda necunoscuta.",
+        "unknown_near": "Comanda necunoscuta, vroiai sa spui {0}?",
+        "unknown_sub": "Subcomandă necunoscută.",
+        "restricted": "Această comandă este limitată numai la utilizatorii cu rolul de {0}. Aflați mai multe la <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "Acesta nu este un număr valid.",
+       "boolean": "Aceasta nu este un boolean valabil.",
+        "url": "Aceasta nu este o adresă URL validă."
+      },
+      "search": {
+        "text_none": "Nu s-au găsit canale de text cu acest nume.",
+        "text_multiple": "Câteva canale de text găsite, vă rugăm să fie mai specifice.",
+        "voice_none": "Nu s-au găsit canale vocale cu acest nume.",
+        "voice_multiple": "Mai multe canale vocale găsite, vă rugăm să fiți mai specific.",
+        "role_none": "Nu s-au găsit roluri cu numele respectiv.",
+        "role_multiple": "S-au găsit roluri multiple, vă rugăm să fie mai specific."
+      }
+    },
+    "parts": {
+      "second": "secundă",
+      "seconds": "secunde",
+      "minute": "minut",
+      "minutes": "minute",
+      "hour": "oră",
+      "hours": "ore",
+      "day": "zi",
+      "days": "zile"
+    }
+  },
+  "economy": {
+    "success": "Tranzacție completă.",
+    "cookies": {
+      "error": {
+        "not_enough": "Nu ai suficiente :cookie: pentru a face acest lucru! (Necesita {0})",
+        "nothing": "Nu aveți cookie-uri."
+      },
+      "transferred_user": "Transferat {0}: cookie: la {1}.",
+      "daily": "+{0} :cookie:! Întoarce-te mâine pentru a-ți începe șansa!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) Întoarce-te mâine pentru mai multe cookie-uri!",
+      "daily_already": "Ați primit deja cookie-urile zilnice pentru ziua de azi, încercați din nou în {0}."
+    }
+  },
+  "language": {
+    "invalid": "'{0}' nu este o limbă valabilă.",
+    "saved": "Limba a fost schimbată în {0}.",
+    "hiring": "Căutăm traducători! Aflați mai multe la <https://notfab.net/LewdBot/Premium>",
+    "list": "Limbi disponibile: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Permite utilizatorilor să adauge anumite roluri pentru ei înșiși.",
+      "purged": "Toate rolurile sparte au fost eliminate.",
+      "added": "Rolul a fost adăugat la lista GiveMe.",
+      "removed": "Rolul a fost eliminat din lista GiveMe.",
+      "deleted": "Rolul a fost șters (rulați curățarea)",
+      "prohibited": "Numele rolului nu este permis deoarece este același cu o subcomandă.",
+      "already": "Acest rol este deja parte din lista GiveMe."
+    },
+    "badges": {
+      "description": "LewdBot Insigne! Afișați insigne personalizate în profilul dvs. Câștigați-ile prin completarea sarcinilor desemnate.",
+      "owned": "Ai această insigna!"
+    },
+    "autoplay": {
+      "description": "(Premium) Începe redarea automat când un utilizator se alătură canalului vocal selectat.",
+      "enabled": "Autoplay a fost activat, asigurați-vă că ați configurat canalul vocal.",
+      "disabled": "Autoplay-ul a fost dezactivat.",
+      "channel_set": "Canalul vocal definit este {0}."
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "Aveți deja această insignă!"
+    },
+    "badge_beta": "Acordat celor care au ajutat la testarea sistemului de insigne.",
+    "translator": "Sunteți acum membru al echipei de traducere LewdBot.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "Ce ai facut?"
+  }
+}
