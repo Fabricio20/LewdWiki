@@ -1,0 +1,99 @@
+{
+  "core": {
+    "permission": {
+      "command": "You do not have permission to perform this command.",
+      "action": "You do not have permission to perform this action.",
+      "subcommand": "You do not have permission to perform this subcommand.",
+      "bot": "I don't have the {0} permission, which is required for this command.",
+      "discord": "You do not have the required Discord permission to do this. ({0})"
+    },
+    "error": {
+      "database": "Error while saving data to the database.",
+      "contact_devs": "Please contact the developers if you believe this shouldn't happen.",
+      "profile_locked": "Hey, I'm waiting for an operation to complete, please try again in some seconds.",
+      "cooldown_hit": "Whoa calm down! You are typing commands too fast! ({0}s remaining)",
+      "retry": "Please try again.",
+      "retry_later": "Please try again in {0} seconds.",
+      "embed": "Error while trying to create embed. ${msg:error.contact_devs}",
+      "interact": "I do not have the necessary permission to do this. (Role/Member interaction prohibited)",
+      "command": {
+        "unknown": "Unknown command.",
+        "unknown_near": "Unknown command, did you mean {0}?",
+        "unknown_sub": "Unknown subcommand.",
+        "restricted": "This command is restricted to {0} users only. Learn more at <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "That is not a valid number.",
+        "boolean": "That is not a valid boolean.",
+        "url": "That is not a valid URL."
+      },
+      "search": {
+        "text_none": "No text channels were found with that name.",
+        "text_multiple": "Multiple text channels found, please be more specific.",
+        "voice_none": "No voice channels were found with that name.",
+        "voice_multiple": "Multiple voice channels found, please be more specific.",
+        "role_none": "No roles found with that name.",
+        "role_multiple": "Multiple roles found, please be more specific."
+      }
+    },
+    "parts": {
+      "second": "second",
+      "seconds": "seconds",
+      "minute": "minute",
+      "minutes": "minutes",
+      "hour": "hour",
+      "hours": "hours",
+      "day": "day",
+      "days": "days"
+    }
+  },
+  "economy": {
+    "success": "Transaction completed.",
+    "cookies": {
+      "error": {
+        "not_enough": "You don't have enough :cookie: to do this! (Required {0})",
+        "nothing": "You do not have any cookies."
+      },
+      "transferred_user": "Transferred {0} :cookie: to {1}.",
+      "daily": "+{0} :cookie:! Come back tomorrow to start your streak!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) Come back tomorrow for more cookies!",
+      "daily_already": "You already received your daily cookies for today, try again in {0}."
+    }
+  },
+  "language": {
+    "invalid": "'{0}' is not a valid language.",
+    "saved": "Language changed to {0}.",
+    "hiring": "We are looking for translators! Learn more at <https://notfab.net/LewdBot/Premium>",
+    "list": "Available Languages: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Allows users to add certain roles to themselves.",
+      "purged": "Alle unbenutzen/nicht länger benutzten Rollen wurden von der Liste entfernt.",
+      "added": "Rolle wurde der GiveMe-Liste hinzugefügt.",
+      "removed": "Rolle wurde von der GiveMe-Liste entfernt.",
+      "deleted": "Rolle entfernt (Bitte benutze den purge-Befehl `L!giveme purge`)",
+      "prohibited": "Der Name dieser Rolle ist nicht erlaubt, da einer meiner Befehle den selben Namen trägt.",
+      "already": "Diese Rolle ist bereits in der GiveMe-Liste."
+    },
+    "badges": {
+      "description": "LewdBot Abzeichen! Stelle Abzeichen auf deinem Profil aus. Du erhältst sie durch erfolgreiches Beenden bestimmter Aufgaben.",
+      "owned": "Du besitzt dieses Abzeichen!"
+    },
+    "autoplay": {
+      "description": "(Premium) Startet automatisches Abspielen wenn ein Benutzer den ausgewählten Sprach-Kanal betritt.",
+      "enabled": "Automatisches Abspielen wurde aktiviert, bitte stell sicher dass du einen Sprach-Kanal ausgewählt hast.",
+      "disabled": "Automatisches Abspielen deaktiviert.",
+      "channel_set": "Sprach-Kanal jetzt definiert zu {0}."
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "Du hast dieses Abzeichen bereits!"
+    },
+    "badge_beta": "Für diejenigen, die geholfen haben, das Abzeichensystem zu testen.",
+    "translator": "Du bist jetzt ein Mitglied des LewdBot-Übersetzer Teams.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "Was hast du angestellt?"
+  }
+}
