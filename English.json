@@ -33,7 +33,9 @@
         "voice_none": "No voice channels were found with that name.",
         "voice_multiple": "Multiple voice channels found, please be more specific.",
         "role_none": "No roles found with that name.",
-        "role_multiple": "Multiple roles found, please be more specific."
+        "role_multiple": "Multiple roles found, please be more specific.",
+        "member_none": "No members found with that name.",
+        "member_multiple": "Multiple members found, please be more specific."
       }
     },
     "parts": {
@@ -85,6 +87,16 @@
       "enabled": "Autoplay has been enabled, make sure to configure the voice channel.",
       "disabled": "Autoplay has been disabled.",
       "channel_set": "Voice channel defined to {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Cannot move user to the same voice channel they are in.",
+        "member_not_connected": "Target member is not connected to a voice channel",
+        "permission_move": "Failed to move {0}, no permission."
+      },
+      "description": "Move multiple users between voice channels",
+      "moving": "Moving members...",
+      "splitting": "Splitting members between channels..."
     }
   },
   "badges": {
