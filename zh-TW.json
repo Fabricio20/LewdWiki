@@ -1,0 +1,99 @@
+{
+  "core": {
+    "permission": {
+      "command": "您無權執行此命令.",
+      "action": "您無權執行此操作",
+      "subcommand": "您無權執行此子命令.",
+      "bot": "我沒有該命令所需的 {0} 權限.",
+      "discord": "您沒有所需要的Discord權限來執行此操作。 （{0})"
+    },
+    "error": {
+      "database": "將數據保存到數據庫時出錯.",
+      "contact_Devs": "如果您認為這不應該發生，請聯繫開發人員.",
+      "profile_locked": "嘿，我正在等待工作完成，請稍後再試.",
+      "cooldown_hit": "哇，請你的輸入速度慢一點！你輸入的命令太快了！ （剩餘 {0} 個）",
+      "retry": "請稍後再重試.",
+      "retryt_later": "請在 {0} 秒後重試。",
+      "embed": "嘗試創建嵌入時出錯。 ${msg:error.contact_devs}",
+      "interact": "我沒有必要的許可來執行此操作。 （禁止角色/會員互動)",
+      "command": {
+        "unknown": "未知的指令.",
+        "unknown_near": "未知的指令, 你的意思是 {0}?",
+        "unknown_sub": "未知的指令.",
+        "restricted": "該命令僅限於 {0} 用戶. 了解更多信息在 <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "那不是一個有效的數字.",
+        "boolean": "那不是一個有效的布爾值.",
+        "url": "那不是一個有效的網址."
+      },
+      "search": {
+        "text_none": "沒有找到具有該名稱的文本頻道.",
+        "text_multiple": "找到多個文字頻道，請更具體地描敘.",
+        "voice_none": "沒有用這個名字找到相對的語音頻道.",
+        "voice_multiple": "找到多個語音頻道，請更具體地描敘.",
+        "role_none": "沒有找到那個地位的角色.",
+        "role_multiple": "找到多重地位，請更具體地描敘."
+      }
+    },
+    "parts": {
+      "second": "秒",
+      "seconds": "幾秒",
+      "minute": "分鐘",
+      "minutes": "幾分鐘",
+      "hour": "小時",
+      "hours": "幾小時s",
+      "day": "日",
+      "days": "天"
+    }
+  },
+  "economy": {
+    "success": "交易完成.",
+    "cookies": {
+      "error": {
+        "not_enough": "你沒有足夠的 :cookie: 做到這一點！ (需要 {0})",
+        "nothing": "你沒有任何餅乾."
+      },
+      "transferred_user": "已將 {0} :cookie: 轉移到 {1}。",
+      "daily": "+{0} :cookie:！明天回來開始領取!",
+      "daily_streak": "+{0} :cookie:! (領取 = {1}) 明天再回來領取更多的餅乾!",
+      "daily_already": "您今天已經收到您的每日免費餅乾，請再試一次 {0}."
+    }
+  },
+  "language": {
+    "invalid": "'{0}' 不是一種有效的語言.",
+    "saved": "語言改為 {0}.",
+    "hiring": "我們正在尋求翻譯者！了解更多信息盡在 <https://notfab.net/LewdBot/Premium>",
+    "list": "可用語言: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "允許用戶為自己添加某些地位.",
+      "purged": "所有不可用的地位已被刪除.",
+      "added": "已將地位增加到GiveMe列表.",
+      "removed": "已經將地位從GiveMe列表中移除.",
+      "deleted": "已刪除地位（請運行清除）",
+      "prohibited": "不允許使用該地位名稱，因為它與子命令相同.",
+      "already": "這個地位已經是GiveMe列表的一部分."
+    },
+    "badges": {
+      "description": "LewdBot徽章！在個人資料上顯示自定義徽章。通過完成他們的指定任務來賺取他們.",
+      "owned": "你有這個徽章!"
+    },
+    "autoplay": {
+      "description": "(高級) 當用戶加入特定的語音頻道時，自動開始播放",
+      "enabled": "自動播放已被開啟, 請確保你設置這個語音頻道.",
+      "disabled": "自動播放已被關閉.",
+      "channel_set": "語音頻道已被定義為 {0}."
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "你已經擁有此徽章!"
+    },
+    "badge_beta": "獎勵那些幫助測試徽章系統的人.",
+    "translator": "你現在是LewdBot翻譯隊伍的其中一人.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "你到底做了什麼?"
+  }
+}
