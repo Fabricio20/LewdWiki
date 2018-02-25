@@ -1,0 +1,111 @@
+{
+  "core": {
+    "permission": {
+      "command": "Vous n'avez pas l'autorisation d'effectuer cette commande.",
+      "action": "Vous n'avez pas l'autorisation d'effectuer cette action.",
+      "subcommand": "Vous n'avez pas l'autorisation d'effectuer cette sous-commande.",
+      "bot": "Je n'ai pas {0}, qui est nécessaire pour effectuer cette commande.",
+      "discord": "Vous n'avez pas les permissions Discord requises. ({0})"
+    },
+    "error": {
+      "database": "Erreur lors de la sauvegarde dans la base de donnée.",
+      "contact_devs": "Veuillez contacter les développeurs si vous pensez que cela ne devrait pas se produire.",
+      "profile_locked": "J'attends qu'une opération soit terminée, réessayez dans quelques secondes.",
+      "cooldown_hit": "Whoa calme toi ! Vous tapez des commandes trop vite ! ({0}s restantes)",
+      "retry": "Veuillez réessayer.",
+      "retry_later": "Veuillez réessayer dans {0} secondes.",
+      "embed": "Erreur lors de la création de l'embed. ${msg:error.contact_devs}",
+      "interact": "Je n'ai pas la permission nécessaire pour le faire. (interaction rôles/membres interdite)",
+      "command": {
+        "unknown": "Commande inconnue.",
+        "unknown_near": "Commande inconnue, voulez-vous dire {0} ?",
+        "unknown_sub": "Sous-commande inconnu.",
+        "restricted": "Cette commande est limitée aux seuls utilisateurs {0}. Pour en savoir plus, consultez le site <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "Ce n'est pas un chiffre valide.",
+        "boolean": "Ce n'est pas un booléen valide.",
+        "url": "Ce n'est pas une URL valide."
+      },
+      "search": {
+        "text_none": "Aucun canal de texte n'a été trouvé avec ce nom.",
+        "text_multiple": "Plusieurs canaux de texte trouvés, veuillez être plus précis.",
+        "voice_none": "Aucun canal vocal n'a été trouvé avec ce nom.",
+        "voice_multiple": "Plusieurs canaux vocal trouvés, veuillez être plus précis.",
+        "role_none": "Aucun rôle trouvé avec ce nom.",
+        "role_multiple": "Plusieurs rôles trouvés, veuillez être plus précis.",
+        "member_none": "Aucun membre trouvé avec ce nom.",
+        "member_multiple": "Plusieurs membres trouvés, veuillez être plus précis."
+      }
+    },
+    "parts": {
+      "second": "seconde",
+      "seconds": "secondes",
+      "minute": "minute",
+      "minutes": "minutes",
+      "hour": "heure",
+      "hours": "heures",
+      "day": "jour",
+      "days": "jours"
+    }
+  },
+  "economy": {
+    "success": "Transaction complétée.",
+    "cookies": {
+      "error": {
+        "not_enough": "Vous n'en avez pas assez de :cookie: pour faire ça! (Nécessaire {0})",
+        "nothing": "Vous n'avez pas de cookies."
+      },
+      "transferred_user": "Transefert de {0} :cookie: à {1}.",
+      "daily": "+{0} :cookie: ! Revenez demain pour commencer votre série! ",
+      "daily_streak": "+{0} :cookie: ! (Série = {1}) Revenez demain pour plus de cookies !",
+      "daily_already": "Vous avez déjà reçu vos cookies quotidiens pour aujourd'hui, réessayez dans {0}."
+    }
+  },
+  "language": {
+    "invalid": "'{0}' n'est pas une langue valide.",
+    "saved": "Langue changé à {0}.",
+    "hiring": "Nous cherchons des traducteurs ! Pour en savoir plus, consultez le site <https://notfab.net/LewdBot/Premium>",
+    "list": "Langues disponibles : {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Permet aux utilisateurs d'ajouter certains rôles à eux-mêmes.",
+      "purged": "Tous les rôles corrompu ont été supprimés.",
+      "added": "Le rôle a été ajouté à la liste GiveMe.",
+      "removed": "Le rôle a été retiré de la liste GiveMe.",
+      "deleted": "Rôle supprimé (veuillez exécuter la purge)",
+      "prohibited": "Ce nom de rôle n'est pas autorisé car il est identique à une sous-commande.",
+      "already": "Ce rôle fait déjà partie de la liste GiveMe."
+    },
+    "badges": {
+      "description": "Badges LewdBot ! Affichez des badges personnalisés sur votre profil. Gagnez-les en accomplissant les tâches qui leur sont assignées.",
+      "owned": "Vous avez ce badge !"
+    },
+    "autoplay": {
+      "description": "(Premium) Démarre automatiquement lorsqu'un utilisateur rejoint le canal vocal sélectionné.",
+      "enabled": "Autoplay a été activé, assurez-vous de configurer le canal vocal.",
+      "disabled": "Autoplay a été désactivé.",
+      "channel_set": "Canal vocal défini à {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Ne peut pas déplacer l'utilisateur sur le même canal vocal que celui dans lequel il se trouve.",
+        "member_not_connected": "Le membre cible n'est pas connecté à un canal vocal",
+        "permission_move": "Impossible de déplacer {0}, pas de permission."
+      },
+      "description": "Déplacer plusieurs utilisateurs entre des canaux vocaux",
+      "moving": "Déplacement des membres...",
+      "splitting": "Répartition des membres entre les chaînes..."
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "Vous avez déjà ce badge !"
+    },
+    "badge_beta": "Décerné à ceux qui ont aidé à tester le système de badge.",
+    "translator": "Vous êtes maintenant membre de l'équipe de traduction LewdBot.",
+    "halloween_2017": "Spoo.py !",
+    "fbi": "Qu'est-ce que tu as fait?"
+  }
+}
