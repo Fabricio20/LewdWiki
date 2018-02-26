@@ -1,0 +1,99 @@
+{
+  "core": {
+    "permission": {
+      "command": "Du hast nicht die nötige Berechtigung diesen Befehl auszuführen.",
+      "action": "Du hast nicht die nötige Berechtigung das zu tun.",
+      "subcommand": "Du hast nicht die nötige Berechtigung diesen Unterbefehl auszuführen.",
+      "bot": "Ich habe nicht die {0} Berechtigung, welche für diesen Befehl benötigt wird.",
+      "discord": "Du hast nicht die benötigte Discordberechtigung dafür. ({0})"
+    },
+    "error": {
+      "database": "Error beim Versuch, Daten in der Datenbank abzuspeichern.",
+      "contact_devs": "Bitte kontaktiere die Entwicklern falls du glaubst dass das nicht passieren sollte.",
+      "profile_locked": "Hey, ich warte darauf das eine Operation fertiggestellt wird, bitte versuch es in ein paar Sekunden nochmal.",
+      "cooldown_hit": "Wow, beruhig dich! Du schickst viel zu viele Befehle! ({0}s remaining)",
+      "retry": "Bitte versuch es noch einmal.",
+      "retry_later": "Bitte versuche es in {0} Sekunden erneut.",
+      "embed": "Error while trying to create embed. ${msg:error.contact_devs}",
+      "interact": "Ich habe nicht die nötigen Berechtigungen, um das zu tun. (Rollen-/Mitgliederinteraktion verboten)",
+      "command": {
+        "unknown": "Unbekannter Befehl.",
+        "unknown_near": "Unbekannter Befehl, meintest du {0}?",
+        "unknown_sub": "Unbekannter Unterbefehl.",
+        "restricted": "Dieser Befehl ist {0}-Nutzern vorbehalten. Learn more at <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "Das ist keine gültige Nummer.",
+        "boolean": "Das ist kein gültiger Wahrheitswert (versuche `true` oder `false`).",
+        "url": "Die URL ist ungültig."
+      },
+      "search": {
+        "text_none": "Keine Textchats mit diesem Namen gefunden.",
+        "text_multiple": "Mehrere Textchats gefunden, bitte sei genauer.",
+        "voice_none": "Keine Sprachchats mit diesem Namen gefunden.",
+        "voice_multiple": "Mehrere Sprachchats gefunden, bitte sei genauer.",
+        "role_none": "Keine Rollen mit diesem Namen gefunden.",
+        "role_multiple": "Mehrere Rollen gefunden, bitte sei genauer."
+      }
+    },
+    "parts": {
+      "second": "Sekunde",
+      "seconds": "Sekunden",
+      "minute": "Minute",
+      "minutes": "Minuten",
+      "hour": "Stunde",
+      "hours": "Stunden",
+      "day": "Tag",
+      "days": "Tage"
+    }
+  },
+  "economy": {
+    "success": "Transaktion erfolgreich.",
+    "cookies": {
+      "error": {
+        "not_enough": "Du hast nicht genug :cookie: um das zu tun! (Required {0})",
+        "nothing": "Du hast keine Kekse."
+      },
+      "transferred_user": "{0} :cookie: zu {1} übertragen.",
+      "daily": "+{0} :cookie:! Komm morgen wieder um deine Belohnung zu verdoppeln!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) Komm morgen wieder um noch mehr Kekse zu bekommen!",
+      "daily_already": "Du hast deine tägliche Portion Kekse schon bekommen, versuch es in {0} wieder."
+    }
+  },
+  "language": {
+    "invalid": "'{0}' ist keine verfügbare Sprache.",
+    "saved": "Sprache zu {0} geändert.",
+    "hiring": "Wir suchen nach Übersetzern! Erfahre mehr auf <https://notfab.net/LewdBot/Premium>",
+    "list": "Verfügbare Sprachen: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Erlaubt Benutzern, sich bestimmte Rollen selbst zu geben.",
+      "purged": "Alle unbenutzen/nicht länger benutzten Rollen wurden von der Liste entfernt.",
+      "added": "Rolle wurde der GiveMe-Liste hinzugefügt.",
+      "removed": "Rolle wurde von der GiveMe-Liste entfernt.",
+      "deleted": "Rolle entfernt (Bitte benutze den purge-Befehl `L!giveme purge`)",
+      "prohibited": "Der Name dieser Rolle ist nicht erlaubt, da einer meiner Befehle den selben Namen trägt.",
+      "already": "Diese Rolle ist bereits in der GiveMe-Liste."
+    },
+    "badges": {
+      "description": "LewdBot Abzeichen! Stelle Abzeichen auf deinem Profil aus. Du erhältst sie durch erfolgreiches Beenden bestimmter Aufgaben.",
+      "owned": "Du besitzt dieses Abzeichen!"
+    },
+    "autoplay": {
+      "description": "(Premium) Startet automatisches Abspielen wenn ein Benutzer den ausgewählten Sprach-Kanal betritt.",
+      "enabled": "Automatisches Abspielen wurde aktiviert, bitte stell sicher dass du einen Sprach-Kanal ausgewählt hast.",
+      "disabled": "Automatisches Abspielen deaktiviert.",
+      "channel_set": "Sprach-Kanal jetzt definiert zu {0}."
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "Du hast dieses Abzeichen bereits!"
+    },
+    "badge_beta": "Für diejenigen, die geholfen haben, das Abzeichensystem zu testen.",
+    "translator": "Du bist jetzt ein Mitglied des LewdBot-Übersetzer Teams.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "Was hast du angestellt?"
+  }
+}
