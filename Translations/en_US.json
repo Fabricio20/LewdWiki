@@ -60,7 +60,8 @@
       "daily": "+{0} :cookie:! Come back tomorrow to start your streak!",
       "daily_streak": "+{0} :cookie:! (Streak = {1}) Come back tomorrow for more cookies!",
       "daily_already": "You already received your daily cookies for today, try again in {0}."
-    }
+    },
+    "unknown_item": "Unknown item"
   },
   "language": {
     "invalid": "'{0}' is not a valid language.",
