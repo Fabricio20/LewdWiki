@@ -1,0 +1,111 @@
+﻿{
+  "core": {
+    "permission": {
+      "command": "Nemáš oprávnění k použití tohoto příkazu.",
+      "action": "Nemáš oprávnění k provedení této akce.",
+      "subcommand": "Nemáš oprávnění k použití tohoto podpříkazu.",
+      "bot": "Nemám oprávnění {0}, které je požadované k provedení tohoto příkazu.",
+      "discord": "K udělání tohohle nemáš na Discordu požadované oprávnění. ({0})"
+    },
+    "error": {
+      "database": "Problém s ukládáním dat do databáze.",
+      "contact_devs": "Pokud si myslíte, že by se tohle nemělo dít, kontaktujte prosím vývojáře.",
+      "profile_locked": "Hej, čekám na dokončení operace, zkus to prosím znovu za pár sekund.",
+      "cooldown_hit": "Whoa zpomal! Píšeš příkazy moc rychle! ({0}s zbývá)",
+      "retry": "Prosím zkus to znovu.",
+      "retry_later": "Prosím zkus to znovu za {0} sekund.",
+      "embed": "Error while trying to create embed. ${msg:error.contact_devs}",
+      "interact": "K tomuhle nemám potřebné oprávnění. (Interakce s Rolemi/Uživateli je zakázána)",
+      "command": {
+        "unknown": "Neznámý příkaz.",
+        "unknown_near": "Neznámý příkaz, nemyslel jsi {0}?",
+        "unknown_sub": "Neznámý podpříkaz.",
+        "restricted": "Tento příkaz je omezen jen na {0} uživatele. Zjisti víc na <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "To není platné číslo.",
+        "boolean": "To není platná logická hodnota. (`true` nebo `false`)",
+        "url": "To není platná URL."
+      },
+      "search": {
+        "text_none": "Nebyl nalezen žádný textový kanál s tímto jménem.",
+        "text_multiple": "Nalezeno víc textových kanálů, buď prosím specifičtější.",
+        "voice_none": "Nebyl nalezen žádný hlasový kanál s tímto jménem.",
+        "voice_multiple": "Nalezeno více hlasových kanálů, buď prosím specifičtější.",
+        "role_none": "Nenalezena žádná role s tímto jménem.",
+        "role_multiple": "Více rolí nalezeno, buď prosím specifičtější.",
+        "member_none": "Nenalezen žádný uživatel s tímto jménem.",
+        "member_multiple": "Nalezeno víc uživatelů, buď prosím specifičtější."
+      }
+    },
+    "parts": {
+      "second": "sekunda",
+      "seconds": "sekund",
+      "minute": "minuta",
+      "minutes": "minut",
+      "hour": "hodina",
+      "hours": "hodin",
+      "day": "den",
+      "days": "dní"
+    }
+  },
+  "economy": {
+    "success": "Převod dokončen.",
+    "cookies": {
+      "error": {
+        "not_enough": "K tomuhle nemáš dost :cookie:! (Požadováno {0})",
+        "nothing": "Nemáš žádné sušenky."
+      },
+      "transferred_user": "Převedeno {0} :cookie: na {1}.",
+      "daily": "+{0} :cookie:! Come back tomorrow to start your streak!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) Come back tomorrow for more cookies!",
+      "daily_already": "Dnes už jsi dostal svůj denní příděl sušenek, zkus to znovu za {0}."
+    }
+  },
+  "language": {
+    "invalid": "'{0}' není platný jazyk.",
+    "saved": "Jazyk změněn na {0}.",
+    "hiring": "Hledáme nové překladatele! Zjisti víc na <https://notfab.net/LewdBot/Premium>",
+    "list": "Dostupné jazyky: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Umožní uživatelům přidávat si role sami.",
+      "purged": "Všechny rozbité role byly smazány.",
+      "added": "Role byla přidána GiveMe seznamu.",
+      "removed": "Role byla odstraněna z GiveMe seznamu.",
+      "deleted": "Role smazána (prosím zpusť purge)",
+      "prohibited": "Tento název role není povolen, protože je stejný jako podpříkaz.",
+      "already": "Tato role už v GiveMe seznamu je."
+    },
+    "badges": {
+      "description": "LewdBot Badges! Zobraz vlastní odznaky na svém profilu. Získej je splněním jejich úloh.",
+      "owned": "Tenhle odznak už máš!"
+    },
+    "autoplay": {
+      "description": "(Premium) Automaticky spustí přehrávání, když se uživatel připojí do vybraného hlasového kanálu.",
+      "enabled": "Autoplay byl povolen, přesvědčte se, že jste nastavili hlasový kanál.",
+      "disabled": "Autoplay byl zakázán.",
+      "channel_set": "Hlasový kanál nastaven na {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Nemůžu přemístit uživatele do stejného kanálu, ve kterém je.",
+        "member_not_connected": "Cílový uživatel není připojen do hlasového kanálu",
+        "permission_move": "Selhalo přesunutí {0}, bez oprávnění."
+      },
+      "description": "Přesune více uživatelů mezi kanály",
+      "moving": "Přesunuji uživatele...",
+      "splitting": "Rozdělování uživatelů mezi kanály..."
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "Už máš tento odznak!"
+    },
+    "badge_beta": "Uděleno těm, kteří pomohli otestovat systém odznaků.",
+    "translator": "Stal jste se členem překladatelského teamu LewdBot.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "Co jsi udělal?"
+  }
+}
