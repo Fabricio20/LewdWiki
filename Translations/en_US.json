@@ -98,6 +98,11 @@
       "description": "Move multiple users between voice channels",
       "moving": "Moving members...",
       "splitting": "Splitting members between channels..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "No songs were found."
+      }
     }
   },
   "badges": {
