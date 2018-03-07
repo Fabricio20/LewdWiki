@@ -1,0 +1,117 @@
+﻿{
+  "core": {
+    "permission": {
+      "command": "你沒有權限使用此指令",
+      "action": "你沒有權限執行此操作",
+      "subcommand": "你沒有權限執行此附加指令",
+      "bot": "我需要權限才能執行{0}指令",
+      "discord": "你的Discord權限不足以執行此操作 ({0})"
+    },
+    "error": {
+      "database": "保存數據到數據庫時出現錯誤",
+      "contact_devs": "如果你覺得不該出現此錯誤,請聯繫開發人員",
+      "profile_locked": "嘿,我還在等待上一個作業完成,請在數秒後重試",
+      "cooldown_hit": "哇,冷靜!你的指令輸入太快了! (剩餘{0}秒)",
+      "retry": "請重新嘗試.",
+      "retry_later": "請在{0}秒後再重新嘗試",
+      "embed": "在建立嵌入作業時出現錯誤 ${msg:error.contact_devs}",
+      "interact": "我沒有必需的權限以執行此操作(Role/Member interaction prohibited)",
+      "command": {
+        "unknown": "未知的指令",
+        "unknown_near": "未知的指令,請問你是指{0}?",
+        "unknown_sub": "未知的附加指令",
+        "restricted": "此指令只有{0}用戶才能使用。 通過<https://notfab.net/LewdBot/Premium>了解更多"
+      },
+      "regex": {
+        "number": "這不是一個有效的數字",
+        "boolean": "這不是一個有效的Java數值",
+        "url": "這不是有效的URL連結"
+      },
+      "search": {
+        "text_none": "未搜索到符合此關鍵字之文字頻道",
+        "text_multiple": "搜索到多個符合此關鍵字的文字頻道,請更加詳細的搜索",
+        "voice_none": "未搜索到符合此關鍵字之語音頻道",
+        "voice_multiple": "搜索到多個符合此關鍵字的語音頻道,請更加詳細的搜索",
+        "role_none": "未搜索到此身份組",
+        "role_multiple": "搜索到多個符合的身分組,請更加詳細的搜索"
+	"member_none": "未搜索到符合此關鍵字之成員",
+	"member_multiple": "搜索到多個符合此關鍵字的成員,請更加詳細的搜索"
+      }
+    },
+    "parts": {
+      "second": "秒",
+      "seconds": "秒",
+      "minute": "分",
+      "minutes": "分",
+      "hour": "小時",
+      "hours": "小時",
+      "day": "天",
+      "days": "天"
+    }
+  },
+  "economy": {
+    "success": "翻譯成功",
+    "cookies": {
+      "error": {
+        "not_enough": "你沒有足夠的:cookie:!(需要{0})",
+        "nothing": "你沒有任何的餅乾"
+      },
+      "transferred_user": "轉換{0}:cookie:to{1}.",
+      "daily": "+{0}:cookie:!明天開始可以累計天數!",
+      "daily_streak": "+{0}:cookie:!(累計天數 = {1})明天回來以獲取更多的餅乾!",
+      "daily_already": "你已經取得今天的每日餅乾,請在{0}重試"
+    }
+    "unknown_item": "未知的物品"
+  },
+  "language": {
+    "invalid": "'{0}'不是個有效的語言",
+    "saved": "語言已轉換成{0}.",
+    "hiring": "我們正在尋求翻譯者!通過<https://notfab.net/LewdBot/Premium>以了解更多",
+    "list": "可以使用的語言: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "允許使用者為他們自己添加身分組",
+      "purged": "所有失效的身分組已被刪除",
+      "added": "身分組已被添加到GiveMe列表",
+      "removed": "身分組已從GiveMe列表中移除",
+      "deleted": "身分組刪除(請執行清除)",
+      "prohibited": "無法使用此身分組名稱,因為他與子命令名稱相同",
+      "already": "這個身分組已經存在於GiveMe列表中"
+    },
+    "badges": {
+      "description": " LewdBot徽章!請在個人資料顯示徽章。透過徽章的指定任務來取得徽章",
+      "owned": "你擁有此徽章!"
+    },
+    "autoplay": {
+      "description": "(高級)使用者加入指定的語音頻道時自動撥放",
+      "enabled": "自動撥放已啟用,請確認選擇的語音頻道",
+      "disabled": "自動撥放已停用",
+      "channel_set": "語音頻道已被定義為{0}"
+    },
+    "voice": {
+      "error": {
+        "same_voice": "不能把使用者移動到他們所在的頻道",
+        "member_not_connected": "目標成員未連接至語音頻道",
+        "permission_move": "移動{0}失敗,沒有權限"
+      },
+      "description": "把複數使用者移動到另一個語音頻道",
+      "moving": "移動成員中......",
+      "splitting": "正在把成員平均的分配到2個頻道中......"
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "未找到音樂"
+      }
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "你已經擁有此徽章!"
+    },
+    "badge_beta": "給予那些幫助測試徽章系統的人",
+    "translator": "你現在是LewdBot的翻譯成員",
+    "halloween_2017": " Spoo.py!",
+    "fbi": "你做了什麼?"
+  }
+}
