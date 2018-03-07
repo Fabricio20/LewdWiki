@@ -85,6 +85,21 @@
       "enabled": "Tự động phát đang được bật, hãy đảm bảo việc điều chỉnh kênh giọng nói.",
       "disabled": "Tự động phát đang bị tắt.",
       "channel_set": "Kênh giọng nói chia thành {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Không thể di chuyển thành viên vào cùng một kênh mà họ đang ở trong đó.",
+        "member_not_connected": "Thành viên được chọn không kết nối với kênh giọng nói",
+        "permission_move": "Thất bại khi di chuyển {0}, không có sự cho phép."
+      },
+      "description": "Di chuyển nhiều thành viên giữa các kênh",
+      "moving": "Đang di chuyển các thành viên...",
+      "splitting": "Đang tách các thành viên giữa các kênh..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "Không tìm thấy bài hát nào."
+      }
     }
   },
   "badges": {
