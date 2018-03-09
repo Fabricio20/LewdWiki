@@ -34,6 +34,8 @@
         "voice_multiple": "Mai multe canale vocale găsite, vă rugăm să fiți mai specific.",
         "role_none": "Nu s-au găsit roluri cu numele respectiv.",
         "role_multiple": "S-au găsit roluri multiple, vă rugăm să fie mai specific."
+        "member_none": "Nu s-au găsit membrii cu acest nume.",
+        "member_multiple": "Multi membri gasiti, va rugam sa fie mai specific."
       }
     },
     "parts": {
@@ -58,7 +60,8 @@
       "daily": "+{0} :cookie:! Întoarce-te mâine pentru a-ți începe șansa!",
       "daily_streak": "+{0} :cookie:! (Streak = {1}) Întoarce-te mâine pentru mai multe cookie-uri!",
       "daily_already": "Ați primit deja cookie-urile zilnice pentru ziua de azi, încercați din nou în {0}."
-    }
+    },
+    "unknown_item": "Articol necunoscut"
   },
   "language": {
     "invalid": "'{0}' nu este o limbă valabilă.",
@@ -85,6 +88,21 @@
       "enabled": "Autoplay a fost activat, asigurați-vă că ați configurat canalul vocal.",
       "disabled": "Autoplay-ul a fost dezactivat.",
       "channel_set": "Canalul vocal definit este {0}."
+    }
+    "voice": {
+      "error": {
+        "same_voice": "Utilizatorul nu poate fi mutat în același canal vocal în care se află.",
+        "member_not_connected": "Membru țintă nu este conectat la un canal vocal",
+        "permission_move": "Nu a putut fi mutată {0}, fără permisiune."
+      },
+      "description": "Mutați mai mulți utilizatori între canalele vocale",
+      "moving": "Mutarea membrilor ...",
+      "splitting": "Împărțirea membrilor între canale ..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "Nu s-au găsit melodii."
+      }
     }
   },
   "badges": {
