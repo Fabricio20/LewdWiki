@@ -102,7 +102,8 @@
     "music": {
       "error": {
         "no_songs_found": "No songs were found."
-      }
+      },
+      "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
     }
   },
   "badges": {
