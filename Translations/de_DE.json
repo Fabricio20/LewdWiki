@@ -33,7 +33,9 @@
         "voice_none": "Keine Sprachchats mit diesem Namen gefunden.",
         "voice_multiple": "Mehrere Sprachchats gefunden, bitte sei genauer.",
         "role_none": "Keine Rollen mit diesem Namen gefunden.",
-        "role_multiple": "Mehrere Rollen gefunden, bitte sei genauer."
+        "role_multiple": "Mehrere Rollen gefunden, bitte sei genauer.",
+        "member_none": "Es wurde kein Mitglied mit diesem Namen gefunden.",
+        "member_multiple": "Mehrere Mitglieder gefunden, bitte sei genauer."
       }
     },
     "parts": {
@@ -58,7 +60,8 @@
       "daily": "+{0} :cookie:! Komm morgen wieder um deine Belohnung zu verdoppeln!",
       "daily_streak": "+{0} :cookie:! (Streak = {1}) Komm morgen wieder um noch mehr Kekse zu bekommen!",
       "daily_already": "Du hast deine tägliche Portion Kekse schon bekommen, versuch es in {0} wieder."
-    }
+    },
+    "unknown_item": "Unbekannter Gegenstand"
   },
   "language": {
     "invalid": "'{0}' ist keine verfügbare Sprache.",
@@ -85,6 +88,22 @@
       "enabled": "Automatisches Abspielen wurde aktiviert, bitte stell sicher dass du einen Sprach-Kanal ausgewählt hast.",
       "disabled": "Automatisches Abspielen deaktiviert.",
       "channel_set": "Sprach-Kanal jetzt definiert zu {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Ich kann den Benutzer nicht in einen Sprachkanal schicken in dem er bereits ist..",
+        "member_not_connected": "Das gewünschte Mitglied ist in keinem Sprachkanal",
+        "permission_move": "Ich darf {0} nicht bewegen, da mir die Berechtigungen dazu fehlen."
+      },
+      "description": "Verschiebe mehrere Benutzer von einem Sprachkanal zum Nächsten",
+      "moving": "Verschiebe Mitglieder...",
+      "splitting": "Teile Mitglieder zwischen Kanälen auf..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "Kein Song wurde gefunden."
+      },
+      "description": "Musikbefehle (Diese Befehle funktionieren auch einzelstehend - `L!play` und `L!music play`)"
     }
   },
   "badges": {
