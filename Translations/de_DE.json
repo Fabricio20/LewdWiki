@@ -33,7 +33,7 @@
         "voice_none": "Keine Sprachchats mit diesem Namen gefunden.",
         "voice_multiple": "Mehrere Sprachchats gefunden, bitte sei genauer.",
         "role_none": "Keine Rollen mit diesem Namen gefunden.",
-        "role_multiple": "Mehrere Rollen gefunden, bitte sei genauer."
+        "role_multiple": "Mehrere Rollen gefunden, bitte sei genauer.",
         "member_none": "Es wurde kein Mitglied mit diesem Namen gefunden.",
         "member_multiple": "Mehrere Mitglieder gefunden, bitte sei genauer."
       }
