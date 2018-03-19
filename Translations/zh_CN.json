@@ -1,0 +1,117 @@
+{
+  "core": {
+    "permission": {
+      "command": "你没有权限使用此指令",
+      "action": "你没有权限执行此操作",
+      "subcommand": "你没有权限执行此附加指令",
+      "bot": "我需要权限才能执行{0}指令",
+      "discord": "你的Discord权限不足以执行此操作 ({0})"
+    },
+    "error": {
+      "database": "保存数据到数据库时出现错误",
+      "contact_devs": "如果你觉得不该出现此错误,请联繫开发人员",
+      "profile_locked": "嘿,我还在等待上一个作业完成,请在数秒后重试",
+      "cooldown_hit": "哇,冷静!你的指令输入太快了! (剩馀{0}秒)",
+      "retry": "请重新尝试",
+      "retry_later": "请在{0}秒后再重新尝试",
+      "embed": "在建立嵌入作业时出现错误 ${msg:error.contact_devs}",
+      "interact": "我没有必需的权限以执行此操作(Role/Member interaction prohibited)",
+      "command": {
+        "unknown": "未知的指令",
+        "unknown_near": "未知的指令,请问你是指{0}?",
+        "unknown_sub": "未知的附加指令",
+        "restricted": "此指令只有{0}用户才能使用。 通过<https://notfab.net/LewdBot/Premium>了解更多"
+      },
+      "regex": {
+        "number": "这不是一个有效的数字",
+        "boolean": "这不是一个有效的Java数值",
+        "url": "这不是有效的URL连结"
+      },
+      "search": {
+        "text_none": "未搜索到符合此关键字之文字频道",
+        "text_multiple": "搜索到多个符合此关键字的文字频道,请更加详细的搜索",
+        "voice_none": "未搜索到符合此关键字之语音频道",
+        "voice_multiple": "搜索到多个符合此关键字的语音频道,请更加详细的搜索",
+        "role_none": "未搜索到此身份组",
+        "role_multiple": "搜索到多个符合的身分组,请更加详细的搜索",
+        "member_none": "未搜索到符合此关键字之成员",
+        "member_multiple": "搜索到多个符合此关键字的成员,请更加详细的搜索"
+      }
+    },
+    "parts": {
+      "second": "秒",
+      "seconds": "秒",
+      "minute": "分",
+      "minutes": "分",
+      "hour": "小时",
+      "hours": "小时",
+      "day": "天",
+      "days": "天"
+    }
+  },
+  "economy": {
+    "success": "翻译成功",
+    "cookies": {
+      "error": {
+        "not_enough": "你没有足够的:cookie:!(需要{0})",
+        "nothing": "你没有任何的饼乾"
+      },
+      "transferred_user": "转换{0}:cookie:to{1}.",
+      "daily": "+{0}:cookie:!明天开始可以累计天数!",
+      "daily_streak": "+{0}:cookie:!(累计天数 = {1})明天回来以获取更多的饼乾!",
+      "daily_already": "你已经取得今天的每日饼乾,请在{0}重试"
+    },
+    "unknown_item": "未知的物品"
+  },
+  "language": {
+    "invalid": "'{0}'不是个有效的语言",
+    "saved": "语言已转换成{0}.",
+    "hiring": "我们正在寻求翻译者!通过<https://notfab.net/LewdBot/Premium>以了解更多",
+    "list": "可以使用的语言: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "允许使用者为他们自己添加身分组",
+      "purged": "所有失效的身分组已被删除",
+      "added": "身分组已被添加到GiveMe列表",
+      "removed": "身分组已从GiveMe列表中移除",
+      "deleted": "身分组删除(请执行清除)",
+      "prohibited": "无法使用此身分组名称,因为他与子命令名称相同",
+      "already": "这个身分组已经存在于GiveMe列表中"
+    },
+    "badges": {
+      "description": " LewdBot徽章!请在个人资料显示徽章。透过徽章的指定任务来取得徽章",
+      "owned": "你拥有此徽章!"
+    },
+    "autoplay": {
+      "description": "(高级)使用者加入指定的语音频道时自动拨放",
+      "enabled": "自动拨放已启用,请确认选择的语音频道",
+      "disabled": "自动拨放已停用",
+      "channel_set": "语音频道已被定义为{0}"
+    },
+    "voice": {
+      "error": {
+        "same_voice": "不能把使用者移动到他们所在的频道",
+        "member_not_connected": "目标成员未连接至语音频道",
+        "permission_move": "移动{0}失败,没有权限"
+      },
+      "description": "把复数使用者移动到另一个语音频道",
+      "moving": "移动成员中......",
+      "splitting": "正在把成员平均的分配到2个频道中......"
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "未找到音乐"
+      }
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "你已经拥有此徽章!"
+    },
+    "badge_beta": "给予那些帮助测试徽章系统的人",
+    "translator": "你现在是LewdBot的翻译成员",
+    "halloween_2017": " Spoo.py!",
+    "fbi": "你做了什麽?"
+  }
+}

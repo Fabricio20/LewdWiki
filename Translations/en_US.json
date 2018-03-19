@@ -1,0 +1,118 @@
+{
+  "core": {
+    "permission": {
+      "command": "You do not have permission to perform this command.",
+      "action": "You do not have permission to perform this action.",
+      "subcommand": "You do not have permission to perform this subcommand.",
+      "bot": "I don't have the {0} permission, which is required for this command.",
+      "discord": "You do not have the required Discord permission to do this. ({0})"
+    },
+    "error": {
+      "database": "Error while saving data to the database.",
+      "contact_devs": "Please contact the developers if you believe this shouldn't happen.",
+      "profile_locked": "Hey, I'm waiting for an operation to complete, please try again in some seconds.",
+      "cooldown_hit": "Whoa calm down! You are typing commands too fast! ({0}s remaining)",
+      "retry": "Please try again.",
+      "retry_later": "Please try again in {0} seconds.",
+      "embed": "Error while trying to create embed. ${msg:error.contact_devs}",
+      "interact": "I do not have the necessary permission to do this. (Role/Member interaction prohibited)",
+      "command": {
+        "unknown": "Unknown command.",
+        "unknown_near": "Unknown command, did you mean {0}?",
+        "unknown_sub": "Unknown subcommand.",
+        "restricted": "This command is restricted to {0} users only. Learn more at <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "That is not a valid number.",
+        "boolean": "That is not a valid boolean.",
+        "url": "That is not a valid URL."
+      },
+      "search": {
+        "text_none": "No text channels were found with that name.",
+        "text_multiple": "Multiple text channels found, please be more specific.",
+        "voice_none": "No voice channels were found with that name.",
+        "voice_multiple": "Multiple voice channels found, please be more specific.",
+        "role_none": "No roles found with that name.",
+        "role_multiple": "Multiple roles found, please be more specific.",
+        "member_none": "No members found with that name.",
+        "member_multiple": "Multiple members found, please be more specific."
+      }
+    },
+    "parts": {
+      "second": "second",
+      "seconds": "seconds",
+      "minute": "minute",
+      "minutes": "minutes",
+      "hour": "hour",
+      "hours": "hours",
+      "day": "day",
+      "days": "days"
+    }
+  },
+  "economy": {
+    "success": "Transaction completed.",
+    "cookies": {
+      "error": {
+        "not_enough": "You don't have enough :cookie: to do this! (Required {0})",
+        "nothing": "You do not have any cookies."
+      },
+      "transferred_user": "Transferred {0} :cookie: to {1}.",
+      "daily": "+{0} :cookie:! Come back tomorrow to start your streak!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) Come back tomorrow for more cookies!",
+      "daily_already": "You already received your daily cookies for today, try again in {0}."
+    },
+    "unknown_item": "Unknown item"
+  },
+  "language": {
+    "invalid": "'{0}' is not a valid language.",
+    "saved": "Language changed to {0}.",
+    "hiring": "We are looking for translators! Learn more at <https://notfab.net/LewdBot/Premium>",
+    "list": "Available Languages: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Allows users to add certain roles to themselves.",
+      "purged": "All broken roles have been removed.",
+      "added": "Role has been added to the GiveMe list.",
+      "removed": "Role has been removed from the GiveMe list.",
+      "deleted": "Role deleted (please run purge)",
+      "prohibited": "That role name is not allowed because it's the same as a subcommand.",
+      "already": "This role is already part of the GiveMe list."
+    },
+    "badges": {
+      "description": "LewdBot Badges! Display custom badges on your profile. Earn them by completing their designated tasks.",
+      "owned": "You have this badge!"
+    },
+    "autoplay": {
+      "description": "(Premium) Auto starts playing when a user joins the selected voice channel.",
+      "enabled": "Autoplay has been enabled, make sure to configure the voice channel.",
+      "disabled": "Autoplay has been disabled.",
+      "channel_set": "Voice channel defined to {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Cannot move user to the same voice channel they are in.",
+        "member_not_connected": "Target member is not connected to a voice channel",
+        "permission_move": "Failed to move {0}, no permission."
+      },
+      "description": "Move multiple users between voice channels",
+      "moving": "Moving members...",
+      "splitting": "Splitting members between channels..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "No songs were found."
+      },
+      "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "You already have this badge!"
+    },
+    "badge_beta": "Awarded to those who helped test the badge system.",
+    "translator": "You are now a member of the LewdBot translation team.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "What have you done?"
+  }
+}

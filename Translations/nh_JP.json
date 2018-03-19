@@ -1,0 +1,110 @@
+"core": {
+    "permission": {
+      "command": "お前はこのコマンドができない。",
+      "action": "お前はそれができない。",
+      "subcommand": "お前はこのサブコマンドを使用するを持ちません。",
+      "bot": "私はそれの権限を持ちません。**(Missing: {0})**",
+      "discord": " お前はこのコマンドを使用するを持ちません ({0})"
+    },
+    "error": {
+      "database": "エラは起こりました。",
+      "contact_devs": "これは起こらないはずだとデベロッパーを連絡してください。",
+      "profile_locked": "ねえ、私は操作を仕上げるために持っている、 待ってください。",
+      "cooldown_hit": "ちょっと待て！お前はコマンドを早くにタイプします。 ({0}s remaining)",
+      "retry": "再試行してください。",
+      "retry_later": " {0} 数秒が待て、再試行してください。",
+      "embed": "私はエラを遭遇します。 ${msg:error.contact_devs}",
+      "interact": "私はそれの権限を持ちません。 (Role/Member interaction prohibited)",
+      "command": {
+        "unknown": "未知なコマンドです。",
+        "unknown_near": "未知なコマンドです, あなたは{0}を志す ?",
+        "unknown_sub": "未知なサブコマンドです。",
+        "restricted": "{0} ユーザーが使用できるコマンド. <https://notfab.net/LewdBot/Premium>を見る。"
+      },
+      "regex": {
+        "number": " あれは無効なナンバーじゃないです。",
+        "boolean": "あれは無効なブーリアンじゃないです。",
+        "url": "あれは無効なURLじゃないです。"
+      },
+      "search": {
+        "text_none": "そのテクストのチャンネルが見つけられない。",
+        "text_multiple": "テクストの余計なチャンネルが見つけられない。",
+        "voice_none": "その声のチャンネルが見つけられない。",
+        "voice_multiple": 声の余計なチャンネルが見つけられない。",
+        "role_none": "その役が見つけられない。",
+        "role_multiple": " 余計な役はその名前を名付けます。",
+        "member_none": "ユーザーが見つけられない。",
+        "member_multiple": "多いメンバーを見つけます。"
+      }
+    },
+    "parts": {
+      "second": "秒",
+      "seconds": " 数秒",
+      "minute": "分",
+      "minutes": "分",
+      "hour": "時間",
+      "hours": "時間",
+      "day": "日",
+      "days": "日"
+    }
+  },
+  "economy": {
+    "success": "効果的な商売です。",
+    "cookies": {
+      "error": {
+        "not_enough": "これを不充分な :cookie: のためにする! (Required {0})",
+        "nothing": "あなたはクッキーを持ちません。"
+      },
+      "transferred_user": " {0} :cookie: は {1}に賜ります。",
+      "daily": "+{0} :cookie:! 明日はもっとクッキーを受けるために帰ってください!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) 明日はもっとクッキーを受けるために帰ってください!",
+      "daily_already": "  今日、あなたは毎日のクッキーを受けました。{0} 待って。"
+    }
+  },
+  "language": {
+    "invalid": "'{0}'は言語じゃないです。 ",
+    "saved": " 言語はセットです。{0}です。",
+    "hiring": "私たちは翻訳家を捜し求めます!  <https://notfab.net/LewdBot/Premium>を見ってください。",
+    "list": ": 言語:{0}。"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Allows users to add certain roles to themselves.",
+      "purged": "ダメな役は取れる。",
+      "added": "役はギブミーリストに増やしました。",
+      "removed": "役がリストから取れました。",
+      "deleted": "役は取れました(粛清してください。)",
+      "prohibited": "あの役はサブコマンドだから、",
+      "already": "役は付属のリストです。"
+    },
+    "badges": {
+      "description": "ルードボットのバッジ! あなたのプロフィールにバッジを見せる。 バッジを稼ぐために仕事が完成する。",
+      "owned": "あなたはこのバッジです。"
+    },
+    "autoplay": {
+      "description": "(プレミアム) ユーザーは声のチャネルに入るから、音楽は初めます。",
+      "enabled": "アウトプレイは使用可能です。",
+      "disabled": "アウトプレイは体の不自由です。",
+      "channel_set": "声のチャネルは {0}です。"
+    },
+    "voice": {
+      "error": {
+        "same_voice":　"声のチャネルの中のユーザーです",
+        "member_not_connected": "声のチャネルの中のメンバーじゃないです。",
+        "permission_move": "許可じゃないです。"
+      },
+      "description": "声のチャネルの中のユーザーをじゃないです。",
+      "moving": "メンバーを移っている。",
+      "splitting": "メンバーを分かっている。。。"
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "あなたはこのバッジです。"
+    },
+    "badge_beta": "これはバッジのテスターに授かりました。",
+    "translator": "今、あなたはルードボットのトランスレータのメンバー。",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "何をしました？"
+  }
+}
