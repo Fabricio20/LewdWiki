@@ -1,4 +1,4 @@
-﻿{
+{
   "core": {
     "permission": {
       "command": "Nemáš oprávnění k použití tohoto příkazu.",
@@ -58,9 +58,10 @@
       },
       "transferred_user": "Převedeno {0} :cookie: na {1}.",
       "daily": "+{0} :cookie:! Come back tomorrow to start your streak!",
-      "daily_streak": "+{0} :cookie:! (Streak = {1}) Come back tomorrow for more cookies!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) Přijď zas zítra pro víc sušenek!",
       "daily_already": "Dnes už jsi dostal svůj denní příděl sušenek, zkus to znovu za {0}."
-    }
+    },
+    "unknown_item": "Neznámý předmět"
   },
   "language": {
     "invalid": "'{0}' není platný jazyk.",
@@ -97,6 +98,19 @@
       "description": "Přesune více uživatelů mezi kanály",
       "moving": "Přesunuji uživatele...",
       "splitting": "Rozdělování uživatelů mezi kanály..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "Nenalezena žádná hudba."
+      },
+      "description": "Hudební příkazy (všechny tyhle příkazy fungují taky samostatně - `L!play` a `L!music play`)"
+    },
+    "advertising": {
+      "description": "Automaticky upozorňuje a banuje uživatele spamující reklamou.",
+      "warning": "Hej {User.Mention}, tady nejsou reklamy povoleny.",
+      "ban": "{User.Name} zabanován pro reklamu.",
+      "enabled": "Proti-Reklamní funkce js povolena.",
+      "disabled": "Proti-Reklamní funkce js zakázána."
     }
   },
   "badges": {
