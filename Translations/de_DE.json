@@ -104,6 +104,13 @@
         "no_songs_found": "Kein Song wurde gefunden."
       },
       "description": "Musikbefehle (Diese Befehle funktionieren auch einzelstehend - `L!play` und `L!music play`)"
+          },
+    "advertising": {
+      "description": "Warnt und bannt Werbetreibende automagisch.",
+      "warning": "Hey {User.Mention}, Werbung ist hier verboten.",
+      "ban": "{User.Name} wurde fürs Werbetreiben gebannt.",
+      "enabled": "Anti-Werbung-Feature aktiviert.",
+      "disabled": "Anti-Werbung-Feature deaktiviert."
     }
   },
   "badges": {
