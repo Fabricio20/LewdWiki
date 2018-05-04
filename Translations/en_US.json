@@ -101,7 +101,8 @@
     },
     "music": {
       "error": {
-        "no_songs_found": "No songs were found."
+        "no_songs_found": "No songs were found.",
+        "no_permission_add": "You do not have permission to add songs to the playlist."
       },
       "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
     },
