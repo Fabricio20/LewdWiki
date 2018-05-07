@@ -36,6 +36,10 @@
         "role_multiple": "Multiple roles found, please be more specific.",
         "member_none": "No members found with that name.",
         "member_multiple": "Multiple members found, please be more specific."
+      },
+      "number": {
+        "lower": "Number cannot be lower than {0}.",
+        "higher": "Number cannot be higher than {0}."
       }
     },
     "parts": {
@@ -112,6 +116,14 @@
       "ban": "Banned {User.Name} for advertising.",
       "enabled": "Anti-Advertising feature enabled.",
       "disabled": "Anti-Advertising feature disabled."
+    },
+    "prune": {
+      "error": {
+        "nothing_to_delete": "There are no items to delete!"
+      },
+      "description": "Deletes messages en-message.",
+      "deleted_single": "1 Message deleted. This message will auto-destruct in 5 seconds.",
+      "deleted_multiple": "{0} Messages deleted. This message will auto-destruct in 5 seconds."
     }
   },
   "badges": {
