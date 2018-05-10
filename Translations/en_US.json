@@ -124,6 +124,17 @@
       "description": "Deletes messages en-message.",
       "deleted_single": "1 Message deleted. This message will auto-destruct in 5 seconds.",
       "deleted_multiple": "{0} Messages deleted. This message will auto-destruct in 5 seconds."
+    },
+    "permissions": {
+      "error": {
+        "unknown_node": "Unknown permission node, make sure you typed it correctly."
+      },
+      "description": "Manages LewdBot's permissions on a per-role basis.",
+      "role_reset": "Permissions for the role {0} were reset.",
+      "permission_reset": "Permission `{0}` reset for role {1}.",
+      "role_updated": "Permissions for role {0} updated.",
+      "perms_for": "Permissions for {0}:",
+      "permissions_list": "List of permissions: {0}"
     }
   },
   "badges": {
