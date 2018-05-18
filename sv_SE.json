@@ -1,0 +1,118 @@
+﻿{
+  "core": {
+    "permission": {
+      "command": "Du har inte tillgång till att använda detta komand.",
+      "action": "Du har inte tillstånd att göra det där",
+      "subcommand": "du har inte tilstånd till att använda detta underkommando",
+      "bot": "Jag har inte {0} med tillstånd för att göra detta komand",
+      "discord": "Du har inte rätt Discord tillstånd att göra det där ({0})"
+    },
+    "error": {
+      "database": "Error när data sparades till databasen",
+      "contact_devs": "Snälla kontakta skaparen om du inte tror att detta skulle hända",
+      "profile_locked": "Jag väntar på att en operation ska bli klar försök igen om ett litet tag",
+      "cooldown_hit": "Hallå där! du skriver komandon för snabbt ({0}s kvar)",
+      "retry": "Snälla försök igen",
+      "retry_later": "Snälla försök igen om {0} sekunder",
+      "embed": "Error när embed skulle göras. ${msg:error.contact_devs}",
+      "interact": "Jag har inte det nödvändiga tillståndet att göra detta (Roll / medlemsinteraktion förbjuden)",
+      "command": {
+        "unknown": "okänt kommando",
+        "unknown_near": "Okänt kommando, menade du {0}?",
+        "unknown_sub": "Okänd underkommando",
+        "restricted": "Detta kommando är begränsat till {0} endast användare. Läs mer på <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "Det är inte ett giltigt nummer.",
+        "boolean": "Det är inte en giltig boolean.",
+        "url": "Det är inte en giltig webbadress.."
+      },
+      "search": {
+        "text_none": "Inga textkanaler hittades med det namnet.",
+        "text_multiple": "Flera textkanaler funna, snälla var mer specifik.",
+        "voice_none": "No voice channels were found with that name.",
+        "voice_multiple": "Flera röstkanaler hittades, snälla var mer specifik.",
+        "role_none": "Inga roller hittades med det namnet.",
+        "role_multiple": "Flera roller funna, snälla var mer specifik.",
+        "member_none": "Inga medlemmar hittades med det namnet.",
+        "member_multiple": "Flera medlemmar hittade, snälla var mer specifik."
+      }
+    },
+    "parts": {
+      "second": "sekund",
+      "seconds": "sekunder",
+      "minute": "minut",
+      "minutes": "minuter",
+      "hour": "timme",
+      "hours": "timmar",
+      "day": "dag",
+      "days": "dagar"
+    }
+  },
+  "economy": {
+    "success": "Transaktionen slutförd.",
+    "cookies": {
+      "error": {
+        "not_enough": "Du har inte tillräckligt :cookie: att göra det här! (behöver {0})",
+        "nothing": "Du har inga cookies."
+      },
+      "transferred_user": "Överförd {0} :cookie: till {1}.",
+      "daily": "+{0} :cookie:! Kom tillbaka imorgon för att börja din streak!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) Kom tillbaka imorgon för fler cookies!",
+      "daily_already": "Du har redan fått dina dagliga cookies för idag, försök igen om {0}."
+    },
+    "unknown_item": "Okänd föremål"
+  },
+  "language": {
+    "invalid": "'{0}' är inte ett giltigt språk.",
+    "saved": "Språk ändrats till {0}.",
+    "hiring": "Vi letar efter översättare! Läs mer på <https://notfab.net/LewdBot/Premium>",
+    "list": "Tillgängliga språk: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Tillåter att användare lägger till vissa roller för sig själva.",
+      "purged": "Alla trasiga roller har tagits bort.",
+      "added": "Rollen har lagts till i GiveMe-listan.",
+      "removed": "Rollen har tagits bort från GiveMe-listan.",
+      "deleted": "Rollen raderad (vänligen kör purge)",
+      "prohibited": "Det namnet är inte tillåtet eftersom det är detsamma som en underkommando.",
+      "already": "Denna roll är redan en del av GiveMe-listan."
+    },
+    "badges": {
+      "description": "LewdBot-märken! Visa egna märken på din profil. Tjäna dem genom att fylla i sina utvalda uppgifter.",
+      "owned": "Du har detta märke!"
+    },
+    "autoplay": {
+      "description": "(Premium) Auto börjar spela när en användare går med i den valda röstkanalen.",
+      "enabled": "Autoplay har aktiverats, se till att konfigurera röstkanalen.",
+      "disabled": "Autoplay har inaktiverats.",
+      "channel_set": "Röstkanal definierad till {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Kan inte flytta användaren till samma röstkanal som de är i.",
+        "member_not_connected": "Målmedlem är inte ansluten till en röstkanal",
+        "permission_move": "Misslyckades med att flytta {0}, inget tillstånd."
+      },
+      "description": "Flytta flera användare mellan röstkanaler",
+      "moving": "Flytta medlemmar...",
+      "splitting": "Splitting medlemmar mellan kanaler..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "Inga låtar hittades."
+      },
+      "description": "Musikkommandon (alla dessa kommandon fungerar också individuellt - `L! Play` och` L! Music play`)"
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "Du har redan detta märke!"
+    },
+    "badge_beta": "Tilldelas dem som hjälpte prova märkessystemet.",
+    "translator": "du är nu medlem i LewdBot översättningsteamet.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "Vad har du gjort?"
+  }
+}
