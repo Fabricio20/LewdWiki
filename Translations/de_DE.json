@@ -35,7 +35,11 @@
         "role_none": "Keine Rollen mit diesem Namen gefunden.",
         "role_multiple": "Mehrere Rollen gefunden, bitte sei genauer.",
         "member_none": "Es wurde kein Mitglied mit diesem Namen gefunden.",
-        "member_multiple": "Mehrere Mitglieder gefunden, bitte sei genauer."
+        "member_multiple": "Mehrere Mitglieder gefunden, bitte sei genauer." 
+      },
+      "number": {
+        "lower": "Nummer kann nicht niedriger als {0} sein.",
+        "higher": "Nummer kann nicht höher als {0} sein."
       }
     },
     "parts": {
@@ -102,6 +106,7 @@
     "music": {
       "error": {
         "no_songs_found": "Kein Song wurde gefunden."
+        "no_permission_add": "Du hast nicht die nötigen Berechtigungen um der Playlist Songs hinzuzufügen."
       },
       "description": "Musikbefehle (Diese Befehle funktionieren auch einzelstehend - `L!play` und `L!music play`)"
           },
@@ -110,7 +115,26 @@
       "warning": "Hey {User.Mention}, Werbung ist hier verboten.",
       "ban": "{User.Name} wurde fürs Werbetreiben gebannt.",
       "enabled": "Anti-Werbung-Feature aktiviert.",
-      "disabled": "Anti-Werbung-Feature deaktiviert."
+      "disabled": "Anti-Werbung-Feature deaktiviert." 
+    },
+    "prune": {
+      "error": {
+        "nothing_to_delete": "Es gibt nichts zu löschen!"
+      },
+      "description": "Löscht Nachrichten, massenhaft.",
+      "deleted_single": "1 Nachricht gelöscht. Diese Nachricht wird sich in 5 Sekunden selbst zerstören.",
+      "deleted_multiple": "{0} Nachrichten gelöscht. Diese Nachricht wird sich in 5 Sekunden selbst zerstören."
+    },
+    "permissions": {
+      "error": {
+        "unknown_node": "Unbekannte Berechtigung, hast du sie auch richtig geschrieben?."
+      },
+      "description": "Verwaltet LewdBots Berechtigungen auf Basis ihrer Rollen.",
+      "role_reset": "Berechtigungen für die Rolle {0} wurden zurückgesetzt.",
+      "permission_reset": "Berechtigung `{0}` für Rolle {1} zurückgesetzt.",
+      "role_updated": "Berechtigung für Rolle {0} aktualisiert.",
+      "perms_for": "Berechtigungen von {0}:",
+      "permissions_list": "Liste aller Berechtigungen: {0}"
     }
   },
   "badges": {
