@@ -5,7 +5,8 @@
       "action": "You do not have permission to perform this action.",
       "subcommand": "You do not have permission to perform this subcommand.",
       "bot": "I don't have the {0} permission, which is required for this command.",
-      "discord": "You do not have the required Discord permission to do this. ({0})"
+      "discord": "You do not have the required Discord permission to do this. ({0})",
+      "rank": "This command is restricted to {0}."
     },
     "error": {
       "database": "Error while saving data to the database.",
@@ -46,7 +47,9 @@
       "hour": "hour",
       "hours": "hours",
       "day": "day",
-      "days": "days"
+      "days": "days",
+      "enabled": "Enabled",
+      "disabled": "Disabled"
     }
   },
   "economy": {
@@ -71,6 +74,16 @@
   },
   "commands": {
     "giveme": {
+      "usage": {
+        "default": "Adds the specified role to yourself.",
+        "list": "Lists all available roles.",
+        "purge": "Removes all broken roles from the list.",
+        "add": "Adds a role to the list of available roles.",
+        "remove": "Removes a role from the list of available roles."
+      },
+      "error": {
+        "not_found": "No roles found"
+      },
       "description": "Allows users to add certain roles to themselves.",
       "purged": "All broken roles have been removed.",
       "added": "Role has been added to the GiveMe list.",
@@ -104,6 +117,69 @@
         "no_songs_found": "No songs were found."
       },
       "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
+    },
+    "ignore": {
+      "usage": {
+        "list": "Lists all ignored channels (Where LewdBot will effectively be disabled).",
+        "add": "Adds a channel to the ignored list, making LewdBot stop working there.",
+        "remove": "Removes a channel from the ignored list."
+      },
+      "error": {
+        "same": "Woha! You just tried to ignore this channel, that probably won't work out well. Try making a new one and ignoring this channel from there if that is _really_ what you want.",
+        "already": "This channel is already being ignored.",
+        "not": "This channel is not being ignored."
+      },
+      "description": "Ignores channels so LewdBot stops replying on them.",
+      "list": "Currently ignored channels:\n {0}",
+      "ignored": "Channel `{0}` is now being ignored.",
+      "removed": "Channel `{0}` is no longer being ignored."
+    },
+    "modules": {
+      "usage": {
+        "list": "Lists all modules and their respective statuses.",
+        "enable": "Enables a module.",
+        "disable": "Disables a module.",
+        "info": "Gets the status of a specific module."
+      },
+      "error": {
+        "default": "This is a default module and cannot be disabled.",
+        "not_found": "Module not found."
+      },
+      "description": "Enable or disable sets of features",
+      "list": "Module status:\n {0}",
+      "status": "**{0}** is {1}.",
+      "toggled": "**{0}** is now {1}."
+    },
+    "setup": {
+      "error": {
+        "timed": "Setup cancelled. (Timed out)",
+        "more_channel": "More than one channel found with that name, would you like to retry? [Y/N]",
+        "no_channel": "No channel found with that name, would you like to retry? [Y/N]"
+      },
+      "description": "Runs a setup to quickly get LewdBot ready for use.",
+      "welcome": "Welcome to the LewdBot setup, please answer the following questions by simply replying in the chat (no prefix needed).\nYou can quit any time by simply typing `cancel`.",
+      "cancelled": "Setup cancelled.",
+      "setprefix": "Would you like to define a custom prefix/trigger? [Y/N]",
+      "typeprefix": "Please type the new prefix to use (Note: `L!` and `@LewdBot` will always work):",
+      "prefixchanged": "Prefix changed, would you like to enable NSFW features? [Y/N]",
+      "nsfw": "Ok, would you like to enable NSFW features? [Y/N]",
+      "nsfwenabled": "NSFW Module enabled, would you like to set up a music channel?",
+      "music": "Ok, would you like to set up a music channel? [Y/N]",
+      "musictag": "Please tag the channel to send music statuses.",
+      "complete": "Setup is now complete."
+    },
+    "prefix": {
+      "description": "Changes LewdBot's prefix. (This does not disable L! and mention).",
+      "defined": "Prefix changed to {0}"
+    },
+    "game": {
+      "description": "Changes LewdBot's game.",
+      "usages": {
+        "next": "Skips to the next game",
+        "stream": "Toggles stream mode",
+        "name": "Changes the game",
+        "streamname": "Changes the game and toggles streaming mode"
+      }
     }
   },
   "badges": {
