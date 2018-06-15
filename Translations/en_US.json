@@ -139,6 +139,13 @@
       "deleted_multiple": "{0} Messages deleted. This message will auto-destruct in 5 seconds."
     },
     "permissions": {
+      "usage": {
+        "list": "Lists all permissions",
+        "get": "Lists all permissions for a role",
+        "reset": "Resets all permissions for a role",
+        "clear": "Resets a permission for a role (back to original state)",
+        "set": "Sets a permission for a role with the given value"
+      },
       "error": {
         "unknown_node": "Unknown permission node, make sure you typed it correctly."
       },
