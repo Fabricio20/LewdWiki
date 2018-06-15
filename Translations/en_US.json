@@ -97,6 +97,9 @@
       "already": "This role is already part of the GiveMe list."
     },
     "badges": {
+      "usage": {
+        "list": "Lists all available badges with previews"
+      },
       "description": "LewdBot Badges! Display custom badges on your profile. Earn them by completing their designated tasks.",
       "owned": "You have this badge!"
     },
@@ -107,6 +110,11 @@
       "channel_set": "Voice channel defined to {0}."
     },
     "voice": {
+      "usage": {
+        "move_user": "Moves a user to another voice channel",
+        "move_channel": "Moves all users in a voice channel to a different one",
+        "split": "Splits members between channels"
+      },
       "error": {
         "same_voice": "Cannot move user to the same voice channel they are in.",
         "member_not_connected": "Target member is not connected to a voice channel",
@@ -131,6 +139,10 @@
       "disabled": "Anti-Advertising feature disabled."
     },
     "prune": {
+      "usage": {
+        "normal": "Deletes last 30 messages.",
+        "targeted": "Deletes last 30 messages from Someone."
+      },
       "error": {
         "nothing_to_delete": "There are no items to delete!"
       },
