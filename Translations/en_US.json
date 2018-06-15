@@ -37,6 +37,10 @@
         "role_multiple": "Multiple roles found, please be more specific.",
         "member_none": "No members found with that name.",
         "member_multiple": "Multiple members found, please be more specific."
+      },
+      "number": {
+        "lower": "Number cannot be lower than {0}.",
+        "higher": "Number cannot be higher than {0}."
       }
     },
     "parts": {
@@ -114,9 +118,36 @@
     },
     "music": {
       "error": {
-        "no_songs_found": "No songs were found."
+        "no_songs_found": "No songs were found.",
+        "no_permission_add": "You do not have permission to add songs to the playlist."
       },
       "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
+    },
+    "advertising": {
+      "description": "Automagically warns and bans advertisers.",
+      "warning": "Hey {User.Mention}, advertising is not allowed here.",
+      "ban": "Banned {User.Name} for advertising.",
+      "enabled": "Anti-Advertising feature enabled.",
+      "disabled": "Anti-Advertising feature disabled."
+    },
+    "prune": {
+      "error": {
+        "nothing_to_delete": "There are no items to delete!"
+      },
+      "description": "Deletes messages en-message.",
+      "deleted_single": "1 Message deleted. This message will auto-destruct in 5 seconds.",
+      "deleted_multiple": "{0} Messages deleted. This message will auto-destruct in 5 seconds."
+    },
+    "permissions": {
+      "error": {
+        "unknown_node": "Unknown permission node, make sure you typed it correctly."
+      },
+      "description": "Manages LewdBot's permissions on a per-role basis.",
+      "role_reset": "Permissions for the role {0} were reset.",
+      "permission_reset": "Permission `{0}` reset for role {1}.",
+      "role_updated": "Permissions for role {0} updated.",
+      "perms_for": "Permissions for {0}:",
+      "permissions_list": "List of permissions: {0}"
     },
     "ignore": {
       "usage": {

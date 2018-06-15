@@ -12,8 +12,8 @@
       "contact_devs": "Por favor contate os desenvolvedores se você acredita que isto não deveria ocorrer.",
       "profile_locked": "Hey, eu estou esperando completar uma ação, por favor tente em alguns segundos.",
       "cooldown_hit": "Calma la amigo! Você esta digitando comandos muito rapido! (Restam {0})",
-      "retry": "Por favor tente novamente",
-      "retry_later": "Por favor tente novamente em {0} segundos.",
+      "retry": "Por favor tente de novo",
+      "retry_later": "Por favor tente de novo em {0} segundos.",
       "embed": "Erro tentando criar embed. ${msg:error.contact_devs}",
       "interact": "Eu não tenho a permissão necessaria pra fazer isso. (Interação entre Role/Member proibida)",
       "command": {
@@ -23,9 +23,9 @@
         "restricted": "Esse comando é de uso restrito para usuarios {0}. Aprenda mais em <https://notfab.net/LewdBot/Premium>"
       },
       "regex": {
-        "number": "Isto não é um numero valido seu mongol.",
-        "boolean": "Isto não é um boolean valido seu pudim.",
-        "url": "Isto não é um url valido seu batatão."
+        "number": "Esse não é um numero valido seu mongol.",
+        "boolean": "Esse não é um boolean valido seu pudim.",
+        "url": "Esse não é um url valido seu batatão."
       },
       "search": {
         "text_none": "Nenhum canal de texto foi encontrado com esse nome.",
@@ -33,7 +33,9 @@
         "voice_none": "Nenhum canal de voz foi encontrado com esse nome, por favor seja mais especifico.",
         "voice_multiple": "Varios canais de texto foram encontrados, por favor seja mais especifico.",
         "role_none": "Não foram encontradas designações com esse nome.",
-        "role_multiple": "Foram encontradas multiplas designações com esse nome, por favor seja mais especifico."
+        "role_multiple": "Foram encontradas multiplas designações com esse nome, por favor seja mais especifico.",
+        "member_none": "Não foram encontrados membros com esse nome.",
+        "member_multiple": "Foram encontrados multiplos membros, por favor seja mais especifico."
       }
     },
     "parts": {
@@ -51,26 +53,27 @@
     "success": "Transação completa.",
     "cookies": {
       "error": {
-        "not_enough": "Você não tem :cookie: suficiente para fazer isso (Necessário {0})",
+        "not_enough": "Você não tem :cookie: suficiente para fazer isso (Necessario {0})",
         "nothing": "Você não tem cookies."
       },
       "transferred_user": "Transferidos {0} :cookie: para {1}.",
       "daily": "+{0} :cookie:! Volte amanhã para começar seu streak!",
       "daily_streak": "+{0} :cookie:! (Streak = {1}) Volte amanhã para mais cookies!",
       "daily_already": "Você ja recebeu seu cookie diario gulosão, tente de novo em {0}."
-    }
+    },
+    "unknown_item": "Item desconhecido."
   },
   "language": {
-    "invalid": "'{0}' não é um idioma válido.",
-    "saved": "Idioma alterado para {0}.",
+    "invalid": "'{0}' não é uma lingua válida seu boboca.",
+    "saved": "Língua mudada para {0}.",
     "hiring": "Estamos procurando por tradutores! Aprenda mais em <https://notfab.net/LewdBot/Premium>",
-    "list": "Idiomas disponíveis: {0}"
+    "list": "Línguas disponiveis: {0}"
   },
   "commands": {
     "giveme": {
       "description": "Permite aos usuarios adicionar certas designações a si mesmos.",
-      "purged": "Todas as designações com problemas foram removidas.",
-      "added": "Esta designaçaõ foi adicionada à lista GiveMe.",
+      "purged": "Todas as designações quebradas foram removidas.",
+      "added": "Esta designaçõ foi adicionada à lista GiveMe.",
       "removed": "Esta designação foi removida da lista GiveMe.",
       "deleted": "Designação deletada (por favor aplique purge)",
       "prohibited": "O nome dessa designação não é permitido pois é igual a um subcomando.",
@@ -78,13 +81,28 @@
     },
     "badges": {
       "description": "Emplemas da Lewdbot! Mostre emblemas customizados em seu perfil. Os ganhe completando tarefas específicas.",
-      "owned": "Você possui esse emblema!"
+      "owned": "Você tem esse emblema!"
     },
     "autoplay": {
       "description": "(Premium) Começa a tocar automaticamente quando o usuario entra no chat de voz.",
-      "enabled": "Autoplay foi habilitado, não esqueça de configurar o canal de voz.",
+      "enabled": "Autoplay foi permitido, não esqueça de configurar o canal de voz.",
       "disabled": "Autoplay foi desligado.",
       "channel_set": "Canal de voz definido como {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Você não pode mover um usuario para o mesmo canal de voz que eles estão seu palhaço.",
+        "member_not_connected": "O membro alvejado não esta conectado à um canal de voz.",
+        "permission_move": "Não foi possivel mover {0}, não há permssão."
+      },
+      "description": "Mova multiplos usuários entre canais de voz.",
+      "moving": "Movendo membros...",
+      "splitting": "Dividíndo membros entre os canais..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "Não foram encontradas musicas."
+      }
     }
   },
   "badges": {
@@ -92,7 +110,7 @@
       "already": "Você ja tem esse emblema!"
     },
     "badge_beta": "Premiado a todos que ajudaram a testar o Sistema de Emblemas em fase beta.",
-    "translator": "Você agora é um membro da equipe de tradutores da LewdBot!",
+    "translator": "Você agora é um membro da equipe de tradutores do LewdBot!.",
     "halloween_2017": "Spoo.py!",
     "fbi": "O que foi que você fez?"
   }
