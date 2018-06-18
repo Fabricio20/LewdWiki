@@ -21,7 +21,8 @@
         "unknown": "Unknown command.",
         "unknown_near": "Unknown command, did you mean {0}?",
         "unknown_sub": "Unknown subcommand.",
-        "restricted": "This command is restricted to {0} users only. Learn more at <https://notfab.net/LewdBot/Premium>"
+        "restricted": "This command is restricted to {0} users only. Learn more at <https://notfab.net/LewdBot/Premium>",
+        "nsfw": "That command will only work on NSFW channels, please mark the channel as NSFW (on channel settings) before using it. #BeCompliant"
       },
       "regex": {
         "number": "That is not a valid number.",
@@ -53,7 +54,10 @@
       "day": "day",
       "days": "days",
       "enabled": "Enabled",
-      "disabled": "Disabled"
+      "disabled": "Disabled",
+      "width": "Width",
+      "height": "Height",
+      "rating": "Rating"
     }
   },
   "economy": {
@@ -223,13 +227,61 @@
       "defined": "Prefix changed to {0}"
     },
     "game": {
-      "description": "Changes LewdBot's game.",
       "usages": {
         "next": "Skips to the next game",
         "stream": "Toggles stream mode",
         "name": "Changes the game",
         "streamname": "Changes the game and toggles streaming mode"
-      }
+      },
+      "description": "Changes LewdBot's game."
+    },
+    "help": {
+      "usages": {
+        "default": "Providers help."
+      },
+      "error": {
+        "no_embed": "I don't have permission to send embeds here, so no command list for you.",
+        "not_found": "No help found for {0}."
+      },
+      "description": "Provides information on how to use the bot, along with a list of all available commands.",
+      "hello": "H-hello, I'm LewdBot, a multi-purpose discord bot, you can learn more about me here:\n<https://github.com/Fabricio20/LewdWiki/wiki>",
+      "requested_by": "Requested by {0}."
+    },
+    "iac": {
+      "usages": {
+        "search": "Searches on IAC's collection for images tagged with the given terms."
+      },
+      "error": {
+        "nothing_found": "Nothing found on IAC.",
+        "no_load": "If the image doesn't load, please click the title."
+      },
+      "found": "[Found] IAteACrayon/{0}"
+    },
+    "rule34": {
+      "usages": {
+        "notag": "Sends a random image from Rule34.",
+        "search": "Searches on Rule34 for images tagged with the given terms."
+      },
+      "error": {
+        "nothing_found": "Nothing found on Rule34.",
+        "no_response": "Error while retrieving images from Rule34 (Server returned empty response).",
+        "unknown": "An unknown error happened while retrieving images from Rule34. Message: {0}"
+      },
+      "search": "{0}'s search on Rule34. (Click here if Image doesn't Load)",
+      "tags": "**Tags**: {0}"
+    },
+    "danbooru": {
+      "usages": {
+        "notag": "Sends a random image from Danbooru.",
+        "search": "Searches on Danbooru for images tagged with the given terms."
+      },
+      "error": {
+        "nothing_found": "Nothing found on Danbooru.",
+        "no_response": "Error while retrieving images from Danbooru (Server returned empty response).",
+        "unknown": "An unknown error happened while retrieving images from Danbooru. Message: {0}"
+      },
+      "search": "{0}'s search on Danbooru. (Click here if Image doesn't Load)",
+      "tags": "**Tags**: {0}"
     }
   },
   "badges": {
