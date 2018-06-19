@@ -5,7 +5,8 @@
       "action": "Du hast nicht die nötige Berechtigung das zu tun.",
       "subcommand": "Du hast nicht die nötige Berechtigung diesen Unterbefehl auszuführen.",
       "bot": "Ich habe nicht die {0} Berechtigung, welche für diesen Befehl benötigt wird.",
-      "discord": "Du hast nicht die benötigte Discordberechtigung dafür. ({0})"
+      "discord": "Du hast nicht die benötigte Discordberechtigung dafür. ({0})",
+      "rank": "Dieser Befehl ist beschränkt auf {0}."
     },
     "error": {
       "database": "Error beim Versuch, Daten in der Datenbank abzuspeichern.",
@@ -36,6 +37,10 @@
         "role_multiple": "Mehrere Rollen gefunden, bitte sei genauer.",
         "member_none": "Es wurde kein Mitglied mit diesem Namen gefunden.",
         "member_multiple": "Mehrere Mitglieder gefunden, bitte sei genauer."
+      },
+      "number": {
+        "lower": "Nummer kann nicht kleiner als {0} sein.",
+        "higher": "Nummer kann nicht größer als {0} sein."        
       }
     },
     "parts": {
@@ -46,7 +51,9 @@
       "hour": "Stunde",
       "hours": "Stunden",
       "day": "Tag",
-      "days": "Tage"
+      "days": "Tage",
+      "enabled": "Aktiviert",
+      "disabled": "Deaktiviert"
     }
   },
   "economy": {
@@ -71,6 +78,16 @@
   },
   "commands": {
     "giveme": {
+      "usage": {
+        "default": "Fügt dir die gewünschte Rolle hinzu.",
+        "list": "Listet alle verfügbaren Rollen auf.",
+        "purge": "Löscht alle kaputten Rollen von der Liste.",
+        "add": "Fügt eine Rolle zur Liste der verfügbaren Rollen hinzu.",
+        "remove": "Löscht eine Rolle von der Liste der verfügbaren Rollen."
+      },
+      "error": {
+        "not_found": "No roles found"
+      },
       "description": "Erlaubt Benutzern, sich bestimmte Rollen selbst zu geben.",
       "purged": "Alle unbenutzen/nicht länger benutzten Rollen wurden von der Liste entfernt.",
       "added": "Rolle wurde der GiveMe-Liste hinzugefügt.",
@@ -80,6 +97,9 @@
       "already": "Diese Rolle ist bereits in der GiveMe-Liste."
     },
     "badges": {
+      "usage": {
+        "list": "Listet alle verfügbaren Abzeichen mit Vorschau auf"
+      },
       "description": "LewdBot Abzeichen! Stelle Abzeichen auf deinem Profil aus. Du erhältst sie durch erfolgreiches Beenden bestimmter Aufgaben.",
       "owned": "Du besitzt dieses Abzeichen!"
     },
@@ -90,6 +110,11 @@
       "channel_set": "Sprach-Kanal jetzt definiert zu {0}."
     },
     "voice": {
+      "usage": {
+        "move_user": "Verschiebt einen Benutzer in einen anderen Sprachchat",
+        "move_channel": "Verschiebt alle Benutzer in einem Sprachchat in einen Anderen",
+        "split": "Teilt Mitglieder auf Sprachchats auf"
+      },
       "error": {
         "same_voice": "Ich kann den Benutzer nicht in einen Sprachkanal schicken in dem er bereits ist..",
         "member_not_connected": "Das gewünschte Mitglied ist in keinem Sprachkanal",
@@ -101,7 +126,8 @@
     },
     "music": {
       "error": {
-        "no_songs_found": "Kein Song wurde gefunden."
+        "no_songs_found": "Kein Song wurde gefunden.",
+        "no_permission_add": "Du hast nicht die nötigen Berechtigungen, Songs zur Playlist hinzuzufügen."
       },
       "description": "Musikbefehle (Diese Befehle funktionieren auch einzelstehend - `L!play` und `L!music play`)"
           },
@@ -111,6 +137,99 @@
       "ban": "{User.Name} wurde fürs Werbetreiben gebannt.",
       "enabled": "Anti-Werbung-Feature aktiviert.",
       "disabled": "Anti-Werbung-Feature deaktiviert."
+    },
+    "prune": {
+      "usage": {
+        "normal": "Löscht die letzten 30 Nachrichten.",
+        "targeted": "Löscht die letzten 30 Nachrichten eines Benutzers."
+      },
+      "error": {
+        "nothing_to_delete": "Es gibt nichts zu löschen!"
+      },
+      "description": "Löscht nachhaltig Nachrichten.",
+      "deleted_single": "Eine Nachricht gelöscht. Selbstzerstörung dieser Nachricht in 5 Sekunden.",
+      "deleted_multiple": "{0} Nachrichten gelöscht. Selbstzerstörung dieser Nachricht in 5 Sekunden."
+    },
+    "permissions": {
+      "usage": {
+        "list": "Listet alle Berechtigungen auf",
+        "get": "Listet alle Berechtigungen für eine Rolle auf",
+        "reset": "Setzt alle Berechtigungen für eine Rolle zurück",
+        "clear": "Setzt eine Berechtigung für eine Rolle zurück (zum Ursprungszustand)",
+        "set": "Setzt einen bestimmten Wert für eine Berechtigung ein"
+      },
+      "error": {
+        "unknown_node": "Unbekannte Berechtigung, bitte stell sicher alles richtig geschrieben zu haben."
+      },
+      "description": "Verwaltet die Berechtigungen von LewdBot auf Rollenbasis.",
+      "role_reset": "Berechtigungen für die Rolle {0} wurden zurückgesetzt.",
+      "permission_reset": "Berechtigung `{0}` zurückgesetzt für Rolle {1}.",
+      "role_updated": "Berechtigungen für Rolle {0} aktualisiert.",
+      "perms_for": "Berechtigungen für {0}:",
+      "permissions_list": "Liste der Berechtigungen: {0}"
+    },
+    "ignore": {
+      "usage": {
+        "list": "Listet alle ignorierten Textkanäle auf (Kanäle in denen LewdBot deaktivert ist).",
+        "add": "Fügt einen Kanal zur Liste der ignorierten Kanäle hinzu, was zur Deaktivierung von LewdBot in jenem führt.",
+        "remove": "Entfernt einen Kanal von der Liste der ignorierten Kanäle."
+      },
+      "error": {
+        "same": "Woha! Du hast gerade versucht diesen Kanal hier zu ignorieren, das wird wahrscheinlich nicht gut ausgehen. Versuche einen neuen Textkanal zu erstellen und diesen hier von dort aus zu ignorieren, falls das _wirklich_ das ist was du willst.",
+        "already": "Dieser Kanal wird bereits ignoriert.",
+        "not": "Dieser Kanal wird nicht ignoriert."
+      },
+      "description": "Ignoriert Kanäle, damit LewdBot nicht mehr antworten kann.",
+      "list": "Aktuell ignorierte Kanäle:\n {0}",
+      "ignored": "Kanal `{0}` wird jetzt ignoriert.",
+      "removed": "Kanal `{0}` wird nicht länger ignoriert."
+    },
+    "modules": {
+      "usage": {
+        "list": "Listet alle Module und ihre jeweiligen Status auf.",
+        "enable": "Aktiviert ein Modul.",
+        "disable": "Deaktiviert ein Modul.",
+        "info": "Erhalte den Status eines Moduls."
+      },
+      "error": {
+        "default": "Durch deaktivieren dieses Moduls ist LewdBot nicht länger verwendbar. Deaktivierung unmöglich.",
+        "not_found": "Modul nicht gefunden."
+      },
+      "description": "Aktiviert oder deaktiviert Gruppen von Funktionen",
+      "list": "Modulstatus:\n {0}",
+      "status": "**{0}** ist {1}.",
+      "toggled": "**{0}** ist jetzt {1}."
+    },
+    "setup": {
+      "error": {
+        "timed": "Setup abgebrochen. (Zeitüberschreitung)",
+        "more_channel": "Mehr als ein Kanal mit diesem Namen gefunden, erneut versuchen? [Y/N]",
+        "no_channel": "Kein Kanal mit diesem Namen gefunden, erneut versuchen? [Y/N]"
+      },
+      "description": "Startet ein Setup zur korrekten Einstellung LewdBots.",
+      "welcome": "Willkommen bei der LewdBot-Konfiguration, bitte beantworte die nachfolgenden Fragen einfach durch Antworten im Chat (kein Präfix benötigt).\nDas Setup kann jederzeit durch Eingabe von `cancel` abgebrochen werden.",
+      "cancelled": "Setup abgebrochen.",
+      "setprefix": "Würdest du gerne ein benutzerdefiniertes Präfix einstellen? [Y/N]",
+      "typeprefix": "Bitte gib das neue Präfix ein, das du benutzen willst (Anmerkung: `L!` und `@LewdBot` werden trotzdem immer funktioneren):",
+      "prefixchanged": "Präfix geändert, willst du die NSFW-Features aktivieren? [Y/N]",
+      "nsfw": "Ok, willst du die NSFW-Features aktivieren? [Y/N]",
+      "nsfwenabled": "NSFW-Modul aktiviert. Willst du einen Musik-Kanal aufsetzen?",
+      "music": "Ok, willst du einen Musik-Kanal aufsetzen? [Y/N]",
+      "musictag": "Bitte tippe den Namen des Kanals ein, in den Statusmeldungen zum Musikmodul gesendet werden sollen.",
+      "complete": "Konfiguration erfolgreich beendet."
+    },
+    "prefix": {
+      "description": "Ändert das Präfix von LewdBot. (Deaktiviert weder L! noch Erwähnung).",
+      "defined": "Präfix zu {0} geändert"
+    },
+    "game": {
+      "description": "Ändert LewdBots Spiel.",
+      "usages": {
+        "next": "springt zum nächsten Spiel",
+        "stream": "schaltet Streamer-Modus um",
+        "name": "Ändert das Spiel",
+        "streamname": "Ändert das Spiel und schaltet Streamer-Modus um"
+      }
     }
   },
   "badges": {
