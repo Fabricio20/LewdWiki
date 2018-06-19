@@ -44,14 +44,14 @@
       }
     },
     "parts": {
-      "second": "second",
-      "seconds": "seconds",
-      "minute": "minute",
-      "minutes": "minutes",
-      "hour": "hour",
-      "hours": "hours",
-      "day": "day",
-      "days": "days",
+      "second": "{0} second",
+      "seconds": "{0} seconds",
+      "minute": "{0} minute",
+      "minutes": "{0} minutes",
+      "hour": "{0} hour",
+      "hours": "{0} hours",
+      "day": "{0} day",
+      "days": "{0} days",
       "enabled": "Enabled",
       "disabled": "Disabled"
     }
@@ -230,6 +230,27 @@
         "name": "Changes the game",
         "streamname": "Changes the game and toggles streaming mode"
       }
+    },
+    "premium": {
+      "usages": {
+        "info": "Shows information about the current guild.",
+        "list": "Lists all your premium keys.",
+        "enable": "Activates premium mode on the current guild.",
+        "activate": "Activates premium mode on the current guild using the given key.",
+        "generate": "Reserved for developers."
+      },
+      "error":  {
+        "all_keys_used": "All your premium keys are already in use!",
+        "not_premium": "You do not have any premium keys to use.",
+        "not_found": "Key not found",
+        "not_owner": "You are not the owner of this key. Only the owner can activate it."
+      },
+      "list": "Your keys: \n{0}",
+      "premium": "Premium.",
+      "normal": "Normal.",
+      "never": "Never.",
+      "enabled": "Premium mode is now enabled.",
+      "generated": "Key generated. **{0}**"
     }
   },
   "badges": {
