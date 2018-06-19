@@ -136,6 +136,10 @@
       "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
     },
     "advertising": {
+      "usage": {
+        "enable": "Enables anti-advertising.",
+        "disable": "Disables anti-advertising."
+      },
       "description": "Automagically warns and bans advertisers.",
       "warning": "Hey {User.Mention}, advertising is not allowed here.",
       "ban": "Banned {User.Name} for advertising.",
