@@ -74,6 +74,15 @@
     },
     "unknown_item": "Unknown item"
   },
+  "faq": {
+    "what_prefix": "The default prefix is `L!`.",
+    "change_prefix": "To change the prefix, either run `L!setup` or use `L!prefix {desired prefix}`",
+    "how_use": "You can use the bot by placing the default prefix before the command: `L!help`",
+    "what_power": "Power users are people who donated on Patreon. This restriction is in place due to CPU usage.",
+    "change_volume": "To change the volume, you need to be a Power user. If not, you can still right click the bot and use Discord's volume slider.",
+    "how_nsfw": "To use NSFW commands, make sure you are on a NSFW channel. The commands are: `L!r34` and `L!hentai` and `L!iac`.",
+    "nsfw_bork": "NSFW features are often broken due to their API. We are working on a fix. For now, try using `L!iac` instead."
+  },
   "language": {
     "invalid": "'{0}' is not a valid language.",
     "saved": "Language changed to {0}.",
