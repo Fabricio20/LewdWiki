@@ -332,6 +332,25 @@
         "invalid": "Invalid expression."
       },
       "description": "Calculates a mathematical expression."
+    },
+    "register": {
+      "usages": {
+        "enable": "Enables the registration system.",
+        "disable": "Disables the registration system",
+        "role": "Defines the role to give to members when they register.",
+        "channel": "Defines the channel where members have to type the magic word.",
+        "word": "Defines the magic word that members have to type."
+      },
+      "error": {
+        "public": "Only the public (everyone) role was found, but all users already have that one.",
+        "permission": "Error while adding role to member: No permission."
+      },
+      "description": "",
+      "word": "Magic word defined for registration.",
+      "channel": "Registration channel defined.",
+      "role": "Registration role defined.",
+      "enabled": "Registration system enabled. Please properly configure channel permissions.",
+      "disabled": "Registration system disabled."
     }
   }
 }
