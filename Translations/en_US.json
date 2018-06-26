@@ -113,8 +113,15 @@
       "usage": {
         "list": "Lists all available badges with previews"
       },
+      "error": {
+        "already": "You already have this badge!"
+      },
       "description": "LewdBot Badges! Display custom badges on your profile. Earn them by completing their designated tasks.",
-      "owned": "You have this badge!"
+      "owned": "You have this badge!",
+      "badge_beta": "Awarded to those who helped test the badge system.",
+      "translator": "You are now a member of the LewdBot translation team.",
+      "halloween_2017": "Spoo.py!",
+      "fbi": "What have you done?"
     },
     "autoplay": {
       "description": "(Premium) Auto starts playing when a user joins the selected voice channel.",
@@ -295,7 +302,6 @@
       },
       "search": "{0}'s search on Danbooru. (Click here if Image doesn't Load)",
       "tags": "**Tags**: {0}"
-      }
     },
     "premium": {
       "usages": {
@@ -305,7 +311,7 @@
         "activate": "Activates premium mode on the current guild using the given key.",
         "generate": "Reserved for developers."
       },
-      "error":  {
+      "error": {
         "all_keys_used": "All your premium keys are already in use!",
         "not_premium": "You do not have any premium keys to use.",
         "not_found": "Key not found",
@@ -317,15 +323,15 @@
       "never": "Never.",
       "enabled": "Premium mode is now enabled.",
       "generated": "Key generated. **{0}**"
-    }
-  },
-  "badges": {
-    "error": {
-      "already": "You already have this badge!"
     },
-    "badge_beta": "Awarded to those who helped test the badge system.",
-    "translator": "You are now a member of the LewdBot translation team.",
-    "halloween_2017": "Spoo.py!",
-    "fbi": "What have you done?"
+    "calc": {
+      "usages": {
+        "default": "Calculates the given mathematical expression."
+      },
+      "error": {
+        "invalid": "Invalid expression."
+      },
+      "description": "Calculates a mathematical expression."
+    }
   }
 }
