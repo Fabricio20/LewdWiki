@@ -45,14 +45,14 @@
       }
     },
     "parts": {
-      "second": "second",
-      "seconds": "seconds",
-      "minute": "minute",
-      "minutes": "minutes",
-      "hour": "hour",
-      "hours": "hours",
-      "day": "day",
-      "days": "days",
+      "second": "{0} second",
+      "seconds": "{0} seconds",
+      "minute": "{0} minute",
+      "minutes": "{0} minutes",
+      "hour": "{0} hour",
+      "hours": "{0} hours",
+      "day": "{0} day",
+      "days": "{0} days",
       "enabled": "Enabled",
       "disabled": "Disabled",
       "width": "Width",
@@ -73,6 +73,15 @@
       "daily_already": "You already received your daily cookies for today, try again in {0}."
     },
     "unknown_item": "Unknown item"
+  },
+  "faq": {
+    "what_prefix": "The default prefix is `L!`.",
+    "change_prefix": "To change the prefix, either run `L!setup` or use `L!prefix {desired prefix}`",
+    "how_use": "You can use the bot by placing the default prefix before the command: `L!help`",
+    "what_power": "Power users are people who donated on Patreon. This restriction is in place due to CPU usage.",
+    "change_volume": "To change the volume, you need to be a Power user. If not, you can still right click the bot and use Discord's volume slider.",
+    "how_nsfw": "To use NSFW commands, make sure you are on a NSFW channel. The commands are: `L!r34` and `L!hentai` and `L!iac`.",
+    "nsfw_bork": "NSFW features are often broken due to their API. We are working on a fix. For now, try using `L!iac` instead."
   },
   "language": {
     "invalid": "'{0}' is not a valid language.",
@@ -104,8 +113,15 @@
       "usage": {
         "list": "Lists all available badges with previews"
       },
+      "error": {
+        "already": "You already have this badge!"
+      },
       "description": "LewdBot Badges! Display custom badges on your profile. Earn them by completing their designated tasks.",
-      "owned": "You have this badge!"
+      "owned": "You have this badge!",
+      "badge_beta": "Awarded to those who helped test the badge system.",
+      "translator": "You are now a member of the LewdBot translation team.",
+      "halloween_2017": "Spoo.py!",
+      "fbi": "What have you done?"
     },
     "autoplay": {
       "description": "(Premium) Auto starts playing when a user joins the selected voice channel.",
@@ -136,6 +152,10 @@
       "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
     },
     "advertising": {
+      "usage": {
+        "enable": "Enables anti-advertising.",
+        "disable": "Disables anti-advertising."
+      },
       "description": "Automagically warns and bans advertisers.",
       "warning": "Hey {User.Mention}, advertising is not allowed here.",
       "ban": "Banned {User.Name} for advertising.",
@@ -285,15 +305,55 @@
       "description": "Searches for NSFW images on Danbooru",
       "search": "{0}'s search on Danbooru. (Click here if Image doesn't Load)",
       "tags": "**Tags**: {0}"
-    }
-  },
-  "badges": {
-    "error": {
-      "already": "You already have this badge!"
     },
-    "badge_beta": "Awarded to those who helped test the badge system.",
-    "translator": "You are now a member of the LewdBot translation team.",
-    "halloween_2017": "Spoo.py!",
-    "fbi": "What have you done?"
+    "premium": {
+      "usages": {
+        "info": "Shows information about the current guild.",
+        "list": "Lists all your premium keys.",
+        "enable": "Activates premium mode on the current guild.",
+        "activate": "Activates premium mode on the current guild using the given key.",
+        "generate": "Reserved for developers."
+      },
+      "error": {
+        "all_keys_used": "All your premium keys are already in use!",
+        "not_premium": "You do not have any premium keys to use.",
+        "not_found": "Key not found",
+        "not_owner": "You are not the owner of this key. Only the owner can activate it."
+      },
+      "list": "Your keys: \n{0}",
+      "premium": "Premium.",
+      "normal": "Normal.",
+      "never": "Never.",
+      "enabled": "Premium mode is now enabled.",
+      "generated": "Key generated. **{0}**"
+    },
+    "calc": {
+      "usages": {
+        "default": "Calculates the given mathematical expression."
+      },
+      "error": {
+        "invalid": "Invalid expression."
+      },
+      "description": "Calculates a mathematical expression."
+    },
+    "register": {
+      "usages": {
+        "enable": "Enables the registration system.",
+        "disable": "Disables the registration system",
+        "role": "Defines the role to give to members when they register.",
+        "channel": "Defines the channel where members have to type the magic word.",
+        "word": "Defines the magic word that members have to type."
+      },
+      "error": {
+        "public": "Only the public (everyone) role was found, but all users already have that one.",
+        "permission": "Error while adding role to member: No permission."
+      },
+      "description": "",
+      "word": "Magic word defined for registration.",
+      "channel": "Registration channel defined.",
+      "role": "Registration role defined.",
+      "enabled": "Registration system enabled. Please properly configure channel permissions.",
+      "disabled": "Registration system disabled."
+    }
   }
 }
