@@ -320,6 +320,7 @@
         "not_found": "Key not found",
         "not_owner": "You are not the owner of this key. Only the owner can activate it."
       },
+      "description": "Configures LewdBot premium.",
       "list": "Your keys: \n{0}",
       "premium": "Premium.",
       "normal": "Normal.",
@@ -348,7 +349,7 @@
         "public": "Only the public (everyone) role was found, but all users already have that one.",
         "permission": "Error while adding role to member: No permission."
       },
-      "description": "",
+      "description": "Configures the auto-registration system.",
       "word": "Magic word defined for registration.",
       "channel": "Registration channel defined.",
       "role": "Registration role defined.",
