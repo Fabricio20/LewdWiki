@@ -267,7 +267,7 @@
       "hello": "H-hello, I'm LewdBot, a multi-purpose discord bot, you can learn more about me here:\n<https://github.com/Fabricio20/LewdWiki/wiki>",
       "requested_by": "Requested by {0}."
     },
-    "iac": {
+    "iateacrayon": {
       "usages": {
         "search": "Searches on IAC's collection for images tagged with the given terms."
       },
