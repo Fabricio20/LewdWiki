@@ -289,7 +289,7 @@
         "unknown": "An unknown error happened while retrieving images from Rule34. Message: {0}"
       },
       "description": "Searches for NSFW images on Rule34.xxx",
-      "search": "{0}'s search on Rule34. (Click here if Image doesn't Load)",
+      "search": "{User.Name}'s search on Rule34. (Click here if Image doesn't Load)",
       "tags": "**Tags**: {0}"
     },
     "danbooru": {
@@ -303,7 +303,7 @@
         "unknown": "An unknown error happened while retrieving images from Danbooru. Message: {0}"
       },
       "description": "Searches for NSFW images on Danbooru",
-      "search": "{0}'s search on Danbooru. (Click here if Image doesn't Load)",
+      "search": "{User.Name}'s search on Danbooru. (Click here if Image doesn't Load)",
       "tags": "**Tags**: {0}"
     },
     "premium": {
