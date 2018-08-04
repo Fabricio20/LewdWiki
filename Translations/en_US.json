@@ -318,7 +318,8 @@
         "all_keys_used": "All your premium keys are already in use!",
         "not_premium": "You do not have any premium keys to use.",
         "not_found": "Key not found",
-        "not_owner": "You are not the owner of this key. Only the owner can activate it."
+        "not_owner": "You are not the owner of this key. Only the owner can activate it.",
+        "already": "This server is already premium."
       },
       "description": "Configures LewdBot premium.",
       "list": "Your keys: \n{0}",
