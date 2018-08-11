@@ -267,7 +267,7 @@
       "hello": "H-hello, I'm LewdBot, a multi-purpose discord bot, you can learn more about me here:\n<https://github.com/Fabricio20/LewdWiki/wiki>",
       "requested_by": "Requested by {0}."
     },
-    "iac": {
+    "iateacrayon": {
       "usages": {
         "search": "Searches on IAC's collection for images tagged with the given terms."
       },
@@ -356,6 +356,19 @@
       "role": "Registration role defined.",
       "enabled": "Registration system enabled. Please properly configure channel permissions.",
       "disabled": "Registration system disabled."
+    },
+    "cookie": {
+      "description": "LewdBot Cookies! (Kind of a currency).\n More Info: https://goo.gl/2sXXyZ",
+      "usage": {
+        "daily": "Receives your daily cookies, do this every day for a streak bonus!",
+        "vote": "Vote for LewdBot daily and receive extra cookies!",
+        "give": "Sends cookies to a user!"
+      },
+      "vote_last": "You last voted on {0}. You can vote at: <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_48": "You voted in the past 48h, vote again to keep your streak! <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_24": "You already voted today! Check again in {0}.",
+      "vote": "Support LewdBot and Receive Cookies every day! Vote at <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_thanks": "Thanks for voting! You received +{0} :cookie: (Vote every day for as streak!)"
     }
   }
 }
