@@ -190,7 +190,7 @@
       "permission_reset": "Permission `{0}` reset for role {1}.",
       "role_updated": "Permissions for role {0} updated.",
       "perms_for": "Permissions for {0}:",
-      "permissions_list": "List of permissions: {0}"
+      "permissions_list": "**List of permissions**: [{0}/{1}]"
     },
     "ignore": {
       "usage": {
