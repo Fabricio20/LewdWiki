@@ -208,7 +208,7 @@
       "ignored": "Channel `{0}` is now being ignored.",
       "removed": "Channel `{0}` is no longer being ignored."
     },
-    "modules": {
+    "module": {
       "usage": {
         "list": "Lists all modules and their respective statuses.",
         "enable": "Enables a module.",
