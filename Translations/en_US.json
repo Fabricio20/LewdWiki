@@ -369,6 +369,16 @@
       "vote_24": "You already voted today! Check again in {0}.",
       "vote": "Support LewdBot and Receive Cookies every day! Vote at <https://discordbots.org/bot/119482224713269248/vote>",
       "vote_thanks": "Thanks for voting! You received +{0} :cookie: (Vote every day for as streak!)"
+    },
+    "welcome": {
+      "usages": {
+        "enable": "Enables the welcome message system.",
+        "disable": "Disables the welcome message system.",
+        "set": "Changes the welcome message to the informed message.",
+        "channel": "Changes the welcome channel.",
+        "dms": "Defines if the message should be sent in DMs instead."
+      },
+      "description": "System for welcoming users (Sends a message to the user / in chat upon join)."
     }
   }
 }
