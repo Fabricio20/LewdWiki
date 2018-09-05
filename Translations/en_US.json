@@ -190,7 +190,7 @@
       "permission_reset": "Permission `{0}` reset for role {1}.",
       "role_updated": "Permissions for role {0} updated.",
       "perms_for": "Permissions for {0}:",
-      "permissions_list": "List of permissions: {0}"
+      "permissions_list": "**List of permissions**: [{0}/{1}]"
     },
     "ignore": {
       "usage": {
@@ -208,7 +208,7 @@
       "ignored": "Channel `{0}` is now being ignored.",
       "removed": "Channel `{0}` is no longer being ignored."
     },
-    "modules": {
+    "module": {
       "usage": {
         "list": "Lists all modules and their respective statuses.",
         "enable": "Enables a module.",
@@ -289,7 +289,7 @@
         "unknown": "An unknown error happened while retrieving images from Rule34. Message: {0}"
       },
       "description": "Searches for NSFW images on Rule34.xxx",
-      "search": "{0}'s search on Rule34. (Click here if Image doesn't Load)",
+      "search": "{User.Name}'s search on Rule34. (Click here if Image doesn't Load)",
       "tags": "**Tags**: {0}"
     },
     "danbooru": {
@@ -303,7 +303,7 @@
         "unknown": "An unknown error happened while retrieving images from Danbooru. Message: {0}"
       },
       "description": "Searches for NSFW images on Danbooru",
-      "search": "{0}'s search on Danbooru. (Click here if Image doesn't Load)",
+      "search": "{User.Name}'s search on Danbooru. (Click here if Image doesn't Load)",
       "tags": "**Tags**: {0}"
     },
     "premium": {
@@ -318,7 +318,8 @@
         "all_keys_used": "All your premium keys are already in use!",
         "not_premium": "You do not have any premium keys to use.",
         "not_found": "Key not found",
-        "not_owner": "You are not the owner of this key. Only the owner can activate it."
+        "not_owner": "You are not the owner of this key. Only the owner can activate it.",
+        "already": "This server is already premium."
       },
       "description": "Configures LewdBot premium.",
       "list": "Your keys: \n{0}",
@@ -355,6 +356,29 @@
       "role": "Registration role defined.",
       "enabled": "Registration system enabled. Please properly configure channel permissions.",
       "disabled": "Registration system disabled."
+    },
+    "cookie": {
+      "description": "LewdBot Cookies! (Kind of a currency).\n More Info: https://goo.gl/2sXXyZ",
+      "usage": {
+        "daily": "Receives your daily cookies, do this every day for a streak bonus!",
+        "vote": "Vote for LewdBot daily and receive extra cookies!",
+        "give": "Sends cookies to a user!"
+      },
+      "vote_last": "You last voted on {0}. You can vote at: <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_48": "You voted in the past 48h, vote again to keep your streak! <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_24": "You already voted today! Check again in {0}.",
+      "vote": "Support LewdBot and Receive Cookies every day! Vote at <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_thanks": "Thanks for voting! You received +{0} :cookie: (Vote every day for as streak!)"
+    },
+    "welcome": {
+      "usages": {
+        "enable": "Enables the welcome message system.",
+        "disable": "Disables the welcome message system.",
+        "set": "Changes the welcome message to the informed message.",
+        "channel": "Changes the welcome channel.",
+        "dms": "Defines if the message should be sent in DMs instead."
+      },
+      "description": "System for welcoming users (Sends a message to the user / in chat upon join)."
     }
   }
 }
