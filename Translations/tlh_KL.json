@@ -136,109 +136,109 @@
         "split": "Se'mey yav nuvpu' pe'lu'."
       },
       "error": {
-        "same_voice": "Cannot move user to the same voice channel they are in.",
-        "member_not_connected": "Target member is not connected to a voice channel",
-        "permission_move": "Failed to move {0}, no permission."
+        "same_voice": "rI'Se'Daq nuv vIHbe'lu'.",
+        "member_not_connected": "rI'Se' rarbe' nuvvetlh'e'.",
+        "permission_move": "{0} vIHbe'lu', laH ghajbe'lu'."
       },
-      "description": "Move multiple users between voice channels",
-      "moving": "Moving members...",
-      "splitting": "Splitting members between channels..."
+      "description": "rI'Se'mey yav nuvpu' vIHlu'.",
+      "moving": "nuvpu' vIHlaHlu'...",
+      "splitting": "Se'mey yav nuvpu' pe'laHlu'..."
     },
     "music": {
       "error": {
-        "no_songs_found": "No songs were found.",
-        "no_permission_add": "You do not have permission to add songs to the playlist."
+        "no_songs_found": "pagh bommey tu'lu'.",
+        "no_permission_add": "tetlhDaq bommey boq laH Daghajbe'."
       },
-      "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
+      "description": "QoQ ra'mey (mob vumbeH QoQ ra'mey - `L!play` `L!music play` je)"
     },
     "advertising": {
       "usage": {
-        "enable": "Enables anti-advertising.",
-        "disable": "Disables anti-advertising."
+        "enable": "quvHa' mu'mey chaw'lu'.",
+        "disable": "quvHa' mu'mey Qotlhlu'."
       },
-      "description": "Automagically warns and bans advertisers.",
-      "warning": "Hey {User.Mention}, advertising is not allowed here.",
-      "ban": "Banned {User.Name} for advertising.",
-      "enabled": "Anti-Advertising feature enabled.",
-      "disabled": "Anti-Advertising feature disabled."
+      "description": "quvHa' nuvpu' ghuHmoHlu' muHlu' je.",
+      "warning": "mevyap, {User.Mention}! chaw'be' quvHa' mu'mey.",
+      "ban": "{User.Name} muHlu'ta', DuquvHa'.",
+      "enabled": "QanwI' chaw'ta'.",
+      "disabled": "QanwI' Qotlhta'."
     },
     "prune": {
       "usage": {
-        "normal": "Deletes last 30 messages.",
-        "targeted": "Deletes last 30 messages from Someone."
+        "normal": "QInmey wejmaH teqlu'.",
+        "targeted": "vay'Daq QInmey wejmaH teqlu'."
       },
       "error": {
-        "nothing_to_delete": "There are no items to delete!"
+        "nothing_to_delete": "pagh vIteqbe'!"
       },
-      "description": "Deletes messages en-message.",
-      "deleted_single": "1 Message deleted. This message will auto-destruct in 5 seconds.",
-      "deleted_multiple": "{0} Messages deleted. This message will auto-destruct in 5 seconds."
+      "description": "QInmey teqlu'.",
+      "deleted_single": "wa' QIn teqlu'. vagh lupmeyDaq Qaw''egh QInvam.",
+      "deleted_multiple": "{0} QInmey teqlu'. vagh lupmeyDaq Qaw''egh QInvam."
     },
     "permissions": {
       "usage": {
-        "list": "Lists all permissions",
-        "get": "Lists all permissions for a role",
-        "reset": "Resets all permissions for a role",
-        "clear": "Resets a permission for a role (back to original state)",
-        "set": "Sets a permission for a role with the given value"
+        "list": "laHmey jatlhlu'.",
+        "get": "ghomvaD laHmey jatlhlu'.",
+        "reset": "ghomvaD laHmey teqlu'",
+        "clear": "ghomvaD laH teqlu' (wa'DIch Dep)",
+        "set": "wa' ghomvaD laH boqlu'"
       },
       "error": {
-        "unknown_node": "Unknown permission node, make sure you typed it correctly."
+        "unknown_node": "laHvetlh'e' vIghaj. "
       },
-      "description": "Manages LewdBot's permissions on a per-role basis.",
-      "role_reset": "Permissions for the role {0} were reset.",
-      "permission_reset": "Permission `{0}` reset for role {1}.",
-      "role_updated": "Permissions for role {0} updated.",
-      "perms_for": "Permissions for {0}:",
-      "permissions_list": "**List of permissions**: [{0}/{1}]"
+      "description": "ghommeyvaD laHmey luDqoq vu'lu'.",
+      "role_reset": "teqlu'ta' {0} ghomvaD laHmey.",
+      "permission_reset": "{1} ghomvaD teqlu'ta' {0} laH.",
+      "role_updated": "choHlu'ta' {0} ghomvaD laH.",
+      "perms_for": "{0}vaD laHmey:",
+      "permissions_list": "**laHmeyvaD tetlh**: [{0}/{1}]"
     },
     "ignore": {
       "usage": {
-        "list": "Lists all ignored channels (Where LewdBot will effectively be disabled).",
-        "add": "Adds a channel to the ignored list, making LewdBot stop working there.",
-        "remove": "Removes a channel from the ignored list."
+        "list": "Hoch Se'mey jatlhlu' (jatlhlaHbe' luDqoq nuqDaq).",
+        "add": "Hoch tetlhDaq Se' boqlu'. vumlaHbe' luDqoq.",
+        "remove": "Hoch tetlhDaq Se' teqlu'."
       },
       "error": {
-        "same": "Woha! You just tried to ignore this channel, that probably won't work out well. Try making a new one and ignoring this channel from there if that is _really_ what you want.",
-        "already": "This channel is already being ignored.",
-        "not": "This channel is not being ignored."
+        "same": "mevyap! Se'vam'e' Hoch DanIDpu'. vumbe'law'. _DaneHbejchugh_ 'oHvaD Se'vam'e' Hoch chu' Se' chenmoH.",
+        "already": "Se'vetlh'e' vIHochtaH.",
+        "not": "Se'vetlh'e' vIHochtaHbe'."
       },
-      "description": "Ignores channels so LewdBot stops replying on them.",
-      "list": "Currently ignored channels:\n {0}",
-      "ignored": "Channel `{0}` is now being ignored.",
-      "removed": "Channel `{0}` is no longer being ignored."
+      "description": "'oHDaq jatlhbe' luDqoq Se'mey Hochlu'.",
+      "list": "Hoch Se'mey:\n {0}",
+      "ignored": "`{0}` Se' HochlaH.",
+      "removed": "`{0}` Se' HochlaHbe'."
     },
     "module": {
       "usage": {
-        "list": "Lists all modules and their respective statuses.",
-        "enable": "Enables a module.",
-        "disable": "Disables a module.",
-        "info": "Gets the status of a specific module."
+        "list": "Dotlhmeychaj bobcho'mey jatlhlu'.",
+        "enable": "bobcho' chaw'lu'.",
+        "disable": "bobcho' Qotlhlu'.",
+        "info": "wa' bobcho'Daj Dotlh jatlhlu'."
       },
       "error": {
-        "default": "This is a default module and cannot be disabled.",
-        "not_found": "Module not found."
+        "default": "Qotlhbe' bobcho'vam'e'.",
+        "not_found": "bobcho' vItu'be'."
       },
-      "description": "Enable or disable sets of features",
-      "list": "Module status:\n {0}",
-      "status": "**{0}** is {1}.",
-      "toggled": "**{0}** is now {1}."
+      "description": "DuHmey Qotlhlu' chaw'lu' ghap.",
+      "list": "DotlhvaD bobcho':\n {0}",
+      "status": "{1} ghaH **{0}**.",
+      "toggled": "{1} ghaHpu' **{0}**."
     },
     "setup": {
       "error": {
-        "timed": "Setup cancelled. (Timed out)",
-        "more_channel": "More than one channel found with that name, would you like to retry? [Y/N]",
-        "no_channel": "No channel found with that name, would you like to retry? [Y/N]"
+        "timed": "qIlpu' beH. (poH)",
+        "more_channel": "pongvetlh'e' Many channels found with that name, would you like to retry? [HISlaH/ghobe']",
+        "no_channel": "No channel found with that name, would you like to retry? [HISlaH/ghobe']"
       },
       "description": "Runs a setup to quickly get LewdBot ready for use.",
       "welcome": "Welcome to the LewdBot setup, please answer the following questions by simply replying in the chat (no prefix needed).\nYou can quit any time by simply typing `cancel`.",
       "cancelled": "Setup cancelled.",
-      "setprefix": "Would you like to define a custom prefix/trigger? [Y/N]",
+      "setprefix": "Would you like to define a custom prefix/trigger? [HISlaH/ghobe']",
       "typeprefix": "Please type the new prefix to use (Note: `L!` and `@LewdBot` will always work):",
-      "prefixchanged": "Prefix changed, would you like to enable NSFW features? [Y/N]",
-      "nsfw": "Ok, would you like to enable NSFW features? [Y/N]",
+      "prefixchanged": "Prefix changed, would you like to enable NSFW features? [HISlaH/ghobe']",
+      "nsfw": "Ok, would you like to enable NSFW features? [HISlaH/ghobe']",
       "nsfwenabled": "NSFW Module enabled, would you like to set up a music channel?",
-      "music": "Ok, would you like to set up a music channel? [Y/N]",
+      "music": "Ok, would you like to set up a music channel? [HISlaH/ghobe']",
       "musictag": "Please tag the channel to send music statuses.",
       "complete": "Setup is now complete."
     },
