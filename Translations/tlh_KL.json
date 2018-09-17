@@ -1,0 +1,384 @@
+{
+  "core": {
+    "permission": {
+      "command": "ra'vam'e' DamuchlaHbe'.",
+      "action": "vangghachvam'e' DamuchlaHbe'.",
+      "subcommand": "ra'Homvam'e' DamuchlaHbe'.",
+      "bot": "ra'vam 'utbogh, {0} vIghajbe'.",
+      "discord": "vangghachvam DIS'qorD laH 'ut Daghajlawbe'. {0} DaghajnIS.",
+      "rank": "ra'vam much machqu' patlhDaj. {0} DaghajnIS."
+    },
+    "error": {
+      "database": "waw' Data meHDaq Data'e' poltaHvIS Qagh.",
+      "contact_devs": "qaSjajbe' ghu'vam DaHarchugh DevwI'pu' ja'.",
+      "profile_locked": "naQ yo'SeHvaD vIloSlI', nIDqa'DI' naQbej 'oH.",
+      "cooldown_hit": "bIjotnIS, puq QIp! nomqu' ra'mey DajatlhlI'! (ratlhtaH {0}s)",
+      "retry": "bInIDnISqa'.",
+      "retry_later": "lupmey {0} bInIDnISqa'.",
+      "embed": "em'beD chenlu' poltaHvIS Qagh. ${msg:error.contact_devs}"
+      "interact": "vengtaHvam'e' vImuchlaHbe'. (chaw'taHQo' vengchuqtaH ghom ghot je)",
+      "command": {
+        "unknown": "ra'vetlh'e' vIghovbe'.",
+        "unknown_near": "ra'vetlh'e' vIghovbe'; {0} Daqej'a'?",
+        "unknown_sub": "ra'Homvetlh'e' vIghovbe'.",
+        "restricted": "nuvpu'chaj {0} ra'vam'e'. ghojqu' <https://notfab.net/LewdBot/Premium> DalaDlaH.",
+        "nsfw": "Say'Ha' Se'Daq vumchughqu' ra'vetlh'e'. Dayanpa', Say'Ha' 'oHchaHtaH Se''e' ghItlh. #HeQlaHtlhIHnIS"
+      },
+      "regex": {
+        "number": "vumbe' mI'vam'e'.",
+        "boolean": "vumbe' bu'lIyIn'vam'e'.",
+        "url": "vumbe' ru'Ha' Supbogh SamwI'vam'e'."
+      },
+      "search": {
+        "text_none": "pongvetlh'e' ghojtaHvIS Se' vItu'be'.",
+        "text_multiple": "pongvetlh'e' ghojtaHvIS Se'meyqu' vItu'. bIpupqu'nIS.",
+        "voice_none": "pongvetlh'e' ghojtaHvIS rI'Se' vItu'be'.",
+        "voice_multiple": "pongvetlh'e' ghojtaHvIS rI'Se'mey vItu'. bIpupqu'nIS.",
+        "role_none": "pongvetlh'e' ghojtaHvIS ghom vItu'be'.",
+        "role_multiple": "pongvetlh'e' ghojtaHvIS ghompu' vItu'. bIpupqu'nIS.",
+        "member_none": "pongvetlh'e' ghojtaHvIS ghot vItu'be'.",
+        "member_multiple": "pongvetlh'e' ghojtaHvIS ghotpu' vItu'. bIpupqu'nIS."
+      },
+      "number": {
+        "lower": "mI' machqu'nISbe' {0} puS.",
+        "higher": "mI' tInqu'nISbe' {0} puS."
+      }
+    },
+    "parts": {
+      "second": "lup {0}",
+      "seconds": "lupmey {0}",
+      "minute": "tup {0}",
+      "minutes": "tupmey {0}",
+      "hour": "rep {0}",
+      "hours": "repmey {0}",
+      "day": "jaj {0}",
+      "days": "jajmey {0}",
+      "enabled": "boyanlaH",
+      "disabled": "boyanlaHbe'",
+      "width": "'abHa'",
+      "height": "'ab",
+      "rating": "'aDna'Daj"
+    }
+  },
+  "economy": {
+    "success": "naQ Qayta'.",
+    "cookies": {
+      "error": {
+        "not_enough": "vangghachvam'e' much :cookie: yap Daghajbe'!  {0} DaghajnIS.",
+        "nothing": "Qu'qimey Daghajbe'qu'."
+      },
+      "transferred_user": "{1}Daq :cookie: {0} Qayta'.",
+      "daily": "+{0} :cookie:! Dun pujlI'mo' lIHta' wa'leS nobHa'!",
+      "daily_streak": "+{0} :cookie:! (Dun pujlI'mo' = {1}) Qu'qimey ghojqu'mo' wa'leS nobHa'!",
+      "daily_already": "DaHjajmo' Qu'qimeylI' Da'Hevta'. {0} bInIDnISqa'."
+    },
+    "unknown_item": "Dochvam'e' vIghovbe'."
+  },
+  "faq": {
+    "what_prefix": "`L!` motlh aq.",
+    "change_prefix": "aq DachoHqangchugh, `L!setup` `L!prefix {aq}` ghap DayannIS.",
+    "how_use": "ra' Dayanpa' motlh aq yanlI'DI' qoq DayanlaH: `L!help`",
+    "what_power": "patrI'yanvaD nobqu' nuvpu' chaH HoS nuvpu''e'. botlhDaq mIwtaH Hab waHvaD yIntaHmo' botvam'e'.",
+    "change_volume": "muq Dabotlhpa', HoS nuvpu''e' SoHnIS. HoS nuvpu''e' SoHbe'chugh, DIS'qorDDaj motlh muq DayanlaH.",
+    "how_nsfw": "Say'Ha ra'mey DayanlaHpa', Say'Ha Se'Daq SoHnIS. ra'mey bIH: `L!r34` `L!hentai` `L!iac` je.",
+    "nsfw_bork": "ey'pI'aychajmo', Say'Ha ra'mey pIj ghor. taS wIvumlaH. DaHvaD, `L!iac` DayannIS."
+  },
+  "language": {
+    "invalid": "Hol yInlaHbe' '{0}'.",
+    "saved": "{0} botlhta' Hol.",
+    "hiring": "mughwI'pu'vaD DIleghlaH! <https://notfab.net/LewdBot/Premium> DalaDlaH.",
+    "list": "lupoQ Holmey: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "usage": {
+        "default": "ghomna''e' Danob'egh.",
+        "list": "lupoQ ghompu' jatlhlu'.",
+        "purge": "tetlhvo' ghor ghompu' teqlu'.",
+        "add": "lupoQ ghompu' tetlhDaq ghom boqlu'.",
+        "remove": "lupoQ ghompu' tetlhvo' ghompu' teqlu'."
+      },
+      "error": {
+        "not_found": "ghompu' pagh tu'."
+      },
+      "description": "be ghompu' boqchuq nuvpu' chaw'.",
+      "purged": "teqta' ghor ghompu'qu'.",
+      "added": "ghomvam'e' puqta' tetlh.",
+      "removed": "ghomvam'e' teqta' tetlh.",
+      "deleted": "ghomvam'e' teqta'. DateqnIS DaH.",
+      "prohibited": "ra'Hom chaw'be'mo' ghom pongvetlh'e' rap'.",
+      "already": "tetlhvo' 'ay' ghomvam'e'."
+    },
+    "badges": {
+      "usage": {
+        "list": "mIlmey ghajtaHvIS lupoQ Deghmey jatlhlu'."
+      },
+      "error": {
+        "already": "Deghvam'e' Daghaj!"
+      },
+      "description": "luDqoq Deghmey! teywI'lI' tIgh Deghmey 'agh. ghIghmeyvaDchaj rInlI' DabajnIS.",
+      "owned": "Deghvam'e' Daghaj!",
+      "badge_beta": "Degh pat DawaHta'.",
+      "translator": "luDqoq mughwI' SoH.",
+      "halloween_2017": "Spoo.py!",
+      "fbi": "bIta''a'? "
+    },
+    "autoplay": {
+      "description": "(HoS nuvpu') wIv rI'Se' muvmoH nuv chu'beH.",
+      "enabled": "ghuS chu'beH, rI'Se' DawIvnIS DaH.",
+      "disabled": "Qotlh chu'beH.",
+      "channel_set": "{0}vaD wIv rI'Se'."
+    },
+    "voice": {
+      "usage": {
+        "move_user": "latlh rI'Se' nuv vIHlu'.",
+        "move_channel": "'oH pIm rI'Se' nuvpu'qa' vIHlu'.",
+        "split": "Se'mey yav nuvpu' pe'lu'."
+      },
+      "error": {
+        "same_voice": "Cannot move user to the same voice channel they are in.",
+        "member_not_connected": "Target member is not connected to a voice channel",
+        "permission_move": "Failed to move {0}, no permission."
+      },
+      "description": "Move multiple users between voice channels",
+      "moving": "Moving members...",
+      "splitting": "Splitting members between channels..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "No songs were found.",
+        "no_permission_add": "You do not have permission to add songs to the playlist."
+      },
+      "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
+    },
+    "advertising": {
+      "usage": {
+        "enable": "Enables anti-advertising.",
+        "disable": "Disables anti-advertising."
+      },
+      "description": "Automagically warns and bans advertisers.",
+      "warning": "Hey {User.Mention}, advertising is not allowed here.",
+      "ban": "Banned {User.Name} for advertising.",
+      "enabled": "Anti-Advertising feature enabled.",
+      "disabled": "Anti-Advertising feature disabled."
+    },
+    "prune": {
+      "usage": {
+        "normal": "Deletes last 30 messages.",
+        "targeted": "Deletes last 30 messages from Someone."
+      },
+      "error": {
+        "nothing_to_delete": "There are no items to delete!"
+      },
+      "description": "Deletes messages en-message.",
+      "deleted_single": "1 Message deleted. This message will auto-destruct in 5 seconds.",
+      "deleted_multiple": "{0} Messages deleted. This message will auto-destruct in 5 seconds."
+    },
+    "permissions": {
+      "usage": {
+        "list": "Lists all permissions",
+        "get": "Lists all permissions for a role",
+        "reset": "Resets all permissions for a role",
+        "clear": "Resets a permission for a role (back to original state)",
+        "set": "Sets a permission for a role with the given value"
+      },
+      "error": {
+        "unknown_node": "Unknown permission node, make sure you typed it correctly."
+      },
+      "description": "Manages LewdBot's permissions on a per-role basis.",
+      "role_reset": "Permissions for the role {0} were reset.",
+      "permission_reset": "Permission `{0}` reset for role {1}.",
+      "role_updated": "Permissions for role {0} updated.",
+      "perms_for": "Permissions for {0}:",
+      "permissions_list": "**List of permissions**: [{0}/{1}]"
+    },
+    "ignore": {
+      "usage": {
+        "list": "Lists all ignored channels (Where LewdBot will effectively be disabled).",
+        "add": "Adds a channel to the ignored list, making LewdBot stop working there.",
+        "remove": "Removes a channel from the ignored list."
+      },
+      "error": {
+        "same": "Woha! You just tried to ignore this channel, that probably won't work out well. Try making a new one and ignoring this channel from there if that is _really_ what you want.",
+        "already": "This channel is already being ignored.",
+        "not": "This channel is not being ignored."
+      },
+      "description": "Ignores channels so LewdBot stops replying on them.",
+      "list": "Currently ignored channels:\n {0}",
+      "ignored": "Channel `{0}` is now being ignored.",
+      "removed": "Channel `{0}` is no longer being ignored."
+    },
+    "module": {
+      "usage": {
+        "list": "Lists all modules and their respective statuses.",
+        "enable": "Enables a module.",
+        "disable": "Disables a module.",
+        "info": "Gets the status of a specific module."
+      },
+      "error": {
+        "default": "This is a default module and cannot be disabled.",
+        "not_found": "Module not found."
+      },
+      "description": "Enable or disable sets of features",
+      "list": "Module status:\n {0}",
+      "status": "**{0}** is {1}.",
+      "toggled": "**{0}** is now {1}."
+    },
+    "setup": {
+      "error": {
+        "timed": "Setup cancelled. (Timed out)",
+        "more_channel": "More than one channel found with that name, would you like to retry? [Y/N]",
+        "no_channel": "No channel found with that name, would you like to retry? [Y/N]"
+      },
+      "description": "Runs a setup to quickly get LewdBot ready for use.",
+      "welcome": "Welcome to the LewdBot setup, please answer the following questions by simply replying in the chat (no prefix needed).\nYou can quit any time by simply typing `cancel`.",
+      "cancelled": "Setup cancelled.",
+      "setprefix": "Would you like to define a custom prefix/trigger? [Y/N]",
+      "typeprefix": "Please type the new prefix to use (Note: `L!` and `@LewdBot` will always work):",
+      "prefixchanged": "Prefix changed, would you like to enable NSFW features? [Y/N]",
+      "nsfw": "Ok, would you like to enable NSFW features? [Y/N]",
+      "nsfwenabled": "NSFW Module enabled, would you like to set up a music channel?",
+      "music": "Ok, would you like to set up a music channel? [Y/N]",
+      "musictag": "Please tag the channel to send music statuses.",
+      "complete": "Setup is now complete."
+    },
+    "prefix": {
+      "description": "Changes LewdBot's prefix. (This does not disable L! and mention).",
+      "defined": "Prefix changed to {0}"
+    },
+    "game": {
+      "usages": {
+        "next": "Skips to the next game",
+        "stream": "Toggles stream mode",
+        "name": "Changes the game",
+        "streamname": "Changes the game and toggles streaming mode"
+      },
+      "description": "Changes LewdBot's game."
+    },
+    "help": {
+      "usages": {
+        "default": "Providers help."
+      },
+      "error": {
+        "no_embed": "I don't have permission to send embeds here, so no command list for you.",
+        "not_found": "No help found for {0}."
+      },
+      "description": "Provides information on how to use the bot, along with a list of all available commands.",
+      "hello": "H-hello, I'm LewdBot, a multi-purpose discord bot, you can learn more about me here:\n<https://github.com/Fabricio20/LewdWiki/wiki>",
+      "requested_by": "Requested by {0}."
+    },
+    "iateacrayon": {
+      "usages": {
+        "search": "Searches on IAC's collection for images tagged with the given terms."
+      },
+      "error": {
+        "nothing_found": "Nothing found on IAC.",
+        "no_load": "If the image doesn't load, please click the title."
+      },
+      "description": "Searches for NSFW images on IAteACrayon's collection.",
+      "found": "[Found] IAteACrayon/{0}"
+    },
+    "rule34": {
+      "usages": {
+        "notag": "Sends a random image from Rule34.",
+        "search": "Searches on Rule34 for images tagged with the given terms."
+      },
+      "error": {
+        "nothing_found": "Nothing found on Rule34.",
+        "no_response": "Error while retrieving images from Rule34 (Server returned empty response).",
+        "unknown": "An unknown error happened while retrieving images from Rule34. Message: {0}"
+      },
+      "description": "Searches for NSFW images on Rule34.xxx",
+      "search": "{User.Name}'s search on Rule34. (Click here if Image doesn't Load)",
+      "tags": "**Tags**: {0}"
+    },
+    "danbooru": {
+      "usages": {
+        "notag": "Sends a random image from Danbooru.",
+        "search": "Searches on Danbooru for images tagged with the given terms."
+      },
+      "error": {
+        "nothing_found": "Nothing found on Danbooru.",
+        "no_response": "Error while retrieving images from Danbooru (Server returned empty response).",
+        "unknown": "An unknown error happened while retrieving images from Danbooru. Message: {0}"
+      },
+      "description": "Searches for NSFW images on Danbooru",
+      "search": "{User.Name}'s search on Danbooru. (Click here if Image doesn't Load)",
+      "tags": "**Tags**: {0}"
+    },
+    "premium": {
+      "usages": {
+        "info": "Shows information about the current guild.",
+        "list": "Lists all your premium keys.",
+        "enable": "Activates premium mode on the current guild.",
+        "activate": "Activates premium mode on the current guild using the given key.",
+        "generate": "Reserved for developers."
+      },
+      "error": {
+        "all_keys_used": "All your premium keys are already in use!",
+        "not_premium": "You do not have any premium keys to use.",
+        "not_found": "Key not found",
+        "not_owner": "You are not the owner of this key. Only the owner can activate it.",
+        "already": "This server is already premium."
+      },
+      "description": "Configures LewdBot premium.",
+      "list": "Your keys: \n{0}",
+      "premium": "Premium.",
+      "normal": "Normal.",
+      "never": "Never.",
+      "enabled": "Premium mode is now enabled.",
+      "generated": "Key generated. **{0}**"
+    },
+    "calc": {
+      "usages": {
+        "default": "Calculates the given mathematical expression."
+      },
+      "error": {
+        "invalid": "Invalid expression."
+      },
+      "description": "Calculates a mathematical expression."
+    },
+    "register": {
+      "usages": {
+        "enable": "Enables the registration system.",
+        "disable": "Disables the registration system",
+        "role": "Defines the role to give to members when they register.",
+        "channel": "Defines the channel where members have to type the magic word.",
+        "word": "Defines the magic word that members have to type."
+      },
+      "error": {
+        "public": "Only the public (everyone) role was found, but all users already have that one.",
+        "permission": "Error while adding role to member: No permission."
+      },
+      "description": "Configures the auto-registration system.",
+      "word": "Magic word defined for registration.",
+      "channel": "Registration channel defined.",
+      "role": "Registration role defined.",
+      "enabled": "Registration system enabled. Please properly configure channel permissions.",
+      "disabled": "Registration system disabled."
+    },
+    "cookie": {
+      "description": "LewdBot Cookies! (Kind of a currency).\n More Info: https://goo.gl/2sXXyZ",
+      "usage": {
+        "daily": "Receives your daily cookies, do this every day for a streak bonus!",
+        "vote": "Vote for LewdBot daily and receive extra cookies!",
+        "give": "Sends cookies to a user!"
+      },
+      "vote_last": "You last voted on {0}. You can vote at: <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_48": "You voted in the past 48h, vote again to keep your streak! <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_24": "You already voted today! Check again in {0}.",
+      "vote": "Support LewdBot and Receive Cookies every day! Vote at <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_thanks": "Thanks for voting! You received +{0} :cookie: (Vote every day for as streak!)"
+    },
+    "welcome": {
+      "usages": {
+        "enable": "Enables the welcome message system.",
+        "disable": "Disables the welcome message system.",
+        "set": "Changes the welcome message to the informed message.",
+        "channel": "Changes the welcome channel.",
+        "dms": "Defines if the message should be sent in DMs instead."
+      },
+      "description": "System for welcoming users (Sends a message to the user / in chat upon join)."
+    }
+  }
+}
