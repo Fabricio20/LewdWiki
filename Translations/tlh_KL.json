@@ -11,11 +11,11 @@
     "error": {
       "database": "waw' Data meHDaq Data'e' poltaHvIS Qagh.",
       "contact_devs": "qaSjajbe' ghu'vam DaHarchugh DevwI'pu' ja'.",
-      "profile_locked": "naQ yo'SeHvaD vIloSlI', nIDqa'DI' naQbej 'oH.",
+      "profile_locked": "naQ yo'SeHvaD vIloSlI', nIDqa'DI' naQbej 'oH.",,
       "cooldown_hit": "bIjotnIS, puq QIp! nomqu' ra'mey DajatlhlI'! (ratlhtaH {0}s)",
       "retry": "bInIDnISqa'.",
       "retry_later": "lupmey {0} bInIDnISqa'.",
-      "embed": "em'beD chenlu' poltaHvIS Qagh. ${msg:error.contact_devs}"
+      "embed": "em'beD chenlu' poltaHvIS Qagh. ${msg:error.contact_devs}",
       "interact": "vengtaHvam'e' vImuchlaHbe'. (chaw'taHQo' vengchuqtaH ghom ghot je)",
       "command": {
         "unknown": "ra'vetlh'e' vIghovbe'.",
