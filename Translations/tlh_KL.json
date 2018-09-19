@@ -9,13 +9,13 @@
       "rank": "ra'vam much machqu' patlhDaj. {0} DaghajnIS."
     },
     "error": {
-      "database": "waw' Data meHDaq Data'e' poltaHvIS Qagh.",
+      "database": "waw' De' meHDaq De''e' poltaHvIS Qagh.",
       "contact_devs": "qaSjajbe' ghu'vam DaHarchugh DevwI'pu' ja'.",
       "profile_locked": "naQ yo'SeHvaD vIloSlI', nIDqa'DI' naQbej 'oH.",
       "cooldown_hit": "bIjotnIS, puq QIp! nomqu' ra'mey DajatlhlI'! (ratlhtaH {0}s)",
       "retry": "bInIDnISqa'.",
       "retry_later": "lupmey {0} bInIDnISqa'.",
-      "embed": "em'beD chenlu' poltaHvIS Qagh. ${msg:error.contact_devs}",
+      "embed": "em'beD chen poltaHvIS Qagh. ${msg:error.contact_devs}",
       "interact": "vengtaHvam'e' vImuchlaHbe'. (chaw'taHQo' vengchuqtaH ghom ghot je)",
       "command": {
         "unknown": "ra'vetlh'e' vIghovbe'.",
@@ -93,10 +93,10 @@
     "giveme": {
       "usage": {
         "default": "ghomna''e' Danob'egh.",
-        "list": "lupoQ ghompu' jatlhlu'.",
-        "purge": "tetlhvo' ghor ghompu' teqlu'.",
-        "add": "lupoQ ghompu' tetlhDaq ghom boqlu'.",
-        "remove": "lupoQ ghompu' tetlhvo' ghompu' teqlu'."
+        "list": "lupoQ ghompu' jatlh.",
+        "purge": "tetlhvo' ghor ghompu' teq.",
+        "add": "lupoQ ghompu' tetlhDaq ghom boq.",
+        "remove": "lupoQ ghompu' tetlhvo' ghompu' teq."
       },
       "error": {
         "not_found": "ghompu' pagh tu'."
@@ -111,7 +111,7 @@
     },
     "badges": {
       "usage": {
-        "list": "mIlmey ghajtaHvIS lupoQ Deghmey jatlhlu'."
+        "list": "mIlmey ghajtaHvIS lupoQ Deghmey jatlh."
       },
       "error": {
         "already": "Deghvam'e' Daghaj!"
@@ -131,95 +131,95 @@
     },
     "voice": {
       "usage": {
-        "move_user": "latlh rI'Se' nuv vIHlu'.",
-        "move_channel": "'oH pIm rI'Se' nuvpu'qa' vIHlu'.",
-        "split": "Se'mey yav nuvpu' pe'lu'."
+        "move_user": "latlh rI'Se' nuv vIH.",
+        "move_channel": "'oH pIm rI'Se' nuvpu'qa' vIH.",
+        "split": "Se'mey yav nuvpu' pe'."
       },
       "error": {
-        "same_voice": "rI'Se'Daq nuv vIHbe'lu'.",
+        "same_voice": "rI'Se'Daq nuv vIHbe'.",
         "member_not_connected": "rI'Se' rarbe' nuvvetlh'e'.",
-        "permission_move": "{0} vIHbe'lu', laH ghajbe'lu'."
+        "permission_move": "{0} vIHbe', laH ghajbe'."
       },
-      "description": "rI'Se'mey yav nuvpu' vIHlu'.",
-      "moving": "nuvpu' vIHlaHlu'...",
-      "splitting": "Se'mey yav nuvpu' pe'laHlu'..."
+      "description": "rI'Se'mey yav nuvpu' vIH.",
+      "moving": "nuvpu' vIHlaH...",
+      "splitting": "Se'mey yav nuvpu' pe'laH..."
     },
     "music": {
       "error": {
-        "no_songs_found": "pagh bommey tu'lu'.",
+        "no_songs_found": "pagh bommey tu'.",
         "no_permission_add": "tetlhDaq bommey boq laH Daghajbe'."
       },
       "description": "QoQ ra'mey (mob vumbeH QoQ ra'mey - `L!play` `L!music play` je)"
     },
     "advertising": {
       "usage": {
-        "enable": "quvHa' mu'mey chaw'lu'.",
-        "disable": "quvHa' mu'mey Qotlhlu'."
+        "enable": "quvHa' mu'mey chaw'.",
+        "disable": "quvHa' mu'mey Qotlh."
       },
-      "description": "quvHa' nuvpu' ghuHmoHlu' muHlu' je.",
+      "description": "quvHa' nuvpu' ghuHmoH muH je.",
       "warning": "mevyap, {User.Mention}! chaw'be' quvHa' mu'mey.",
-      "ban": "{User.Name} muHlu'ta', DuquvHa'.",
+      "ban": "{User.Name} muHta', DuquvHa'.",
       "enabled": "QanwI' chaw'ta'.",
       "disabled": "QanwI' Qotlhta'."
     },
     "prune": {
       "usage": {
-        "normal": "QInmey wejmaH teqlu'.",
-        "targeted": "vay'Daq QInmey wejmaH teqlu'."
+        "normal": "QInmey wejmaH teq.",
+        "targeted": "vay'Daq QInmey wejmaH teq."
       },
       "error": {
         "nothing_to_delete": "pagh vIteqbe'!"
       },
-      "description": "QInmey teqlu'.",
-      "deleted_single": "wa' QIn teqlu'. vagh lupmeyDaq Qaw''egh QInvam.",
-      "deleted_multiple": "{0} QInmey teqlu'. vagh lupmeyDaq Qaw''egh QInvam."
+      "description": "QInmey teq.",
+      "deleted_single": "wa' QIn teq. vagh lupmeyDaq Qaw''egh QInvam.",
+      "deleted_multiple": "{0} QInmey teq. vagh lupmeyDaq Qaw''egh QInvam."
     },
     "permissions": {
       "usage": {
-        "list": "laHmey jatlhlu'.",
-        "get": "ghomvaD laHmey jatlhlu'.",
-        "reset": "ghomvaD laHmey teqlu'",
-        "clear": "ghomvaD laH teqlu' (wa'DIch Dep)",
-        "set": "wa' ghomvaD laH boqlu'"
+        "list": "laHmey jatlh.",
+        "get": "ghomvaD laHmey jatlh.",
+        "reset": "ghomvaD laHmey teq.",
+        "clear": "ghomvaD laH teq. (wa'DIch Dep)",
+        "set": "wa' ghomvaD laH boq."
       },
       "error": {
         "unknown_node": "laHvetlh'e' vIghaj. "
       },
-      "description": "ghommeyvaD laHmey luDqoq vu'lu'.",
-      "role_reset": "teqlu'ta' {0} ghomvaD laHmey.",
-      "permission_reset": "{1} ghomvaD teqlu'ta' {0} laH.",
-      "role_updated": "choHlu'ta' {0} ghomvaD laH.",
+      "description": "ghommeyvaD laHmey luDqoq vu'.",
+      "role_reset": "teqta' {0} ghomvaD laHmey.",
+      "permission_reset": "{1} ghomvaD teqta' {0} laH.",
+      "role_updated": "choHta' {0} ghomvaD laH.",
       "perms_for": "{0}vaD laHmey:",
       "permissions_list": "**laHmeyvaD tetlh**: [{0}/{1}]"
     },
     "ignore": {
       "usage": {
-        "list": "Hoch Se'mey jatlhlu' (jatlhlaHbe' luDqoq nuqDaq).",
-        "add": "Hoch tetlhDaq Se' boqlu'. vumlaHbe' luDqoq.",
-        "remove": "Hoch tetlhDaq Se' teqlu'."
+        "list": "Hoch Se'mey jatlh (jatlhlaHbe' luDqoq nuqDaq).",
+        "add": "Hoch tetlhDaq Se' boq. vumlaHbe' luDqoq.",
+        "remove": "Hoch tetlhDaq Se' teq."
       },
       "error": {
         "same": "mevyap! Se'vam'e' Hoch DanIDpu'. vumbe'law'. _DaneHbejchugh_ 'oHvaD Se'vam'e' Hoch chu' Se' chenmoH.",
         "already": "Se'vetlh'e' vIHochtaH.",
         "not": "Se'vetlh'e' vIHochtaHbe'."
       },
-      "description": "'oHDaq jatlhbe' luDqoq Se'mey Hochlu'.",
+      "description": "'oHDaq jatlhbe' luDqoq Se'mey Hoch.",
       "list": "Hoch Se'mey:\n {0}",
       "ignored": "`{0}` Se' HochlaH.",
       "removed": "`{0}` Se' HochlaHbe'."
     },
     "module": {
       "usage": {
-        "list": "Dotlhmeychaj bobcho'mey jatlhlu'.",
-        "enable": "bobcho' chaw'lu'.",
-        "disable": "bobcho' Qotlhlu'.",
-        "info": "wa' bobcho'Daj Dotlh jatlhlu'."
+        "list": "Dotlhmeychaj bobcho'mey jatlh.",
+        "enable": "bobcho' chaw'.",
+        "disable": "bobcho' Qotlh.",
+        "info": "wa' bobcho'Daj Dotlh jatlh."
       },
       "error": {
         "default": "Qotlhbe' bobcho'vam'e'.",
         "not_found": "bobcho' vItu'be'."
       },
-      "description": "DuHmey Qotlhlu' chaw'lu' ghap.",
+      "description": "DuHmey Qotlh chaw' ghap.",
       "list": "DotlhvaD bobcho':\n {0}",
       "status": "{1} ghaH **{0}**.",
       "toggled": "{1} ghaHpu' **{0}**."
@@ -227,84 +227,84 @@
     "setup": {
       "error": {
         "timed": "qIlpu' beH. (poH)",
-        "more_channel": "pongvetlh'e' Many channels found with that name, would you like to retry? [HISlaH/ghobe']",
-        "no_channel": "No channel found with that name, would you like to retry? [HISlaH/ghobe']"
+        "more_channel": "pongvetlh'e' Se'meychaj tu'ta' law', bInIDqa''a'? [Y/N]",
+        "no_channel": "pongvetlh'e' Se'meychaj tu'ta' pagh, bInIDqa''a'? [Y/N]"
       },
-      "description": "Runs a setup to quickly get LewdBot ready for use.",
-      "welcome": "Welcome to the LewdBot setup, please answer the following questions by simply replying in the chat (no prefix needed).\nYou can quit any time by simply typing `cancel`.",
-      "cancelled": "Setup cancelled.",
-      "setprefix": "Would you like to define a custom prefix/trigger? [HISlaH/ghobe']",
-      "typeprefix": "Please type the new prefix to use (Note: `L!` and `@LewdBot` will always work):",
-      "prefixchanged": "Prefix changed, would you like to enable NSFW features? [HISlaH/ghobe']",
-      "nsfw": "Ok, would you like to enable NSFW features? [HISlaH/ghobe']",
-      "nsfwenabled": "NSFW Module enabled, would you like to set up a music channel?",
-      "music": "Ok, would you like to set up a music channel? [HISlaH/ghobe']",
-      "musictag": "Please tag the channel to send music statuses.",
-      "complete": "Setup is now complete."
+      "description": "yanvaD SuH luDqoq mIw lIH.",
+      "welcome": "yu'mey DajangnIS (pagh aq).\nbup `cancel` jatlh.",
+      "cancelled": "qIlpu' mIw.",
+      "setprefix": "aq le' Dachen'a'? [Y/N]",
+      "typeprefix": "aq DajatlhnIS (vumlaH `L!` `@LewdBot` je):",
+      "prefixchanged": "aq choHta', Say'Ha Se'mey Dachaw''a'? [Y/N]",
+      "nsfw": "Say'Ha Se'mey Dachaw''a'? [Y/N]",
+      "nsfwenabled": "Say'Ha Se'mey chaw'ta', QoQ Se' DabeH'a'? [Y/N]",
+      "music": "QoQ Se' DabeH'a'? [Y/N]",
+      "musictag": "QoQ Se' DapongnIS.",
+      "complete": "naQ mIw."
     },
     "prefix": {
-      "description": "Changes LewdBot's prefix. (This does not disable L! and mention).",
-      "defined": "Prefix changed to {0}"
+      "description": "luDqoq aq choH. (vumlaH `L!` `@LewdBot` je)",
+      "defined": "{0} aq choH."
     },
     "game": {
       "usages": {
-        "next": "Skips to the next game",
-        "stream": "Toggles stream mode",
-        "name": "Changes the game",
-        "streamname": "Changes the game and toggles streaming mode"
+        "next": "veb Quj vIH.",
+        "stream": "poS rI'Se'.",
+        "name": "Quj vIH.",
+        "streamname": "poS rI'Se' 'ej Quj vIH."
       },
-      "description": "Changes LewdBot's game."
+      "description": "luDqoq QujDaj vIH."
     },
     "help": {
       "usages": {
-        "default": "Providers help."
+        "default": "QaH nob."
       },
       "error": {
-        "no_embed": "I don't have permission to send embeds here, so no command list for you.",
-        "not_found": "No help found for {0}."
+        "no_embed": "naDev em'beDmey vIngeHbe'.",
+        "not_found": "{0}vaD QaH vItu'be'."
       },
-      "description": "Provides information on how to use the bot, along with a list of all available commands.",
-      "hello": "H-hello, I'm LewdBot, a multi-purpose discord bot, you can learn more about me here:\n<https://github.com/Fabricio20/LewdWiki/wiki>",
-      "requested_by": "Requested by {0}."
+      "description": "qoq'e' yanlaH chay' jatlh 'ej ra'mey jatlh.",
+      "hello": "Qapla'! luDqoq jIH, ngoQ law' DIS'qorD qoq, De'vaD legh:\n<https://github.com/Fabricio20/LewdWiki/wiki>",
+      "requested_by": "{0} pong chup."
     },
     "iateacrayon": {
       "usages": {
-        "search": "Searches on IAC's collection for images tagged with the given terms."
+        "search": "permeymaj ghItlhmeyvaD boSghachwIj IAC tu'."
       },
       "error": {
-        "nothing_found": "Nothing found on IAC.",
-        "no_load": "If the image doesn't load, please click the title."
+        "nothing_found": "IACDaq pagh tu'.",
+        "no_load": "ghItlh'e' DaleghHa'chugh, 'oH DaqlIq'nIS."
       },
-      "description": "Searches for NSFW images on IAteACrayon's collection.",
-      "found": "[Found] IAteACrayon/{0}"
+      "description": "Sey'Ha' ghItlhmeyvaD IAteACrayon tu'.",
+      "found": "[tu'ta'] IAteACrayon/{0}"
     },
     "rule34": {
       "usages": {
-        "notag": "Sends a random image from Rule34.",
-        "search": "Searches on Rule34 for images tagged with the given terms."
+        "notag": "Rule34vaD pupHa' ghItlh ngaH.",
+        "search": "permeymaj ghItlhmeyvaD Rule34.xxx tu'."
       },
       "error": {
-        "nothing_found": "Nothing found on Rule34.",
-        "no_response": "Error while retrieving images from Rule34 (Server returned empty response).",
-        "unknown": "An unknown error happened while retrieving images from Rule34. Message: {0}"
+        "nothing_found": "Rule34Daq pagh tu'.",
+        "no_response": "Qagh: Rule34vaD pagh QIn.",
+        "unknown": "Sovbe' Qagh. QIn: {0}"
       },
-      "description": "Searches for NSFW images on Rule34.xxx",
-      "search": "{User.Name}'s search on Rule34. (Click here if Image doesn't Load)",
-      "tags": "**Tags**: {0}"
+      "description": "Sey'Ha' ghItlhmeyvaD Rule34.xxx tu'",
+      "search": "Rule34Daq tu'ghachDaj {User.Name}. (ghItlh'e' DaleghHa'chugh, 'oH DaqlIq'nIS)",
+      "tags": "**permey**: {0}"
     },
     "danbooru": {
       "usages": {
-        "notag": "Sends a random image from Danbooru.",
-        "search": "Searches on Danbooru for images tagged with the given terms."
+        "notag": "DanbooruvaD pupHa' ghItlh ngaH.",
+        "search": "permeymaj ghItlhmeyvaD Danbooru tu'."
       },
       "error": {
-        "nothing_found": "Nothing found on Danbooru.",
-        "no_response": "Error while retrieving images from Danbooru (Server returned empty response).",
-        "unknown": "An unknown error happened while retrieving images from Danbooru. Message: {0}"
+        "nothing_found": "Danbooru pagh tu'.",
+        "no_response": "Qagh: DanbooruvaD pagh QIn.",
+        "unknown": "Sovbe' Qagh. QIn: {0}"
       },
-      "description": "Searches for NSFW images on Danbooru",
-      "search": "{User.Name}'s search on Danbooru. (Click here if Image doesn't Load)",
-      "tags": "**Tags**: {0}"
+      "description": "Sey'Ha' ghItlhmeyvaD Danbooru tu'",
+      "search": "DanbooruDaq tu'ghachDaj {User.Name}. (ghItlh'e' DaleghHa'chugh, 'oH DaqlIq'nIS)",
+      "tags": "**permey**: {0}"
     },
     "premium": {
       "usages": {
