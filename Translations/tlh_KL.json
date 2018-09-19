@@ -65,12 +65,12 @@
     "cookies": {
       "error": {
         "not_enough": "vangghachvam'e' much :cookie: yap Daghajbe'!  {0} DaghajnIS.",
-        "nothing": "Qu'qimey Daghajbe'qu'."
+        "nothing": "Qu'qImey Daghajbe'qu'."
       },
       "transferred_user": "{1}Daq :cookie: {0} Qayta'.",
       "daily": "+{0} :cookie:! Dun pujlI'mo' lIHta' wa'leS nobHa'!",
-      "daily_streak": "+{0} :cookie:! (Dun pujlI'mo' = {1}) Qu'qimey ghojqu'mo' wa'leS nobHa'!",
-      "daily_already": "DaHjajmo' Qu'qimeylI' Da'Hevta'. {0} bInIDnISqa'."
+      "daily_streak": "+{0} :cookie:! (Dun pujlI'mo' = {1}) Qu'qImey ghojqu'mo' wa'leS nobHa'!",
+      "daily_already": "DaHjajmo' Qu'qImeylI' Da'Hevta'. {0} bInIDnISqa'."
     },
     "unknown_item": "Dochvam'e' vIghovbe'."
   },
@@ -185,7 +185,7 @@
       "error": {
         "unknown_node": "laHvetlh'e' vIghaj. "
       },
-      "description": "ghommeyvaD laHmey luDqoq vu'.",
+      "description": "ghompu'vaD laHmey luDqoq vu'.",
       "role_reset": "teqta' {0} ghomvaD laHmey.",
       "permission_reset": "{1} ghomvaD teqta' {0} laH.",
       "role_updated": "choHta' {0} ghomvaD laH.",
@@ -308,77 +308,77 @@
     },
     "premium": {
       "usages": {
-        "info": "Shows information about the current guild.",
-        "list": "Lists all your premium keys.",
-        "enable": "Activates premium mode on the current guild.",
-        "activate": "Activates premium mode on the current guild using the given key.",
-        "generate": "Reserved for developers."
+        "info": "De' ghom'a'Daj'e' jatlh.",
+        "list": "HoS permeylI' jatlh.",
+        "enable": "ghom'a'vamDaq HoSghach ghuS.",
+        "activate": "ghom'a'vamDaq HoSghach ghuS.",
+        "generate": "DevwI' neH."
       },
       "error": {
-        "all_keys_used": "All your premium keys are already in use!",
-        "not_premium": "You do not have any premium keys to use.",
-        "not_found": "Key not found",
-        "not_owner": "You are not the owner of this key. Only the owner can activate it.",
-        "already": "This server is already premium."
+        "all_keys_used": "permeylI' DayanlaH!",
+        "not_premium": "pagh permey Daghaj.",
+        "not_found": "pervetlh'e' tu'be'pu'.",
+        "not_owner": "pervetlh'e' Daghajbe'. 'oH yan ghajwI'.",
+        "already": "HoSghach ghom'a'vam'e'."
       },
-      "description": "Configures LewdBot premium.",
-      "list": "Your keys: \n{0}",
-      "premium": "Premium.",
-      "normal": "Normal.",
-      "never": "Never.",
-      "enabled": "Premium mode is now enabled.",
-      "generated": "Key generated. **{0}**"
+      "description": "HoSghach luDqoq beH.",
+      "list": "permeylI': \n{0}",
+      "premium": "HoSghach.",
+      "normal": "puj.",
+      "never": "not.",
+      "enabled": "HoSghach ghom'a'vam'e'!",
+      "generated": "chenmoH per. **{0}**"
     },
     "calc": {
       "usages": {
-        "default": "Calculates the given mathematical expression."
+        "default": "mI'mey SIm."
       },
       "error": {
-        "invalid": "Invalid expression."
+        "invalid": "vumbe' mI'meyvetlh'e'."
       },
-      "description": "Calculates a mathematical expression."
+      "description": "mI'mey SIm."
     },
     "register": {
       "usages": {
-        "enable": "Enables the registration system.",
-        "disable": "Disables the registration system",
-        "role": "Defines the role to give to members when they register.",
-        "channel": "Defines the channel where members have to type the magic word.",
-        "word": "Defines the magic word that members have to type."
+        "enable": "pat noblaH ghom QotlhHa'moH.",
+        "disable": "pat noblaH ghom QotlhmoH.",
+        "role": "novpu'Daq nob ghom pongmoH.",
+        "channel": "ghompu' Hev novpu' Se'Daq pongmoH.",
+        "word": "jatlhnIS novpu' mu' pongmoH."
       },
       "error": {
-        "public": "Only the public (everyone) role was found, but all users already have that one.",
-        "permission": "Error while adding role to member: No permission."
+        "public": "ghom Hoch (`@everyone`) tu'pu' neH, 'ach 'oH ghaj nuvpu' Hoch.",
+        "permission": "Qagh: pagh woQ."
       },
-      "description": "Configures the auto-registration system.",
-      "word": "Magic word defined for registration.",
-      "channel": "Registration channel defined.",
-      "role": "Registration role defined.",
-      "enabled": "Registration system enabled. Please properly configure channel permissions.",
-      "disabled": "Registration system disabled."
+      "description": "pat ghom chermoH.",
+      "word": "mu' pongta'.",
+      "channel": "Se' pongta'.",
+      "role": "ghom pongta'.",
+      "enabled": "pat ghom QotlhHa'pu'. woQmey Se' cher.",
+      "disabled": "pat ghom Qotlhpu'."
     },
     "cookie": {
-      "description": "LewdBot Cookies! (Kind of a currency).\n More Info: https://goo.gl/2sXXyZ",
+      "description": "luDqoq Qu'qImey! (Huch bIH).\n De': https://goo.gl/2sXXyZ",
       "usage": {
-        "daily": "Receives your daily cookies, do this every day for a streak bonus!",
-        "vote": "Vote for LewdBot daily and receive extra cookies!",
-        "give": "Sends cookies to a user!"
+        "daily": "Qu'qImeylI' HevmoH, Dun pujlI'mo'vaD Hoch jaj Qu` DamuchnIS!",
+        "vote": "Qu'qImeyvaD puS Hoch jaj wutlh!",
+        "give": "nuvDaq Qu'qImey ngeHmoH!"
       },
-      "vote_last": "You last voted on {0}. You can vote at: <https://discordbots.org/bot/119482224713269248/vote>",
-      "vote_48": "You voted in the past 48h, vote again to keep your streak! <https://discordbots.org/bot/119482224713269248/vote>",
-      "vote_24": "You already voted today! Check again in {0}.",
-      "vote": "Support LewdBot and Receive Cookies every day! Vote at <https://discordbots.org/bot/119482224713269248/vote>",
-      "vote_thanks": "Thanks for voting! You received +{0} :cookie: (Vote every day for as streak!)"
+      "vote_last": "{0}Daq Dawutlh. naDev DawutlhnISbe': <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_48": "repmeyDaq loSmaH chorgh ben Dawutlhpu', Dun pujlI'Daj pol DawutlhnIS! <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_24": "YDaHjaj Dawutlhpu'! {0}Daq nIDnISqa'.",
+      "vote": "luDqoq QaH 'ej Hoch jaj Qu'qImey Hev! wutlh: <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_thanks": "bIwutlhpu'! :cookie: {0} DaHevpu' (Qu'qImeyvaD puS Hoch jaj wutlh!)"
     },
     "welcome": {
       "usages": {
-        "enable": "Enables the welcome message system.",
-        "disable": "Disables the welcome message system.",
-        "set": "Changes the welcome message to the informed message.",
-        "channel": "Changes the welcome channel.",
-        "dms": "Defines if the message should be sent in DMs instead."
+        "enable": "pat yI'el QotlhHa'moH.",
+        "disable": "pat yI'el QotlhmoH.",
+        "set": "QIn yI'el choHmoH.",
+        "channel": "Se' yI'el choHmoH.",
+        "dms": "ngaQ Se'Daq ngeHmoH QIn'e' pongmoH."
       },
-      "description": "System for welcoming users (Sends a message to the user / in chat upon join)."
+      "description": "nuvpu' yI'el pat (ghorgh muv ghaH QIn nuv ngeHmoH)."
     }
   }
 }
