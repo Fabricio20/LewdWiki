@@ -147,9 +147,21 @@
     "music": {
       "error": {
         "no_songs_found": "No songs were found.",
-        "no_permission_add": "You do not have permission to add songs to the playlist."
+        "no_permission_add": "You do not have permission to add songs to the playlist.",
       },
       "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
+    },
+    "join": {
+      "usage": {
+        "default": "Makes LewdBot connect to your current voice channel.",
+        "channel": "Makes LewdBot connect to the specified channel."
+      },
+      "error": {
+        "failed_connect": "Failed to connect to voice channel.",
+        "not_on_voice": "You are not in a voice channel!"
+      },
+      "connected": "Connected to `{0}` from `{1}`",
+      "description": "Connects LewdBot to a voice channel."
     },
     "advertising": {
       "usage": {
