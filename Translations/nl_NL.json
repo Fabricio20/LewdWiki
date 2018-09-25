@@ -1,0 +1,149 @@
+{
+  "core": {
+    "permission": {
+      "command": "Je hebt geen toestemming om dit command uit te voeren.",
+      "action": "Je hebt geen toestemming om deze actie uit te voeren.",
+      "subcommand": "Je hebt geen toestemming om dit subcommand uit te voeren.",
+      "bot": "Ik heb geen {0} permissie, welke ik nodig heb om dit te doen.",
+      "discord": "Je hebt geen Discord permissie om dit te doen. ({0})"
+    },
+    "error": {
+      "database": "Fout opgetreden tijdens het opslaan in de database.",
+      "contact_devs": "Contacteer de ontwikkelaar als je denkt dat dit niet hoort te gebeuren.",
+      "profile_locked": "Hey, ik wacht op deze operatie om te voltooien, probeer het opnieuw in een paar seconden.",
+      "cooldown_hit": "Wow rustig! je voert commands veelste snel uit achter elkaar! ({0}s resterend)",
+      "retry": "Probeer het opnieuw.",
+      "retry_later": "Probeer het opnieuw in {0} seconden.",
+      "embed": "Fout opgetreden tijdens het maken van de embed. ${msg:error.contact_devs}",
+      "interact": "Ik heb niet de benodigde permissie om dit te doen. (Rol/Lid interactie verboden)",
+      "command": {
+        "unknown": "Onbekend command.",
+        "unknown_near": "Onbekend command, bedoelde je {0}?",
+        "unknown_sub": "Onbekend subcommand.",
+        "restricted": "Dit command is beperkt tot {0} gebruikers. Lees meer op <https://notfab.net/LewdBot/Premium>"
+      },
+      "regex": {
+        "number": "Dat is geen geldig getal.",
+        "boolean": "Dat is geen geldige boolean.",
+        "url": "Dat is geen geldige URL."
+      },
+      "search": {
+        "text_none": "Geen tekst kanaal gevonden met die naam.",
+        "text_multiple": "Meerdere tekst kanalen gevonden, wees specifieker.",
+        "voice_none": "Geen spraakkanalen gevonden met die naam.",
+        "voice_multiple": "Meerdere spraakkanalen gevonden, wees specifieker.",
+        "role_none": "Geen rollen gevonden met die naam.",
+        "role_multiple": "Meerdere rollen gevonden, wees specifieker.",
+        "member_none": "Geen leden gevonden met die naam.",
+        "member_multiple": "Meerdere leden gevonden, wees specifieker."
+      },
+      "number": {
+        "lower": "Nummer kan niet lager zijn dan {0}.",
+        "higher": "Nummer kan niet hoger zijn dan {0}."
+      }
+    },
+    "parts": {
+      "second": "seconde",
+      "seconds": "seconden",
+      "minute": "minuut",
+      "minutes": "minuten",
+      "hour": "uur",
+      "hours": "uur",
+      "day": "dag",
+      "days": "dagen"
+    }
+  },
+  "economy": {
+    "success": "Transactie voltooid.",
+    "cookies": {
+      "error": {
+        "not_enough": "Je hebt niet genoeg :cookie: om dit te doen! ({0} nodig)",
+        "nothing": "Je hebt geen koekjes."
+      },
+      "transferred_user": "{0} :cookie: overgemaakt naar {1}.",
+      "daily": "+{0} :cookie:! Kom morgen terug voor een reeks!",
+      "daily_streak": "+{0} :cookie:! (Reeks = {1}) Kom morgen terug voor meer koekjes!",
+      "daily_already": "Je hebt al je dagelijkse koekjes voor vandaag, probeer het opnieuw in {0}."
+    },
+    "unknown_item": "Onbekend item"
+  },
+  "language": {
+    "invalid": "'{0}' is geen geldige taal.",
+    "saved": "Taal veranderd naar {0}.",
+    "hiring": "We zijn opzoek naar vertalers voor meer info zie <https://notfab.net/LewdBot/Premium>",
+    "list": "Beschrikbare talen: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Geeft gebruikers de kans om verschillende rollen aan hunzelf te geven.",
+      "purged": "Alle gebroken rollen zijn verwijderd.",
+      "added": "Rol is toegevoegd aan de GiveMe lijst.",
+      "removed": "Rol is verwijderd van de GiveMe lijst",
+      "deleted": "Rol verwijderd (voer purge uit)",
+      "prohibited": "Die rolnaam is niet toegestaan omdat het hetzelfde is als een subcommand.",
+      "already": "Deze rol is al in de RoleMe lijst."
+    },
+    "badges": {
+      "description": "LewdBot Badges! Geef badges weer in je profiel. Verdien ze door hun toegewezen taken uit te voeren.",
+      "owned": "Je hebt deze badge!"
+    },
+    "autoplay": {
+      "description": "(Premium) Start automatisch met afspelen bij het joinen van een spraakkanaal.",
+      "enabled": "Autoplay is ingeschakeld, vergeet niet een spraakkanaal in te stellen.",
+      "disabled": "Autoplay is uitgeschakeld.",
+      "channel_set": "Spraakkanaal is ingesteld op {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Kan de gebruiker niet verplaatsen naar hetzelfde spraakkanaal waarin die zich bevind.",
+        "member_not_connected": "Lid is niet verbonden met een spraakkanaal",
+        "permission_move": "Kan {0} niet verplaatsen, geen permissie."
+      },
+      "description": "Verplaats meerdere gebruikers tussen spraakkanalen",
+      "moving": "Leden verplaatsen...",
+      "splitting": "Splits leden tussen kanalen..."
+    },
+    "music": {
+      "error": {
+        "no_songs_found": "Geen liedjes gevonden.",
+        "no_permission_add": "Je hebt geen toestemming om liedjes toe te voegen aan de afspeelijst."
+      },
+      "description": "Muziek commands (al deze commands werken ook individueel - `L!play` en `L!music play`)"
+    },
+    "advertising": {
+      "description": "waarschuwt en verbant reclame makers Automatisch.",
+      "warning": "Hey {User.Mention}, reclame maken is hier niet toegestaan.",
+      "ban": "{User.Name} verbannen voor reclame.",
+      "enabled": "Anti-Reclame functie ingeschakeld.",
+      "disabled": "Anti-Reclame functie uitgeschakeld."
+    },
+    "prune": {
+      "error": {
+        "nothing_to_delete": "Er zijn geen items om te verwijderen"
+      },
+      "description": "Verwijder berichten",
+      "deleted_single": "1 bericht verwijderd. Dit bericht verdwijnt in 5 seconden.",
+      "deleted_multiple": "{0} berichten verwijderd. Dit bericht verdwijnt in 5 seconden."
+    },
+    "permissions": {
+      "error": {
+        "unknown_node": "Unknown permissie node, weet je zeker dat je het juist hebt getypt?"
+      },
+      "description": "Beheer LewdBot's permissies via een per-role basis",
+      "role_reset": "Permissies voor de rol {0} zijn gereset",
+      "permission_reset": "Permissie `{0}` gereset voor rol {1}.",
+      "role_updated": "Permissies voor rol {0} bijgewerkt.",
+      "perms_for": "Permissies voor {0}:",
+      "permissions_list": "Lijst van permissies: {0}"
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "Je hebt deze badge al!"
+    },
+    "badge_beta": "Gegeven aan mensen die geholpen hebben met het testen van het badge systeem.",
+    "translator": "Je bent nu lid van het LewdBot vertaler team.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "Wat heb je gedaan?"
+  }
+}
