@@ -149,7 +149,12 @@
         "no_songs_found": "No songs were found.",
         "no_permission_add": "You do not have permission to add songs to the playlist."
       },
-      "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)"
+      "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)",
+      "stop_reason_requested": "Requested by {User.Name}.",
+      "disconnected": "Disconnected.",
+      "disconnected_reason": "Disconnected. Reason: {0}.",
+      "added_single": "`{0}` has been added.",
+      "added_multiple": "{0} songs added, {1} failed. ({2} Total)."
     },
     "join": {
       "usage": {
