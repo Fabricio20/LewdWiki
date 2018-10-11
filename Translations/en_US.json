@@ -147,14 +147,24 @@
     "music": {
       "error": {
         "no_songs_found": "No songs were found.",
-        "no_permission_add": "You do not have permission to add songs to the playlist."
+        "no_permission_add": "You do not have permission to add songs to the playlist.",
+        "failed_to_load": "Failed to load song.",
+        "no_voice_not_connected": "You are not on a voice channel!",
+        "not_supported": "This track source is not supported, try Youtube or SoundCloud instead!"
       },
       "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)",
       "stop_reason_requested": "Requested by {User.Name}.",
       "disconnected": "Disconnected.",
       "disconnected_reason": "Disconnected. Reason: {0}.",
       "added_single": "`{0}` has been added.",
-      "added_multiple": "{0} songs added, {1} failed. ({2} Total)."
+      "added_multiple": "{0} songs added, {1} failed. ({2} Total).",
+      "volume_too_high": "Too high. Please use a number between 5 and 150.",
+      "volume_too_low": "Too low. Please use a number between 5 and 150.",
+      "track_removed": "Removed `{0}`.",
+      "channel_set": "Music channel set to `{0}`",
+      "playing": "Now playing `{0}`.",
+      "not_playing": "Not playing anything currently.",
+      "no_left": "No tracks left."
     },
     "join": {
       "usage": {
