@@ -403,20 +403,24 @@
         "delete": "Deletes a playlist.",
         "rename": "Renames a playlist.",
         "use": "Marks a playlist as active.",
-        "copy": "Copy a playlist to yourself."
+        "copy": "Copy a playlist to yourself.",
+        "list": "Lists all available playlists"
       },
       "error": {
         "no_playlist_found": "No playlist found with that name (or ID).",
         "too_many_playlists": "Too many playlists found, please be more specific.",
         "no_room": "You cannot create more playlists, please remove some or upgrade to Premium to create more.",
-        "invalid_name": "This playlist name is invalid."
+        "invalid_name": "This playlist name is invalid.",
+        "track_already_present": "This track is already in the playlist.",
+        "track_not_present": "This track does not exist in the current playlist."
       },
-      "description": "",
+      "description": "PlayList management commands.",
       "create_success": "PlayList **{0}** created! (ID: **{1}**)",
       "del_success": "PlayList **{0}** has been deleted.",
       "rename_success": "PlayList **{0}** has been renamed.",
       "use_success": "Success! Playlist **{0}** is now active.",
-      "copy_success": "Playlist successfully copied! (ID: **{0}**)"
+      "copy_success": "Playlist successfully copied! (ID: **{0}**)",
+      "list": "PlayLists: \n{0}"
     }
   }
 }
