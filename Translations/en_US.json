@@ -164,7 +164,8 @@
       "channel_set": "Music channel set to `{0}`",
       "playing": "Now playing `{0}`.",
       "not_playing": "Not playing anything currently.",
-      "no_left": "No tracks left."
+      "no_left": "No tracks left.",
+      "cleared": "PlayList cleared. {0} songs removed."
     },
     "join": {
       "usage": {
