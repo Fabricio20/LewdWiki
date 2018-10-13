@@ -151,7 +151,8 @@
         "failed_to_load": "Failed to load song.",
         "no_voice_not_connected": "You are not on a voice channel!",
         "not_supported": "This track source is not supported, try Youtube or SoundCloud instead!",
-        "error_loop": "Exhausted play attempts after 3 errors."
+        "error_loop": "Exhausted play attempts after 3 errors.",
+        "invalid_radio": "Radio not found."
       },
       "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)",
       "stop_reason_requested": "Requested by {User.Name}.",
