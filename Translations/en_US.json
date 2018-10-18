@@ -417,7 +417,21 @@
         "rename": "Renames a playlist.",
         "use": "Marks a playlist as active.",
         "copy": "Copy a playlist to yourself.",
-        "list": "Lists all available playlists"
+        "list": "Lists all available playlists",
+        "add_name": "Adds a song by name (searches on YouTube).",
+        "add_url": "Adds a song by URL (Youtube or SoundCloud).",
+        "add_radio": "Adds a live radio.",
+        "clear": "Clears the current/active playlist of songs.",
+        "join": "Connects to your current voice channel.",
+        "join_name": "Connects to the given voice channel.",
+        "play": "Starts playing the next song in the playlist.",
+        "play_name": "Starts playing a track by name (If not found searches on Youtube and adds).",
+        "play_pos": "Starts playing a track by it's position on the playlist.",
+        "play_url": "Starts playing a track by URL, adding if needed.",
+        "play_radio": "Starts playing the specified live radio, adding if needed.",
+        "remove_name": "Removes a track by name.",
+        "remove_pos": "Removes a track by it's position on the playlist.",
+        "setmusic": "Defines the channel where LewdBot sends music-related messages to."
       },
       "error": {
         "no_playlist_found": "No playlist found with that name (or ID).",
@@ -427,6 +441,17 @@
         "track_already_present": "This track is already in the playlist.",
         "track_not_present": "This track does not exist in the current playlist."
       },
+      "descriptions": {
+        "add": "Adds a track or stream to the active playlist.",
+        "clear": "Clears the active playlist.",
+        "join": "Joins your voice channel or a specified one.",
+        "npl": "Displays what is currently playing on the bot.",
+        "play": "Starts playing the given track, or skips to the next one.",
+        "remove": "Removes tracks from the active playlist.",
+        "setmusic": "Defines the channel where LewdBot will send music info.",
+        "stop": "Makes LewdBot stop playing and disconnect.",
+        "volume": "Changes the volume of the bot."
+      },
       "description": "PlayList management commands.",
       "create_success": "PlayList **{0}** created! (ID: **{1}**)",
       "del_success": "PlayList **{0}** has been deleted.",
@@ -434,6 +459,19 @@
       "use_success": "Success! Playlist **{0}** is now active.",
       "copy_success": "Playlist successfully copied! (ID: **{0}**)",
       "list": "PlayLists: \n{0}"
+    },
+    "slowmode": {
+      "error": {
+        "seconds_limit": "Slowmode must be between 0 and 120 (seconds).",
+        "error_enabling": "Error while enabling slowmode. Message: {0}"
+      },
+      "usage": {
+        "seconds": "Enables slowmode in the channel with the specified seconds as delay. 0 to disable.",
+        "off": "Disables slowmode."
+      },
+      "description": "Twitch-like slowmode for Discord (Now using Discord's slowmode feature)",
+      "enabled": "Slowmode enabled.",
+      "disabled": "Slowmode disabled."
     }
   }
 }
