@@ -154,6 +154,10 @@
         "error_loop": "Exhausted play attempts after 3 errors.",
         "invalid_radio": "Radio not found."
       },
+      "usages": {
+        "list": "Lists all songs on the currently active playlist.",
+        "list_name": "Lists all songs on the specified playlist."
+      },
       "description": "Music commands (all these commands also work individually - `L!play` and `L!music play`)",
       "stop_reason_requested": "Requested by {User.Name}.",
       "disconnected": "Disconnected.",
@@ -461,7 +465,9 @@
       "rename_success": "PlayList **{0}** has been renamed.",
       "use_success": "Success! Playlist **{0}** is now active.",
       "copy_success": "Playlist successfully copied! (ID: **{0}**)",
-      "list": "PlayLists: \n{0}"
+      "list": "PlayLists: {0}",
+      "share_enabled": "PlayList is now shared.",
+      "share_disabled": "PlayList is no longer shared."
     },
     "slowmode": {
       "error": {
