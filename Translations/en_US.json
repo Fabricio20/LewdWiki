@@ -469,7 +469,8 @@
       "copy_success": "Playlist successfully copied! (ID: **{0}**)",
       "list": "PlayLists: {0}",
       "share_enabled": "PlayList is now shared.",
-      "share_disabled": "PlayList is no longer shared."
+      "share_disabled": "PlayList is no longer shared.",
+      "default_playlist": "Default (Guild PlayList - Always present)"
     },
     "slowmode": {
       "error": {
