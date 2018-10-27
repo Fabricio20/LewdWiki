@@ -1,7 +1,10 @@
 # LewdBot
 
 ### Invite
-<a href="https://goo.gl/PrPGky"><img src="https://image.prntscr.com/image/RGDBy2SnRIKQTuwth02MyA.png" width="256"></a>
+
+To add LewdBot, click on the megumin below.
+
+<a href="https://goo.gl/PrPGky"><img src="https://images-na.ssl-images-amazon.com/images/I/61IB2TBKUmL._SX425_.jpg" width="256"></a>
 
 ### Configure
 Check out [Our Tutorial](commands/#bot-configuration).
