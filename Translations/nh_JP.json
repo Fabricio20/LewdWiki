@@ -1,4 +1,5 @@
-"core": {
+{
+  "core": {
     "permission": {
       "command": "お前はこのコマンドができない。",
       "action": "お前はそれができない。",
@@ -30,7 +31,7 @@
         "text_none": "そのテクストのチャンネルが見つけられない。",
         "text_multiple": "テクストの余計なチャンネルが見つけられない。",
         "voice_none": "その声のチャンネルが見つけられない。",
-        "voice_multiple": 声の余計なチャンネルが見つけられない。",
+        "voice_multiple": "声の余計なチャンネルが見つけられない。",
         "role_none": "その役が見つけられない。",
         "role_multiple": " 余計な役はその名前を名付けます。",
         "member_none": "ユーザーが見つけられない。",
@@ -89,7 +90,7 @@
     },
     "voice": {
       "error": {
-        "same_voice":　"声のチャネルの中のユーザーです",
+        "same_voice": "声のチャネルの中のユーザーです",
         "member_not_connected": "声のチャネルの中のメンバーじゃないです。",
         "permission_move": "許可じゃないです。"
       },

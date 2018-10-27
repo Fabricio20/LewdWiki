@@ -33,7 +33,7 @@
         "voice_none": "Nu s-au găsit canale vocale cu acest nume.",
         "voice_multiple": "Mai multe canale vocale găsite, vă rugăm să fiți mai specific.",
         "role_none": "Nu s-au găsit roluri cu numele respectiv.",
-        "role_multiple": "S-au găsit roluri multiple, vă rugăm să fie mai specific."
+        "role_multiple": "S-au găsit roluri multiple, vă rugăm să fie mai specific.",
         "member_none": "Nu s-au găsit membrii cu acest nume.",
         "member_multiple": "Multi membri gasiti, va rugam sa fie mai specific."
       }
@@ -88,7 +88,7 @@
       "enabled": "Autoplay a fost activat, asigurați-vă că ați configurat canalul vocal.",
       "disabled": "Autoplay-ul a fost dezactivat.",
       "channel_set": "Canalul vocal definit este {0}."
-    }
+    },
     "voice": {
       "error": {
         "same_voice": "Utilizatorul nu poate fi mutat în același canal vocal în care se află.",
