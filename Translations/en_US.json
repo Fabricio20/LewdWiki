@@ -457,7 +457,8 @@
         "setmusic": "Defines the channel where LewdBot will send music info.",
         "stop": "Makes LewdBot stop playing and disconnect.",
         "volume": "Changes the volume of the bot.",
-        "share": "Sharing allows other users to edit your playlist, by default sharing is disabled to prevent people from modifying your playlist."
+        "share": "Sharing allows other users to edit your playlist, by default sharing is disabled to prevent people from modifying your playlist.",
+        "list": "Lists all the songs on the current playlist."
       },
       "description": "PlayList management commands.",
       "create_success": "PlayList **{0}** created! (ID: **{1}**)",
