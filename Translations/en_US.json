@@ -474,10 +474,9 @@
       "share_disabled": "PlayList is no longer shared.",
       "default_playlist": "Default (Guild PlayList - Always present)",
       "shuffle_enabled": "Shuffle mode is now enabled.",
-      "shuffle_disabled": "Shuffle mode is now disabled."
-      "default_playlist": "Default (Guild PlayList - Always present)",
-      "shuffle_enabled": "PlayList shuffle is now enabled.",
-      "shuffle_disabled": "PlayList shuffle is now disabled."
+      "shuffle_disabled": "Shuffle mode is now disabled.",
+      "playlist_shuffle_enabled": "PlayList shuffle is now enabled.",
+      "playlist_shuffle_disabled": "PlayList shuffle is now disabled."
     },
     "slowmode": {
       "error": {
