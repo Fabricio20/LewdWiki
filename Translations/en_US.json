@@ -488,6 +488,44 @@
       "description": "Twitch-like slowmode for Discord (Now using Discord's slowmode feature)",
       "enabled": "Slowmode enabled.",
       "disabled": "Slowmode disabled."
+    },
+    "ban": {
+      "error": {
+        "no_perms": "I don't have permission to ban that user."
+      },
+      "usage": {
+        "empty": "Bans a member without providing a reason.",
+        "reason": "Bans a member with the specified reason."
+      },
+      "description": "Bans a user with optional reason.",
+      "success": "{0} was banned.",
+      "failure": "Error while banning user, please try again.",
+      "reason": "Banned by {0}."
+    },
+    "hackban": {
+      "error": {
+        "id_invalid": "That's not a valid user ID."
+      },
+      "description": "Bans a user by ID with optional reason."
+    },
+    "kick": {
+      "error": {
+        "no_perms": "I don't have permission to kick that user."
+      },
+      "usage": {
+        "empty": "Kicks a member without providing a reason.",
+        "reason": "Kicks a member with the specified reason."
+      },
+      "description": "Kicks a user with optional reason.",
+      "success": "{0} was kicked.",
+      "failure": "Error while kicking user, please try again.",
+      "reason": "Kicked by {0}."
+    },
+    "multiban": {
+      "usage": {
+        "empty": "Bans multiple members at once."
+      },
+      "description": "Bans multiple members at once."
     }
   }
 }
