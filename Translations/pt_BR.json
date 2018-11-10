@@ -5,7 +5,8 @@
       "action": "Você não tem permissão pra realizar esta acção.",
       "subcommand": "Você não tem permissão pra realizar este subcomando.",
       "bot": "Eu não tenho a permissão {0} , que é necessaria para este comando.",
-      "discord": "Você não tem a permissão do discord necessaria para fazer isso. ({0})"
+      "discord": "Você não tem a permissão do discord necessaria para fazer isso. ({0})",
+      "rank": "Esse comando é restrito para {0}."
     },
     "error": {
       "database": "Ocorreu um problema salvando o arquivo para a database.",
@@ -36,6 +37,10 @@
         "role_multiple": "Foram encontradas multiplas designações com esse nome, por favor seja mais especifico.",
         "member_none": "Não foram encontrados membros com esse nome.",
         "member_multiple": "Foram encontrados multiplos membros, por favor seja mais especifico."
+      },
+      "number": {
+        "lower": "Número não pode ser menor que {0}.",
+        "higher": "Número não pode ser maior que {0}."
       }
     },
     "parts": {
@@ -46,7 +51,12 @@
       "hour": "hora",
       "hours": "horas",
       "day": "dia",
-      "days": "dias"
+      "days": "dias",
+      "enabled": "Habilitado",
+      "disabled": "Desabilitado",
+      "width": "Largura",
+      "height": "Altura",
+      "rating": "Avaliação"
     }
   },
   "economy": {
@@ -62,6 +72,15 @@
       "daily_already": "Você ja recebeu seu cookie diario gulosão, tente de novo em {0}."
     },
     "unknown_item": "Item desconhecido."
+  },
+  "faq": {
+    "what_prefix": "O prefixo padrão é `L!`.",
+    "change_prefix": "Para alterar o prefixo, utilize `L!setup` ou `L!prefix {prefixo}`",
+    "how_use": "Você pode usar o bot utilizando o prefixo antes o comando: `L!help`",
+    "what_power": "Usuários Powers são pesssoas que doaram no Patreon. Essa restrição existe devido ao uso de CPU.",
+    "change_volume": "Para alterar o volume, você precisa ser um usuário Power. No entanto, você pode clicar com o botão direito e  diminuir o volume utilizando a barra de volume.",
+    "how_nsfw": "Para usar o comando NSFW, tenha certeza que está em um canal NSFW. Os comandos são: `L!r34` e `L!hentai` e `L!iac`.",
+    "nsfw_bork": "As funcionalidades NSFW geralmente não funcionam devido a API utilizada. Estamos trabalhando para resolver o problema. Por enquanto, utilize `L!iac`."
   },
   "language": {
     "invalid": "'{0}' não é uma lingua válida seu boboca.",
