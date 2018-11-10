@@ -526,6 +526,15 @@
         "empty": "Bans multiple members at once."
       },
       "description": "Bans multiple members at once."
+    },
+    "softban": {
+      "usage": {
+        "empty": "Bans and unbans a member without providing a reason.",
+        "reason": "Bans and unbans a member with the specified reason."
+      },
+      "description": "Bans and unbans a user with optional reason.",
+      "success": "{0} was softbanned.",
+      "reason": "SoftBanned by {0}."
     }
   }
 }
