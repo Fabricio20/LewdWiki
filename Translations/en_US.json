@@ -537,6 +537,22 @@
       "description": "Bans and unbans a user with optional reason.",
       "success": "{0} was softbanned.",
       "reason": "SoftBanned by {0}."
+    },
+    "starboard": {
+      "usage": {
+        "toggle": "Enables or disables the starboard.",
+        "reset": "Resets the starboard.",
+        "channel": "Defines the channel where starboard pins will be posted to."
+      },
+      "error": {
+        "failed_create": "Failed to recreate the channel, make sure I have MANAGE_CHANNELS permission.",
+        "failed_delete": "Failed to delete the old starboard channel, please do so manually."
+      },
+      "enabled": "Starboard has been enabled.",
+      "disabled": "Starboard has been disabled.",
+      "reset": "Starboard has been reset. All history has been deleted and the channel has been recreated.",
+      "channel": "Starboard channel has been defined.",
+      "description": ""
     }
   }
 }
