@@ -5,22 +5,24 @@
       "action": "Je hebt geen toestemming om deze actie uit te voeren.",
       "subcommand": "Je hebt geen toestemming om dit subcommand uit te voeren.",
       "bot": "Ik heb geen {0} permissie, welke ik nodig heb om dit te doen.",
-      "discord": "Je hebt geen Discord permissie om dit te doen. ({0})"
+      "discord": "Je hebt geen Discord permissie om dit te doen. ({0}).",
+      "rank": "Dit command kan alleen uitgevoerd worden door {0}."
     },
     "error": {
       "database": "Fout opgetreden tijdens het opslaan in de database.",
       "contact_devs": "Contacteer de ontwikkelaar als je denkt dat dit niet hoort te gebeuren.",
       "profile_locked": "Hey, ik wacht op deze operatie om te voltooien, probeer het opnieuw in een paar seconden.",
-      "cooldown_hit": "Wow rustig! je voert commands veelste snel uit achter elkaar! ({0}s resterend)",
+      "cooldown_hit": "Wow rustig! je voert commands veelste snel uit achter elkaar! ({0}s resterend).",
       "retry": "Probeer het opnieuw.",
       "retry_later": "Probeer het opnieuw in {0} seconden.",
-      "embed": "Fout opgetreden tijdens het maken van de embed. ${msg:error.contact_devs}",
-      "interact": "Ik heb niet de benodigde permissie om dit te doen. (Rol/Lid interactie verboden)",
+      "embed": "Fout opgetreden tijdens het maken van de embed. ${msg:error.contact_devs}.",
+      "interact": "Ik heb niet de benodigde permissie om dit te doen. (Rol/Lid interactie verboden).",
       "command": {
         "unknown": "Onbekend command.",
         "unknown_near": "Onbekend command, bedoelde je {0}?",
         "unknown_sub": "Onbekend subcommand.",
-        "restricted": "Dit command is beperkt tot {0} gebruikers. Lees meer op <https://notfab.net/LewdBot/Premium>"
+        "restricted": "Dit command is beperkt tot {0} gebruikers. Lees meer op <https://notfab.net/LewdBot/Premium>.",
+        "nsfw": "Dit command kan alleen gebruikt worden in NSFW kanalen, markeer dit kanaal als NSFW kanaal voor je het gebruikt."
       },
       "regex": {
         "number": "Dat is geen geldig getal.",
@@ -50,7 +52,12 @@
       "hour": "uur",
       "hours": "uur",
       "day": "dag",
-      "days": "dagen"
+      "days": "dagen",
+      "enabled": "Ingeschakeld",
+      "disabled": "Uitgeschakeld",
+      "width": "Breedte",
+      "height": "Hoogte",
+      "rating": "Beoordeling"
     }
   },
   "economy": {
@@ -66,6 +73,15 @@
       "daily_already": "Je hebt al je dagelijkse koekjes voor vandaag, probeer het opnieuw in {0}."
     },
     "unknown_item": "Onbekend item"
+  },
+  "faq": {
+    "what_prefix": "De standaard prefix is `L!`.",
+    "change_prefix": "Om de prefix te veranderen, voer uit `L!setup` of gebruikt `L!prefix {gewenste prefix}`",
+    "how_use": "Je kan de bot gebruiken door de standaard prefix voor een command te gebruiken bijvoorbeeld: `L!help`",
+    "what_power": "Power users zijn mensen die gedoneerd hebben op Patreon. Deze beperking is aanwezig vanwege CPU-gebruik.",
+    "change_volume": "Om het volume te veranderen moet je Power user zijn. Als je dat niet bent kan je nogsteeds rechtermuisknop op de bot om het volume aan te passen.",
+    "how_nsfw": "Om NSFW commands te gebruiken moet je zeker zijn dat je in een NSFW kanaal bent. De commands zijn: `L!r34` en `L!hentai` en `L!iac`.",
+    "nsfw_bork": "NSFW functies zijn soms kapot door API limieten. We werken momentaal aan een oplossing. Voor nu, Probeer `L!iac` in plaats daarvan."
   },
   "language": {
     "invalid": "'{0}' is geen geldige taal.",
