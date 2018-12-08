@@ -342,6 +342,20 @@
       "search": "{User.Name}'s search on Danbooru. (Click here if Image doesn't Load)",
       "tags": "**Tags**: {0}"
     },
+    "e621": {
+      "usages": {
+        "notag": "Sends a random (furry) image from E621.",
+        "search": "Searches on E621 for images tagged with the given terms."
+      },
+      "error": {
+        "nothing_found": "Nothing found on E621.",
+        "no_response": "Error while retrieving images from E621 (Server returned empty response).",
+        "unknown": "An unknown error happened while retrieving images from E621. Message: {0}"
+      },
+      "description": "Searches for NSFW images on e621.net",
+      "search": "{User.Name}'s search on E621. (Click here if Image doesn't Load)",
+      "tags": "**Tags**: {0}"
+    },
     "premium": {
       "usages": {
         "info": "Shows information about the current guild.",
