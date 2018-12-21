@@ -17,6 +17,7 @@
       "retry_later": "Please try again in {0} seconds.",
       "embed": "Error while trying to create embed. ${msg:error.contact_devs}",
       "interact": "I do not have the necessary permission to do this. (Role/Member interaction prohibited)",
+      "unknown": "Internal error while executing this command. ${msg:error.contact_devs}",
       "command": {
         "unknown": "Unknown command.",
         "unknown_near": "Unknown command, did you mean {0}?",
@@ -30,13 +31,13 @@
         "url": "That is not a valid URL."
       },
       "search": {
-        "text_none": "No text channels were found with that name.",
+        "text_none": "No text channels were found with that name. (Make sure to use \" around their name if it has spaces)",
         "text_multiple": "Multiple text channels found, please be more specific.",
-        "voice_none": "No voice channels were found with that name.",
+        "voice_none": "No voice channels were found with that name. (Make sure to use \" around their name if it has spaces)",
         "voice_multiple": "Multiple voice channels found, please be more specific.",
-        "role_none": "No roles found with that name.",
+        "role_none": "No roles found with that name. (Make sure to use \" around the name if it has spaces)",
         "role_multiple": "Multiple roles found, please be more specific.",
-        "member_none": "No members found with that name.",
+        "member_none": "No members found with that name. (Make sure to use \" around their name if it has spaces)",
         "member_multiple": "Multiple members found, please be more specific."
       },
       "number": {
@@ -341,6 +342,20 @@
       "search": "{User.Name}'s search on Danbooru. (Click here if Image doesn't Load)",
       "tags": "**Tags**: {0}"
     },
+    "e621": {
+      "usages": {
+        "notag": "Sends a random (furry) image from E621.",
+        "search": "Searches on E621 for images tagged with the given terms."
+      },
+      "error": {
+        "nothing_found": "Nothing found on E621.",
+        "no_response": "Error while retrieving images from E621 (Server returned empty response).",
+        "unknown": "An unknown error happened while retrieving images from E621. Message: {0}"
+      },
+      "description": "Searches for NSFW images on e621.net",
+      "search": "{User.Name}'s search on E621. (Click here if Image doesn't Load)",
+      "tags": "**Tags**: {0}"
+    },
     "premium": {
       "usages": {
         "info": "Shows information about the current guild.",
@@ -438,7 +453,7 @@
         "remove_pos": "Removes a track by it's position on the playlist.",
         "setmusic": "Defines the channel where LewdBot sends music-related messages to.",
         "share": "Enables or disables playlist sharing.",
-        "shuffle": "Enables or disables song shuffling on the playlist."
+        "shuffle": "Toggles music shuffling on the playlist."
       },
       "error": {
         "no_playlist_found": "No playlist found with that name (or ID).",
@@ -461,7 +476,7 @@
         "volume": "Changes the volume of the bot.",
         "share": "Sharing allows other users to edit your playlist, by default sharing is disabled to prevent people from modifying your playlist.",
         "list": "Lists all the songs on the current playlist.",
-        "shuffle": "Enables shuffle mode for the playlist."
+        "shuffle": "Shuffle mode for songs (randomly plays a song in the playlist)."
       },
       "description": "PlayList management commands.",
       "create_success": "PlayList **{0}** created! (ID: **{1}**)",
@@ -473,8 +488,10 @@
       "share_enabled": "PlayList is now shared.",
       "share_disabled": "PlayList is no longer shared.",
       "default_playlist": "Default (Guild PlayList - Always present)",
-      "shuffle_enabled": "PlayList shuffle is now enabled.",
-      "shuffle_disabled": "PlayList shuffle is now disabled."
+      "shuffle_enabled": "Shuffle mode is now enabled.",
+      "shuffle_disabled": "Shuffle mode is now disabled.",
+      "playlist_shuffle_enabled": "PlayList shuffle is now enabled.",
+      "playlist_shuffle_disabled": "PlayList shuffle is now disabled."
     },
     "slowmode": {
       "error": {
@@ -488,6 +505,80 @@
       "description": "Twitch-like slowmode for Discord (Now using Discord's slowmode feature)",
       "enabled": "Slowmode enabled.",
       "disabled": "Slowmode disabled."
+    },
+    "ban": {
+      "error": {
+        "no_perms": "I don't have permission to ban that user."
+      },
+      "usage": {
+        "empty": "Bans a member without providing a reason.",
+        "reason": "Bans a member with the specified reason."
+      },
+      "description": "Bans a user with optional reason.",
+      "success": "{0} was banned.",
+      "failure": "Error while banning user, please try again.",
+      "reason": "Banned by {0}."
+    },
+    "hackban": {
+      "error": {
+        "id_invalid": "That's not a valid user ID."
+      },
+      "description": "Bans a user by ID with optional reason."
+    },
+    "kick": {
+      "error": {
+        "no_perms": "I don't have permission to kick that user."
+      },
+      "usage": {
+        "empty": "Kicks a member without providing a reason.",
+        "reason": "Kicks a member with the specified reason."
+      },
+      "description": "Kicks a user with optional reason.",
+      "success": "{0} was kicked.",
+      "failure": "Error while kicking user, please try again.",
+      "reason": "Kicked by {0}."
+    },
+    "multiban": {
+      "usage": {
+        "empty": "Bans multiple members at once."
+      },
+      "description": "Bans multiple members at once."
+    },
+    "softban": {
+      "usage": {
+        "empty": "Bans and unbans a member without providing a reason.",
+        "reason": "Bans and unbans a member with the specified reason."
+      },
+      "description": "Bans and unbans a user with optional reason.",
+      "success": "{0} was softbanned.",
+      "reason": "SoftBanned by {0}."
+    },
+    "starboard": {
+      "usage": {
+        "toggle": "Enables or disables the starboard.",
+        "reset": "Resets the starboard.",
+        "channel": "Defines the channel where starboard pins will be posted to."
+      },
+      "error": {
+        "failed_create": "Failed to recreate the channel, make sure I have MANAGE_CHANNELS permission.",
+        "failed_delete": "Failed to delete the old starboard channel, please do so manually."
+      },
+      "enabled": "Starboard has been enabled.",
+      "disabled": "Starboard has been disabled.",
+      "reset": "Starboard has been reset. All history has been deleted and the channel has been recreated.",
+      "channel": "Starboard channel has been defined.",
+      "description": "Kinda like pins but on a channel!"
+    },
+    "color": {
+      "usage": {
+        "preview": "Sends an embed with this color (Useful for previews).",
+        "change": "Changes the color of one or more roles."
+      },
+      "error": {
+        "color": "That's not a valid color"
+      },
+      "changed": "{0} roles updated. (Out of {1}).",
+      "description": "Preview and update role colors!"
     },
     "modlog": {
       "usage": {
