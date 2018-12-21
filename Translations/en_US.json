@@ -488,6 +488,13 @@
       "description": "Twitch-like slowmode for Discord (Now using Discord's slowmode feature)",
       "enabled": "Slowmode enabled.",
       "disabled": "Slowmode disabled."
+    },
+    "modlog": {
+      "usage": {
+        "toggle": "Enables or Disables modlog."
+      },
+      "enabled": "Modlog enabled on channel **{0}**.",
+      "disabled": "Modlog disabled."
     }
   }
 }
