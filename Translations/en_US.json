@@ -73,7 +73,8 @@
       "daily_streak": "+{0} :cookie:! (Streak = {1}) Come back tomorrow for more cookies!",
       "daily_already": "You already received your daily cookies for today, try again in {0}."
     },
-    "unknown_item": "Unknown item"
+    "unique_item": "You already have this item.",
+    "unknown_item": "No items found with that name."
   },
   "faq": {
     "what_prefix": "The default prefix is `L!`.",
@@ -584,8 +585,16 @@
       "usage": {
         "toggle": "Enables or Disables modlog."
       },
+      "description": "Moderation logs (Alpha)",
       "enabled": "Modlog enabled on channel **{0}**.",
       "disabled": "Modlog disabled."
+    },
+    "shop": {
+      "usage": {
+        "list": "Lists all items available on the shop.",
+        "buy": "Purchases an item from the shop."
+      },
+      "description": "Item shop (Beta)"
     }
   }
 }
