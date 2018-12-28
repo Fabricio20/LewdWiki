@@ -556,19 +556,41 @@
     },
     "starboard": {
       "usage": {
-        "toggle": "Enables or disables the starboard.",
-        "reset": "Resets the starboard.",
-        "channel": "Defines the channel where starboard pins will be posted to."
+        "default": "Defines the channel where starboard pins will be posted to. Off to disable."
+      },
+      "description": "Kinda like pins but on a channel!",
+      "disabled": "Starboard has been disabled.",
+      "channel": "Starboard enabled on channel **{0}**."
+    },
+    "modlog": {
+      "usage": {
+        "default": "Defines the channel where moderation logs will be posted to. Off to disable."
+      },
+      "parts": {
+        "reason": "[ Reason ] {0}",
+        "ban": "{0} was banned.",
+        "ban_admin": "{0} banned {1}",
+        "unban": "{0} was unbanned.",
+        "unban_admin": "{0} unbanned {1}.",
+        "kick": "{0} was kicked.",
+        "kick_admin": "{0} kicked {1}."
+      },
+      "description": "Moderation logs (Alpha)",
+      "disabled": "Modlog has been disabled.",
+      "channel": "Modlog enabled on channel **{0}**."
+    },
+    "reason": {
+      "usage": {
+        "default": "Updates the reason for the last modlog case.",
+        "case": "Updates the reason for a specific modlog case."
       },
       "error": {
-        "failed_create": "Failed to recreate the channel, make sure I have MANAGE_CHANNELS permission.",
-        "failed_delete": "Failed to delete the old starboard channel, please do so manually."
+        "reason": "Please specify a reason along with the case ID.",
+        "case_unknown": "Specified case was not found.",
+        "case_last": "Failed to find latest case file."
       },
-      "enabled": "Starboard has been enabled.",
-      "disabled": "Starboard has been disabled.",
-      "reset": "Starboard has been reset. All history has been deleted and the channel has been recreated.",
-      "channel": "Starboard channel has been defined.",
-      "description": "Kinda like pins but on a channel!"
+      "description": "Updates the reason on modlog cases.",
+      "updated": "Case file updated."
     },
     "color": {
       "usage": {
@@ -580,14 +602,6 @@
       },
       "changed": "{0} roles updated. (Out of {1}).",
       "description": "Preview and update role colors!"
-    },
-    "modlog": {
-      "usage": {
-        "toggle": "Enables or Disables modlog."
-      },
-      "description": "Moderation logs (Alpha)",
-      "enabled": "Modlog enabled on channel **{0}**.",
-      "disabled": "Modlog disabled."
     },
     "shop": {
       "usage": {
