@@ -359,26 +359,18 @@
     },
     "premium": {
       "usages": {
-        "info": "Shows information about the current guild.",
-        "list": "Lists all your premium keys.",
-        "enable": "Activates premium mode on the current guild.",
-        "activate": "Activates premium mode on the current guild using the given key.",
-        "generate": "Reserved for developers."
+        "enable": "Enables premium mode for this guild.",
+        "disable": "Disables premium mode. (Must be Owner of the Guild or Owner of the current Premium status)."
       },
       "error": {
-        "all_keys_used": "All your premium keys are already in use!",
         "not_premium": "You do not have any premium keys to use.",
-        "not_found": "Key not found",
-        "not_owner": "You are not the owner of this key. Only the owner can activate it.",
-        "already": "This server is already premium."
+        "already": "This server is already premium.",
+        "not_premium_guild": "This server is not a premium server.",
+        "no_Perms": "You don't have permission to disable the premium mode of this guild."
       },
       "description": "Configures LewdBot premium.",
-      "list": "Your keys: \n{0}",
-      "premium": "Premium.",
-      "normal": "Normal.",
-      "never": "Never.",
-      "enabled": "Premium mode is now enabled.",
-      "generated": "Key generated. **{0}**"
+      "enabled": "Premium mode **enabled**.",
+      "disabled": "Premium mode **disabled**."
     },
     "calc": {
       "usages": {
