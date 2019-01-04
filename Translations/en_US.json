@@ -363,10 +363,11 @@
         "disable": "Disables premium mode. (Must be Owner of the Guild or Owner of the current Premium status)."
       },
       "error": {
-        "not_premium": "You do not have any premium keys to use.",
+        "not_premium": "You are not a premium user.",
         "already": "This server is already premium.",
         "not_premium_guild": "This server is not a premium server.",
-        "no_Perms": "You don't have permission to disable the premium mode of this guild."
+        "no_Perms": "You don't have permission to disable the premium mode of this guild.",
+        "no_premium_left": "You do not have more premium slots available."
       },
       "description": "Configures LewdBot premium.",
       "enabled": "Premium mode **enabled**.",
