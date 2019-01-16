@@ -70,7 +70,7 @@
   },
   "commands": {
     "giveme": {
-      "description": "Allows users to add certain roles to themselves.",
+      "description": "ユーザーをロールが自己に付与する許せる。",
       "purged": "ダメな役は取れる。",
       "added": "役はギブミーリストに増やしました。",
       "removed": "役がリストから取れました。",
