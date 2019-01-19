@@ -602,6 +602,40 @@
         "buy": "Purchases an item from the shop."
       },
       "description": "Item shop (Beta)"
+    },
+    "define": {
+      "usage": {
+        "default": "Defines the given word."
+      },
+      "error": {
+        "no_definitions": "No definitions found for {0}, can you define it?"
+      },
+      "description": "Defines a given word (from Urban Dictionary)."
+    },
+    "flip": {
+      "usage": {
+        "default": "Flips a coin"
+      },
+      "description": "Flips a coin",
+      "heads": "**{0}** flipped a coin and got **Heads**.",
+      "tails": "**{0}** flipped a coin and got **Tails**."
+    },
+    "scramble": {
+      "usage": {
+        "default": "Starts a scramble game (Answer by simply saying the correct word in the chat)."
+      },
+      "description": "Word guessing game. (Answer by simply saying the correct word in the chat)",
+      "already": "There is already a scramble game on this server (Word is {0}), type in just the answer in the chat.",
+      "start": "The word is {0}, you have 1 minute to guess. (Type just the answer in the chat).",
+      "correct": "That's correct! +{0} :cookie:",
+      "timed": "Oops, Timed out! It was {0}, maybe try another word?"
+    },
+    "roll": {
+      "usages": {
+        "default": "Rolls a d2000 dice.",
+        "specified": "Rolls an n sided dice. (You specify)"
+      },
+      "description": "Rolls a dice."
     }
   }
 }
