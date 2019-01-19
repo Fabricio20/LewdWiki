@@ -17,7 +17,7 @@
       "retry_later": "Please try again in {0} seconds.",
       "embed": "Error while trying to create embed. ${msg:error.contact_devs}",
       "interact": "I do not have the necessary permission to do this. (Role/Member interaction prohibited)",
-      "unknown": "Internal error while executing this command. ${msg:error.contact_devs}",
+      "unknown": "Internal error while executing this command. ${msg:core.error.contact_devs}",
       "command": {
         "unknown": "Unknown command.",
         "unknown_near": "Unknown command, did you mean {0}?",
@@ -636,6 +636,59 @@
         "specified": "Rolls an n sided dice. (You specify)"
       },
       "description": "Rolls a dice."
+    },
+    "leaderboard": {
+      "usages": {
+        "default": "Displays the top cookie bourgeois."
+      },
+      "description": "Displays the top cookie bourgeois."
+    },
+    "shard": {
+      "usages": {
+        "default": "Displays status for the current shard."
+      },
+      "description": "Displays status for the current shard. (ie Bot Status)"
+    },
+    "invite": {
+      "usages": {
+        "default": "Displays invite links for LewdBot."
+      },
+      "description": "Displays invite links for LewdBot."
+    },
+    "slot": {
+      "usages": {
+        "default": "Slot machine!"
+      },
+      "description": "Slot machine!"
+    },
+    "country": {
+      "usages": {
+        "default": "Set's your profile's country"
+      },
+      "description": "Set's your profile's country"
+    },
+    "profile": {
+      "usages": {
+        "default": "Shows your profile (Image)"
+      },
+      "description": "Shows your profile (Image)"
+    },
+    "language": {
+      "usages": {
+        "default": "Displays a list of available languages.",
+        "define": "Defines your profile language."
+      },
+      "error": {
+        "invalid": "Invalid language."
+      },
+      "description": "Defines your profile language.",
+      "changed": "Language changed to **{0}**."
+    },
+    "status": {
+      "usages": {
+        "default": "Displays the bot's status."
+      },
+      "description": "Displays the bot's status."
     }
   }
 }
