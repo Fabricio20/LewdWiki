@@ -264,18 +264,14 @@
     "setup": {
       "error": {
         "timed": "Setup cancelled. (Timed out)",
-        "more_channel": "More than one channel found with that name, would you like to retry? [Y/N]",
-        "no_channel": "No channel found with that name, would you like to retry? [Y/N]"
+        "no_channel": "No channel found with that name, please try again."
       },
       "description": "Runs a setup to quickly get LewdBot ready for use.",
       "welcome": "Welcome to the LewdBot setup, please answer the following questions by simply replying in the chat (no prefix needed).\nYou can quit any time by simply typing `cancel`.",
       "cancelled": "Setup cancelled.",
       "setprefix": "Would you like to define a custom prefix/trigger? [Y/N]",
       "typeprefix": "Please type the new prefix to use (Note: `L!` and `@LewdBot` will always work):",
-      "prefixchanged": "Prefix changed, would you like to enable NSFW features? [Y/N]",
-      "nsfw": "Ok, would you like to enable NSFW features? [Y/N]",
-      "nsfwenabled": "NSFW Module enabled, would you like to set up a music channel?",
-      "music": "Ok, would you like to set up a music channel? [Y/N]",
+      "music": "Would you like to set up a music channel? [Y/N]",
       "musictag": "Please tag the channel to send music statuses.",
       "complete": "Setup is now complete."
     },
