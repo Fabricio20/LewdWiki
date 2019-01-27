@@ -685,6 +685,12 @@
         "default": "Displays the bot's status."
       },
       "description": "Displays the bot's status."
+    },
+    "anime": {
+      "usages": {
+        "default": "Finds and displays anime information"
+      },
+      "description": "Finds and displays anime information"
     }
   }
 }
