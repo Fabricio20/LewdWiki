@@ -62,7 +62,7 @@
     }
   },
   "economy": {
-    "success": "Transaction completed.",
+    "success": "Transaction complete.",
     "cookies": {
       "error": {
         "not_enough": "You don't have enough :cookie: to do this! (Required {0})",
@@ -74,7 +74,8 @@
       "daily_already": "You already received your daily cookies for today, try again in {0}."
     },
     "unique_item": "You already have this item.",
-    "unknown_item": "No items found with that name."
+    "unknown_item": "No items found with that name.",
+    "no_price": "This item can't be purchased."
   },
   "faq": {
     "what_prefix": "The default prefix is `L!`.",
@@ -691,6 +692,18 @@
         "default": "Finds and displays anime information"
       },
       "description": "Finds and displays anime information"
+    },
+    "background": {
+      "usages": {
+        "list": "Lists all available backgrounds.",
+        "use": "Defines your profile background to an owned one.",
+        "buy": "Purchases a background.",
+        "preview": "Shows a preview of the background."
+      },
+      "error": {
+        "unknown": "No background was found with that name."
+      },
+      "description": "Allows you to modify your profile background."
     }
   }
 }
