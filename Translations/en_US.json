@@ -15,7 +15,7 @@
       "cooldown_hit": "Whoa calm down! You are typing commands too fast! ({0}s remaining)",
       "retry": "Please try again.",
       "retry_later": "Please try again in {0} seconds.",
-      "embed": "Error while trying to create embed. ${msg:error.contact_devs}",
+      "embed": "Error while trying to create embed. ${msg:core.error.contact_devs}",
       "interact": "I do not have the necessary permission to do this. (Role/Member interaction prohibited)",
       "unknown": "Internal error while executing this command. ${msg:core.error.contact_devs}",
       "command": {
@@ -701,9 +701,12 @@
         "preview": "Shows a preview of the background."
       },
       "error": {
-        "unknown": "No background was found with that name."
+        "unknown": "No background was found with that name.",
+        "dont_own": "You don't own this background.",
+        "own": "You already own this background."
       },
-      "description": "Allows you to modify your profile background."
+      "description": "Allows you to modify your profile background.",
+      "changed": "Background updated."
     }
   }
 }
