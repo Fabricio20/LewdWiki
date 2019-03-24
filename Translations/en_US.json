@@ -707,6 +707,9 @@
       },
       "description": "Allows you to modify your profile background.",
       "changed": "Background updated."
+    },
+    "bug": {
+      "description": "Shows information about bug reporting."
     }
   }
 }
