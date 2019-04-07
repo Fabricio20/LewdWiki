@@ -444,7 +444,8 @@
         "remove_pos": "Removes a track by it's position on the playlist.",
         "setmusic": "Defines the channel where LewdBot sends music-related messages to.",
         "share": "Enables or disables playlist sharing.",
-        "shuffle": "Toggles music shuffling on the playlist."
+        "shuffle": "Toggles music shuffling on the playlist.",
+        "mode": "Enables or disables playlist modes (like Queue or Shuffle)."
       },
       "error": {
         "no_playlist_found": "No playlist found with that name (or ID).",
@@ -453,7 +454,8 @@
         "invalid_name": "This playlist name is invalid.",
         "track_already_present": "This track is already in the playlist.",
         "track_not_present": "This track does not exist in the current playlist.",
-        "locked": "PlayList is locked (only the owner can edit it). Check `L!pl_share` for more information."
+        "locked": "PlayList is locked (only the owner can edit it). Check `L!pl_share` for more information.",
+        "unknown_flag": "Unknown PlayList flag, available ones are `{0}`."
       },
       "descriptions": {
         "add": "Adds a track or stream to the active playlist.",
@@ -467,7 +469,8 @@
         "volume": "Changes the volume of the bot.",
         "share": "Sharing allows other users to edit your playlist, by default sharing is disabled to prevent people from modifying your playlist.",
         "list": "Lists all the songs on the current playlist.",
-        "shuffle": "Shuffle mode for songs (randomly plays a song in the playlist)."
+        "shuffle": "Shuffle mode for songs (randomly plays a song in the playlist).",
+        "mode": "Toggles playlist modes (like Queue or Shuffle)."
       },
       "description": "PlayList management commands.",
       "create_success": "PlayList **{0}** created! (ID: **{1}**)",
@@ -482,7 +485,9 @@
       "shuffle_enabled": "Shuffle mode is now enabled.",
       "shuffle_disabled": "Shuffle mode is now disabled.",
       "playlist_shuffle_enabled": "PlayList shuffle is now enabled.",
-      "playlist_shuffle_disabled": "PlayList shuffle is now disabled."
+      "playlist_shuffle_disabled": "PlayList shuffle is now disabled.",
+      "flag_enabled": "{0} is now enabled.",
+      "flag_disabled": "{0} is now disabled."
     },
     "slowmode": {
       "error": {
