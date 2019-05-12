@@ -166,7 +166,7 @@
       "stop_reason_requested": "Requested by {User.Name}.",
       "disconnected": "Disconnected.",
       "disconnected_reason": "Disconnected. Reason: {0}",
-      "added_single": "`{0}` has been added.",
+      "added_single": "`{0}` **[{1}]** has been added.",
       "added_multiple": "{0} songs added, {1} failed. ({2} Total).",
       "volume_too_high": "Too high. Please use a number between 5 and 150.",
       "volume_too_low": "Too low. Please use a number between 5 and 150.",
