@@ -715,6 +715,19 @@
     },
     "bug": {
       "description": "Shows information about bug reporting."
+    },
+    "r6": {
+      "usages": {
+        "discord": "Displays the Rainbow Six Siege profile of a Discord user.",
+        "public": "Displays the profile of any Rainbow Six Siege player, platform is optional and supported entries are UPLAY, XBOX, PSN",
+        "save": "Saves a Rainbow Six Siege username to your profile."
+      },
+      "error": {
+        "invalid_platform": "That is not a valid platform. (Available: UPLAY, XBOX, PSN)",
+        "invalid_usage": "Invalid usage, please follow the `username/platform` pattern."
+      },
+      "saved": "Username saved.",
+      "description": "Displays Rainbow Six Siege profile information for players."
     }
   }
 }
