@@ -723,7 +723,7 @@
         "save": "Saves a Rainbow Six Siege username to your profile."
       },
       "error": {
-        "invalid_platform": "That is not a valid platform. (Available: UPLAY, XBOX, PSN)",
+        "invalid_platform": "That is not a valid platform. (Available: UPLAY, XONE, PS4)",
         "invalid_usage": "Invalid usage, please follow the `username/platform` pattern."
       },
       "saved": "Username saved.",
