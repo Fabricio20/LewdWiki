@@ -172,10 +172,11 @@
       "volume_too_low": "Too low. Please use a number between 5 and 150.",
       "track_removed": "Removed `{0}`.",
       "channel_set": "Music channel set to `{0}`",
-      "playing": "Now playing `{0}`. (**#{1}**)",
+      "playing": "Now playing `{0}`. **[#{1}]**",
       "not_playing": "Not playing anything currently.",
       "no_left": "No tracks left.",
-      "cleared": "PlayList cleared. {0} songs removed."
+      "cleared": "PlayList cleared. {0} songs removed.",
+      "volume_changed": "Volume set to **{0}%**. Requested by `{1}`."
     },
     "join": {
       "usage": {
