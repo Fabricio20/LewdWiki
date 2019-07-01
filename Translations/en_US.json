@@ -207,7 +207,8 @@
         "targeted": "Deletes last 30 messages from Someone."
       },
       "error": {
-        "nothing_to_delete": "There are no items to delete!"
+        "nothing_to_delete": "There are no items to delete!",
+        "no_permission": "I don't have permission to delete messages here. (Missing MESSAGE_MANAGE)"
       },
       "description": "Deletes messages en-message.",
       "deleted_single": "1 Message deleted. This message will auto-destruct in 5 seconds.",
