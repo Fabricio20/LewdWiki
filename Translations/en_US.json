@@ -342,6 +342,20 @@
       "search": "{User.Name}'s search on Danbooru. (Click here if Image doesn't Load)",
       "tags": "**Tags**: {0}"
     },
+    "gelbooru": {
+      "usages": {
+        "notag": "Sends a random image from Gelbooru.",
+        "search": "Searches on Gelbooru for images tagged with the given terms."
+      },
+      "error": {
+        "nothing_found": "Nothing found on Gelbooru.",
+        "no_response": "Error while retrieving images from Gelbooru (Server returned empty response).",
+        "unknown": "An unknown error happened while retrieving images from Gelbooru. Message: {0}"
+      },
+      "description": "Searches for NSFW images on Gelbooru",
+      "search": "{User.Name}'s search on Gelbooru. (Click here if Image doesn't Load)",
+      "tags": "**Tags**: {0}"
+    },
     "e621": {
       "usages": {
         "notag": "Sends a random (furry) image from E621.",
