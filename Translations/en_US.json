@@ -430,6 +430,7 @@
         "rename": "Renames a playlist.",
         "use": "Marks a playlist as active.",
         "copy": "Copy a playlist to yourself.",
+        "export": "Exports a playlist to Youtube/SoundCloud.",
         "list": "Lists all available playlists",
         "add_name": "Adds a song by name (searches on YouTube).",
         "add_url": "Adds a song by URL (Youtube or SoundCloud).",
