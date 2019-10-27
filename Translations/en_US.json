@@ -752,6 +752,13 @@
         "about": "Shows information about a setting."
       },
       "description": "Updates guild-specific settings."
+    },
+    "antispam": {
+      "usage": {
+        "enable": "Enables Anti-Spam.",
+        "disable": "Disables Anti-Spam."
+      },
+      "description": "Moderates messages. (Anti-Spam + Anti-Mention Spam)."
     }
   }
 }
