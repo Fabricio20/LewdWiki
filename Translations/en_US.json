@@ -125,7 +125,8 @@
       "translator": "You are now a member of the LewdBot translation team.",
       "halloween_2017": "Spoo.py!",
       "fbi": "What have you done?",
-      "halloween_2018": "Spookier than ever!"
+      "halloween_2018": "Spookier than ever!",
+      "halloween_2019": "Meguween!"
     },
     "autoplay": {
       "description": "(Premium) Auto starts playing when a user joins the selected voice channel.",
