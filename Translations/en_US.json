@@ -759,6 +759,13 @@
         "disable": "Disables Anti-Spam."
       },
       "description": "Moderates messages. (Anti-Spam + Anti-Mention Spam)."
+    },
+    "raid": {
+      "usage": {
+        "enable": "Enables Raid Mode.",
+        "disable": "Disables Raid Mode."
+      },
+      "description": "Toggles Raid Mode. (Auto-Kick, Ban on Detection, etc..)."
     }
   }
 }
