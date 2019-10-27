@@ -745,6 +745,13 @@
       },
       "saved": "Username saved.",
       "description": "Displays Rainbow Six Siege profile information for players."
+    },
+    "settings": {
+      "usages": {
+        "define": "Updates a setting to a specified value.",
+        "about": "Shows information about a setting."
+      },
+      "description": "Updates guild-specific settings."
     }
   }
 }
