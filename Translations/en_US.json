@@ -767,6 +767,12 @@
         "disable": "Disables Raid Mode."
       },
       "description": "Toggles Raid Mode. (Auto-Kick, Ban on Detection, etc..)."
+    },
+    "privacy": {
+      "usage": {
+        "help": "Links to our privacy policy."
+      },
+      "description": "You can review our privacy policy at <https://notfab.net/LewdBot/privacy.txt>"
     }
   }
 }
