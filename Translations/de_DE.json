@@ -17,11 +17,13 @@
       "retry_later": "Bitte versuche es in {0} Sekunden erneut.",
       "embed": "Error while trying to create embed. ${msg:error.contact_devs}",
       "interact": "Ich habe nicht die nötigen Berechtigungen, um das zu tun. (Rollen-/Mitgliederinteraktion verboten)",
+      "unknown": "Interner Fehler beim Ausführen dieses Befehls. ${msg:core.error.contact_devs}",
       "command": {
         "unknown": "Unbekannter Befehl.",
         "unknown_near": "Unbekannter Befehl, meintest du {0}?",
         "unknown_sub": "Unbekannter Unterbefehl.",
         "restricted": "Dieser Befehl ist {0}-Nutzern vorbehalten. Learn more at <https://notfab.net/LewdBot/Premium>"
+        "nsfw": "Dieser Befehl funktioniert nur in NSFW-Kanälen, bitte markiere den Kanal als NSFW (in den Kanaleinstellungen) bevor du ihn benutzt. #BeCompliant"
       },
       "regex": {
         "number": "Das ist keine gültige Nummer.",
@@ -54,6 +56,9 @@
       "days": "Tage",
       "enabled": "Aktiviert",
       "disabled": "Deaktiviert"
+      "width": "Breite",
+      "height": "Höhe",
+      "rating": "Bewertung"
     }
   },
   "economy": {
@@ -68,7 +73,18 @@
       "daily_streak": "+{0} :cookie:! (Streak = {1}) Komm morgen wieder um noch mehr Kekse zu bekommen!",
       "daily_already": "Du hast deine tägliche Portion Kekse schon bekommen, versuch es in {0} wieder."
     },
-    "unknown_item": "Unbekannter Gegenstand"
+    "unique_item": "Du besitzt diesen Gegenstand bereits.",
+    "unknown_item": "Unbekannter Gegenstand",
+    "no_price": "Dieser Gegenstand kann nicht gekauft werden."
+  },
+  "faq": {
+    "what_prefix": "Das Standardpräfix ist `L!`.",
+    "change_prefix": "Um das Präfix zu ändern, benutze entweder `L!setup` oder `L!prefix {hier gewünschtes Präfix einfügen}`",
+    "how_use": "Um den Bot zu benutzen, setze das Standardpräfix vor einen Befehl: `L!help`",
+    "what_power": "'Power-Nutzer' sind Benutzer, die auf Patreon gespendet haben. Diese Beschränkung gibt es aufgrund von CPU-Überlastungen.",
+    "change_volume": "Um die Lautstärke serverweit ändern zu können, musst du ein Power-Nutzer sein. Du kannst trotzdem den Bot rechtsklicken und den Discord-Lautstärkeregler benutzen.",
+    "how_nsfw": "Um NSFW Befehle nutzen zu können, musst du in einem NSFW-Kanal sein. Die Befehle sind: `L!r34`, `L!hentai` und `L!iac`.",
+    "nsfw_bork": "Die NSFW-Befehle/Features sind oft augrund ihrer API nicht funktional. Wir arbeiten an einer Lösung des Problems. Bitte versucht in der Zwischenzeit `L!iac` zu benutzen."
   },
   "language": {
     "invalid": "'{0}' ist keine verfügbare Sprache.",
@@ -100,8 +116,16 @@
       "usage": {
         "list": "Listet alle verfügbaren Abzeichen mit Vorschau auf"
       },
+      "error": {
+        "already": "Du hast dieses Abzeichen bereits!"
+      },
       "description": "LewdBot Abzeichen! Stelle Abzeichen auf deinem Profil aus. Du erhältst sie durch erfolgreiches Beenden bestimmter Aufgaben.",
       "owned": "Du besitzt dieses Abzeichen!"
+      "badge_beta": "Ggen an alle, die geholfen haben, das Abzeichensystem zu testen.",
+      "translator": "Du bist jetzt ein Mitglied des LewdBot-Übersetzerteams.",
+      "halloween_2017": "Spoo.py!",
+      "fbi": "Was hast du getan?",
+      "halloween_2018": "Spukiger als je zuvor!"
     },
     "autoplay": {
       "description": "(Premium) Startet automatisches Abspielen wenn ein Benutzer den ausgewählten Sprach-Kanal betritt.",
@@ -128,10 +152,49 @@
       "error": {
         "no_songs_found": "Kein Song wurde gefunden.",
         "no_permission_add": "Du hast nicht die nötigen Berechtigungen, Songs zur Playlist hinzuzufügen."
+        "failed_to_load": "Laden dieses Lieds fehlgeschlagen.",
+        "no_voice_not_connected": "Du bist nicht in einem Sprachkanal!",
+        "not_supported": "Diese Quelle wird nicht unterstützt, versuch es stattdessen mit YouTube oder SoundCloud!",
+        "error_loop": "Stoppe Abspielversuch nach 3 Fehlern.",
+        "invalid_radio": "Radio nicht gefunden."
       },
-      "description": "Musikbefehle (Diese Befehle funktionieren auch einzelstehend - `L!play` und `L!music play`)"
-          },
+      "usages": {
+        "list": "Listet alle Lieder in der aktuell aktiven Playlist auf.",
+        "list_name": "Listet alle Lieder in der gewählten Playlist auf."
+      },
+      "description": "Musikbefehle (Diese Befehle funktionieren auch einzelstehend - `L!play` und `L!music play`)",
+      "stop_reason_requested": "Angefordert von {User.Name}.",
+      "disconnected": "Verbindung getrennt.",
+      "disconnected_reason": "Verbindung getrennt. Grund: {0}",
+      "added_single": "`{0}` **[{1}]** wurde hinzugefügt.",
+      "added_multiple": "{0} Lieder hinzugefügt, {1} fehlgeschlagen. ({2} gesamt).",
+      "volume_too_high": "Zu hoch. Bitte benutze eine Nummer zwischen 5 und 150.",
+      "volume_too_low": "Zu niedrig. Bitte benutze eine Nummer zwischen 5 und 150.",
+      "track_removed": "`{0}` entfernt.",
+      "channel_set": "Musikkanal wurde auf `{0}` gesetzt.",
+      "playing": "Es läuft gerade `{0}`. **[#{1}]**",
+      "not_playing": "Es wird gerade nichts abgespielt.",
+      "no_left": "Kein Lied übrig.",
+      "cleared": "Playlist geleert. {0} Lieder entfernt.",
+      "volume_changed": "Lautstärke auf **{0}%** gesetzt. Von `{1}` angefordert."
+    },
+    "join": {
+      "usage": {
+        "default": "Verbindet LewdBot mit deinem aktuellen Sprachkanal.",
+        "channel": "Verbindet LewdBot mit dem angegebenen Kanal."
+      },
+      "error": {
+        "failed_connect": "Verbinden zum Sprachkanal fehlgeschlagen.",
+        "not_on_voice": "Du bist nicht in einem Sprachkanal!"
+      }
+      "connected": "Verbunden zu `{0}` von `{1}`",
+      "description": "Verbindet LewdBot zu einem Sprachkanal."
+    },
     "advertising": {
+      "usage": {
+        "enable": "Aktiviert Anti-Werbetreiben.",
+        "disable": "Deaktiviert Anti-Werbetreiben."
+      },
       "description": "Warnt und bannt Werbetreibende automagisch.",
       "warning": "Hey {User.Mention}, Werbung ist hier verboten.",
       "ban": "{User.Name} wurde fürs Werbetreiben gebannt.",
@@ -144,7 +207,8 @@
         "targeted": "Löscht die letzten 30 Nachrichten eines Benutzers."
       },
       "error": {
-        "nothing_to_delete": "Es gibt nichts zu löschen!"
+        "nothing_to_delete": "Es gibt nichts zu löschen!",
+        "no_permission": "Ich habe nicht die nötigen Berechtigungen, um Nachrichten hier zu löschen. (Es fehlt MESSAGE_MENGAGE)"
       },
       "description": "Löscht nachhaltig Nachrichten.",
       "deleted_single": "Eine Nachricht gelöscht. Selbstzerstörung dieser Nachricht in 5 Sekunden.",
@@ -184,7 +248,7 @@
       "ignored": "Kanal `{0}` wird jetzt ignoriert.",
       "removed": "Kanal `{0}` wird nicht länger ignoriert."
     },
-    "modules": {
+    "module": {
       "usage": {
         "list": "Listet alle Module und ihre jeweiligen Status auf.",
         "enable": "Aktiviert ein Modul.",
@@ -203,7 +267,6 @@
     "setup": {
       "error": {
         "timed": "Setup abgebrochen. (Zeitüberschreitung)",
-        "more_channel": "Mehr als ein Kanal mit diesem Namen gefunden, erneut versuchen? [Y/N]",
         "no_channel": "Kein Kanal mit diesem Namen gefunden, erneut versuchen? [Y/N]"
       },
       "description": "Startet ein Setup zur korrekten Einstellung LewdBots.",
@@ -211,9 +274,6 @@
       "cancelled": "Setup abgebrochen.",
       "setprefix": "Würdest du gerne ein benutzerdefiniertes Präfix einstellen? [Y/N]",
       "typeprefix": "Bitte gib das neue Präfix ein, das du benutzen willst (Anmerkung: `L!` und `@LewdBot` werden trotzdem immer funktioneren):",
-      "prefixchanged": "Präfix geändert, willst du die NSFW-Features aktivieren? [Y/N]",
-      "nsfw": "Ok, willst du die NSFW-Features aktivieren? [Y/N]",
-      "nsfwenabled": "NSFW-Modul aktiviert. Willst du einen Musik-Kanal aufsetzen?",
       "music": "Ok, willst du einen Musik-Kanal aufsetzen? [Y/N]",
       "musictag": "Bitte tippe den Namen des Kanals ein, in den Statusmeldungen zum Musikmodul gesendet werden sollen.",
       "complete": "Konfiguration erfolgreich beendet."
@@ -223,22 +283,453 @@
       "defined": "Präfix zu {0} geändert"
     },
     "game": {
-      "description": "Ändert LewdBots Spiel.",
       "usages": {
         "next": "springt zum nächsten Spiel",
         "stream": "schaltet Streamer-Modus um",
         "name": "Ändert das Spiel",
         "streamname": "Ändert das Spiel und schaltet Streamer-Modus um"
-      }
-    }
-  },
-  "badges": {
-    "error": {
-      "already": "Du hast dieses Abzeichen bereits!"
+      },
+      "description": "Ändert LewdBots Spiel."
     },
-    "badge_beta": "Für diejenigen, die geholfen haben, das Abzeichensystem zu testen.",
-    "translator": "Du bist jetzt ein Mitglied des LewdBot-Übersetzer Teams.",
-    "halloween_2017": "Spoo.py!",
-    "fbi": "Was hast du angestellt?"
+    "help": {
+      "usages": {
+        "default": "Hilft."
+      },
+      "error": {
+        "no_embed": "Ich habe nicht die nötigen Berechtigungen, hier Nachrichten senden zu dürfen, also gibt es keine Befehlsliste für dich.",
+        "not_found": "Keine Hilfe für {0} gefunden."
+      },
+      "description": "Informiert wie man den Bot benutzt, zusammen mit einer Liste aller verfügbaren Befehle.",
+      "hello": "H-Hallo, Ich bin LewdBot, ein Mehrzweck-Discord-Bot, du kannst mehr über mich hier lernen:\n<https://github.com/Fabricio20/LewdWiki/wiki>",
+      "requested_by": "Angefordert von {0}."
+    },
+    "iateacrayon": {
+      "usages": {
+        "search": "Sucht in IAC's Kollektion nach Bildern, die mit den gegebenen Termen markiert wurden."
+      },
+      "error": {
+        "nothing_found": "Nichts auf IAC gefunden.",
+        "no_load": "Wenn das Bild nicht lädt, klicke bitte auf den Titel."
+      },
+      "description": "Sucht nach NSFW-Bildern in IAteACrayon's Kollektion.",
+      "found": "[Gefunden] IateACrayon/{0}"
+    },
+    "rule34": {
+      "usages": {
+        "notag": "Sendet eine zufälliges Bild von Rule34.",
+        "search": "Sucht auf Rule34 nach Bildern, die mit den gegebenen Termen markiert wurden."
+      },
+      "error": {
+        "nothing_found": "Nichts auf Rule34 gefunden.",
+        "no_response": "Fehler beim Erhalten der Bilder von Rule34 (Der Server sendete eine leere Antwort).",
+        "unknown": "Ein unbekannter Fehler ist beim Erhalten der Bilder von Rule34 aufgetreten. Nachricht: {0}"
+      },
+      "description": "Sucht nach NSFW-Bildern auf Rule34.xxx",
+      "search": "{User.Name}'s Suche auf Rule34. (Klick hier wenn das Bild nicht lädt)",
+      "tags": "**Stichworte**: {0}"
+    },
+    "dabooru": {
+      "usages": {
+        "notag": "Sendet ein zufälliges Bild von Dabooru.",
+        "search": "Sucht auf Danbooru nach Bildern, die mit den gegebenen Termen markiert wurden."
+      },
+      "error": {
+        "nothing_found": "Nichts auf Danbooru gefunden.",
+        "no_response": "Fehler beim Erhalten der Bilder von Danbooru (Der Server sendete eine leere Antwort).",
+        "unknown": "Ein unbekannter Fehler ist beim Erhalten der Bilder von Danbooru aufgetreten. Nachricht: {0}"
+      },
+      "description": "Sucht nach NSFW-Bildern auf Danbooru",
+      "search": "{User.Name}'s Suche auf Danbooru. (Klick hier wenn das Bild nicht lädt)",
+      "tags": "**Stichworte**: {0}"
+    },
+    "e621": {
+      "usages": {
+        "notag": "Sendet ein zufälliges (furry) Bild von E621.",
+        "search": "Sucht auf E621 nach Bildern, die mit den gegebenen Termen markiert wurden."
+      },
+      "error": {
+        "nothing_found": "Nichts auf E621 gefunden.",
+        "no_response": "Fehler beim Erhalten der Bilder von E621 (Der Server sendete eine leere Antwort).",
+        "unknown": "Ein unbekannter Fehler ist beim Erhalten der Bilder von E621 aufgetreten. Nachricht: {0}"
+      },
+      "description": "Sucht nach NSFW-Bildern auf e621.net",
+      "search": "{User.Name}'s Suche auf E621. (Klick hier wenn das Bild nicht lädt)",
+      "tags": "**Stichworte**: {0}"
+    },
+    "premium": {
+      "usages": {
+        "enable": "Aktiviert den Premiummodus für diesen Server.",
+        "disable": "Deaktiviert den Premiummodus. (Du musst der Besitzer dieses Servers oder der aktuelle Premiumbesitzer sein)."
+      },
+      "error": {
+        "not_premium": "Du bist kein Premiumnutzer.",
+        "already": "Dieser Server ist bereits Premium.",
+        "not_premium_guild": "Dieser Server ist kein Premiumserver.",
+        "no_Perms": "Du hast nicht die nötigen Berechtigungen um den Premiummodus auf diesem Server zu deaktivieren.",
+        "no_premium_left": "Du hast keinen Premiumplatz mehr frei."
+      },
+      "description": "Konfiguriert LewdBot Premium.",
+      "enabled": "Premiummodus **aktiviert**.",
+      "disabled": "Premiummodus **deaktiviert**."
+    },
+    "calc": {
+      "usages": {
+        "default": "Berechnet den gegebenen mathematischen Term."
+      },
+      "error": {
+        "invalid": "Ungültiger Term."
+      },
+      "description": "Berechnet einen mathematischen Term."
+    },
+    "register": {
+      "usages": {
+        "enable": "Aktiviert das Registrierungssystem.",
+        "disable": "Deaktiviert das Registrierungssystem.",
+        "role": "Definiert eine Rolle, die Mitgliedern gegeben wird, wenn sie sich registrieren.",
+        "channel": "Definiert einen Kanal, in dem Mitglieder das magische Wort eingeben müssen.",
+        "word": "Definiert das magische Wort, das Mitglieder eingeben müssen."
+      },
+      "error": {
+        "public": "Nur die öffentliche (everyone) Rolle wurde gefunden, aber alle Nutzer haben diese bereits.",
+        "permission": "Fehler beim Hinzufügen der Rolle zum Benutzer: Keine Berechtigung."
+      },
+      "description": "Konfiguriert das Auto-Registrierungssystem",
+      "word": "Magic word defined for registration.",
+      "channel": "Registration channel defined.",
+      "role": "Registration role defined.",
+      "enabled": "Registration system enabled. Please properly configure channel permissions.",
+      "disabled": "Registration system disabled."
+    },
+    "cookie": {
+      "description": "LewdBot Cookies! (Kind of a currency).\n More Info: https://goo.gl/2sXXyZ",
+      "usage": {
+        "daily": "Receives your daily cookies, do this every day for a streak bonus!",
+        "vote": "Vote for LewdBot daily and receive extra cookies!",
+        "give": "Sends cookies to a user!"
+      },
+      "vote_last": "You last voted on {0}. You can vote at: <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_48": "You voted in the past 48h, vote again to keep your streak! <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_24": "You already voted today! Check again in {0}.",
+      "vote": "Support LewdBot and Receive Cookies every day! Vote at <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote_thanks": "Thanks for voting! You received +{0} :cookie: (Vote every day for as streak!)"
+    },
+    "welcome": {
+      "usages": {
+        "enable": "Enables the welcome message system.",
+        "disable": "Disables the welcome message system.",
+        "set": "Changes the welcome message to the informed message.",
+        "channel": "Changes the welcome channel.",
+        "dms": "Defines if the message should be sent in DMs instead."
+      },
+      "description": "System for welcoming users (Sends a message to the user / in chat upon join)."
+    },
+    "playlist": {
+      "usages": {
+        "create": "Creates a new playlist.",
+        "delete": "Deletes a playlist.",
+        "rename": "Renames a playlist.",
+        "use": "Marks a playlist as active.",
+        "copy": "Copy a playlist to yourself.",
+        "list": "Lists all available playlists",
+        "add_name": "Adds a song by name (searches on YouTube).",
+        "add_url": "Adds a song by URL (Youtube or SoundCloud).",
+        "add_radio": "Adds a live radio.",
+        "clear": "Clears the current/active playlist of songs.",
+        "join": "Connects to your current voice channel.",
+        "join_name": "Connects to the given voice channel.",
+        "play": "Starts playing the next song in the playlist.",
+        "play_name": "Starts playing a track by name (If not found searches on Youtube and adds).",
+        "play_pos": "Starts playing a track by it's position on the playlist.",
+        "play_url": "Starts playing a track by URL, adding if needed.",
+        "play_radio": "Starts playing the specified live radio, adding if needed.",
+        "remove_name": "Removes a track by name.",
+        "remove_pos": "Removes a track by it's position on the playlist.",
+        "setmusic": "Defines the channel where LewdBot sends music-related messages to.",
+        "share": "Enables or disables playlist sharing.",
+        "shuffle": "Toggles music shuffling on the playlist.",
+        "mode": "Enables or disables playlist modes (like Queue or Shuffle)."
+      },
+      "error": {
+        "no_playlist_found": "No playlist found with that name (or ID).",
+        "too_many_playlists": "Too many playlists found, please be more specific.",
+        "no_room": "You cannot create more playlists, please remove some or upgrade to Premium to create more.",
+        "invalid_name": "This playlist name is invalid.",
+        "track_already_present": "This track is already in the playlist.",
+        "track_not_present": "This track does not exist in the current playlist.",
+        "locked": "PlayList is locked (only the owner can edit it). Check `L!pl_share` for more information.",
+        "unknown_flag": "Unknown PlayList flag, available ones are `{0}`."
+      },
+      "descriptions": {
+        "add": "Adds a track or stream to the active playlist.",
+        "clear": "Clears the active playlist.",
+        "join": "Joins your voice channel or a specified one.",
+        "npl": "Displays what is currently playing on the bot.",
+        "play": "Starts playing the given track, or skips to the next one.",
+        "remove": "Removes tracks from the active playlist.",
+        "setmusic": "Defines the channel where LewdBot will send music info.",
+        "stop": "Makes LewdBot stop playing and disconnect.",
+        "volume": "Changes the volume of the bot.",
+        "share": "Sharing allows other users to edit your playlist, by default sharing is disabled to prevent people from modifying your playlist.",
+        "list": "Lists all the songs on the current playlist.",
+        "shuffle": "Shuffle mode for songs (randomly plays a song in the playlist).",
+        "mode": "Toggles playlist modes (like Queue or Shuffle)."
+      },
+      "description": "PlayList management commands.",
+      "create_success": "PlayList **{0}** created! (ID: **{1}**)",
+      "del_success": "PlayList **{0}** has been deleted.",
+      "rename_success": "PlayList **{0}** has been renamed.",
+      "use_success": "Success! Playlist **{0}** is now active.",
+      "copy_success": "Playlist successfully copied! (ID: **{0}**)",
+      "list": "PlayLists: {0}",
+      "share_enabled": "PlayList is now shared.",
+      "share_disabled": "PlayList is no longer shared.",
+      "default_playlist": "Default (Guild PlayList - Always present)",
+      "shuffle_enabled": "Shuffle mode is now enabled.",
+      "shuffle_disabled": "Shuffle mode is now disabled.",
+      "playlist_shuffle_enabled": "PlayList shuffle is now enabled.",
+      "playlist_shuffle_disabled": "PlayList shuffle is now disabled.",
+      "flag_enabled": "{0} is now enabled.",
+      "flag_disabled": "{0} is now disabled."
+    },
+    "slowmode": {
+      "error": {
+        "seconds_limit": "Slowmode must be between 0 and 120 (seconds).",
+        "error_enabling": "Error while enabling slowmode. Message: {0}"
+      },
+      "usage": {
+        "seconds": "Enables slowmode in the channel with the specified seconds as delay. 0 to disable.",
+        "off": "Disables slowmode."
+      },
+      "description": "Twitch-like slowmode for Discord (Now using Discord's slowmode feature)",
+      "enabled": "Slowmode enabled.",
+      "disabled": "Slowmode disabled."
+    },
+    "ban": {
+      "error": {
+        "no_perms": "I don't have permission to ban that user."
+      },
+      "usage": {
+        "empty": "Bans a member without providing a reason.",
+        "reason": "Bans a member with the specified reason."
+      },
+      "description": "Bans a user with optional reason.",
+      "success": "{0} was banned.",
+      "failure": "Error while banning user, please try again.",
+      "reason": "Banned by {0}."
+    },
+    "hackban": {
+      "error": {
+        "id_invalid": "That's not a valid user ID."
+      },
+      "description": "Bans a user by ID with optional reason."
+    },
+    "kick": {
+      "error": {
+        "no_perms": "I don't have permission to kick that user."
+      },
+      "usage": {
+        "empty": "Kicks a member without providing a reason.",
+        "reason": "Kicks a member with the specified reason."
+      },
+      "description": "Kicks a user with optional reason.",
+      "success": "{0} was kicked.",
+      "failure": "Error while kicking user, please try again.",
+      "reason": "Kicked by {0}."
+    },
+    "multiban": {
+      "usage": {
+        "empty": "Bans multiple members at once."
+      },
+      "description": "Bans multiple members at once."
+    },
+    "softban": {
+      "usage": {
+        "empty": "Bans and unbans a member without providing a reason.",
+        "reason": "Bans and unbans a member with the specified reason."
+      },
+      "description": "Bans and unbans a user with optional reason.",
+      "success": "{0} was softbanned.",
+      "reason": "SoftBanned by {0}."
+    },
+    "starboard": {
+      "usage": {
+        "default": "Defines the channel where starboard pins will be posted to. Off to disable."
+      },
+      "description": "Kinda like pins but on a channel!",
+      "disabled": "Starboard has been disabled.",
+      "channel": "Starboard enabled on channel **{0}**."
+    },
+    "modlog": {
+      "usage": {
+        "default": "Defines the channel where moderation logs will be posted to. Off to disable."
+      },
+      "parts": {
+        "reason": "[ Reason ] {0}",
+        "ban": "{0} was banned.",
+        "ban_admin": "{0} banned {1}",
+        "unban": "{0} was unbanned.",
+        "unban_admin": "{0} unbanned {1}.",
+        "kick": "{0} was kicked.",
+        "kick_admin": "{0} kicked {1}."
+      },
+      "description": "Moderation logs (Alpha)",
+      "disabled": "Modlog has been disabled.",
+      "channel": "Modlog enabled on channel **{0}**."
+    },
+    "reason": {
+      "usage": {
+        "default": "Updates the reason for the last modlog case.",
+        "case": "Updates the reason for a specific modlog case."
+      },
+      "error": {
+        "reason": "Please specify a reason along with the case ID.",
+        "case_unknown": "Specified case was not found.",
+        "case_last": "Failed to find latest case file."
+      },
+      "description": "Updates the reason on modlog cases.",
+      "updated": "Case file updated."
+    },
+    "color": {
+      "usage": {
+        "preview": "Sends an embed with this color (Useful for previews).",
+        "change": "Changes the color of one or more roles."
+      },
+      "error": {
+        "color": "That's not a valid color"
+      },
+      "changed": "{0} roles updated. (Out of {1}).",
+      "description": "Preview and update role colors!"
+    },
+    "shop": {
+      "usage": {
+        "list": "Lists all items available on the shop.",
+        "buy": "Purchases an item from the shop."
+      },
+      "description": "Item shop (Beta)"
+    },
+    "define": {
+      "usage": {
+        "default": "Defines the given word."
+      },
+      "error": {
+        "no_definitions": "No definitions found for {0}, can you define it?"
+      },
+      "description": "Defines a given word (from Urban Dictionary)."
+    },
+    "flip": {
+      "usage": {
+        "default": "Flips a coin"
+      },
+      "description": "Flips a coin",
+      "heads": "**{0}** flipped a coin and got **Heads**.",
+      "tails": "**{0}** flipped a coin and got **Tails**."
+    },
+    "scramble": {
+      "usage": {
+        "default": "Starts a scramble game (Answer by simply saying the correct word in the chat)."
+      },
+      "description": "Word guessing game. (Answer by simply saying the correct word in the chat)",
+      "already": "There is already a scramble game on this server (Word is {0}), type in just the answer in the chat.",
+      "start": "The word is {0}, you have 1 minute to guess. (Type just the answer in the chat).",
+      "correct": "That's correct! +{0} :cookie:",
+      "timed": "Oops, Timed out! It was {0}, maybe try another word?"
+    },
+    "roll": {
+      "usages": {
+        "default": "Rolls a d2000 dice.",
+        "specified": "Rolls an n sided dice. (You specify)"
+      },
+      "description": "Rolls a dice."
+    },
+    "leaderboard": {
+      "usages": {
+        "default": "Displays the top cookie bourgeois."
+      },
+      "description": "Displays the top cookie bourgeois."
+    },
+    "shard": {
+      "usages": {
+        "default": "Displays status for the current shard."
+      },
+      "description": "Displays status for the current shard. (ie Bot Status)"
+    },
+    "invite": {
+      "usages": {
+        "default": "Displays invite links for LewdBot."
+      },
+      "description": "Displays invite links for LewdBot."
+    },
+    "slot": {
+      "usages": {
+        "default": "Slot machine!"
+      },
+      "description": "Slot machine!"
+    },
+    "country": {
+      "usages": {
+        "default": "Set's your profile's country"
+      },
+      "description": "Set's your profile's country"
+    },
+    "profile": {
+      "usages": {
+        "default": "Shows your profile (Image)"
+      },
+      "description": "Shows your profile (Image)"
+    },
+    "language": {
+      "usages": {
+        "default": "Displays a list of available languages.",
+        "define": "Defines your profile language."
+      },
+      "error": {
+        "invalid": "Invalid language."
+      },
+      "description": "Defines your profile language.",
+      "changed": "Language changed to **{0}**."
+    },
+    "status": {
+      "usages": {
+        "default": "Displays the bot's status."
+      },
+      "description": "Displays the bot's status."
+    },
+    "anime": {
+      "usages": {
+        "default": "Finds and displays anime information"
+      },
+      "description": "Finds and displays anime information"
+    },
+    "background": {
+      "usages": {
+        "list": "Lists all available backgrounds.",
+        "use": "Defines your profile background to an owned one.",
+        "buy": "Purchases a background.",
+        "preview": "Shows a preview of the background."
+      },
+      "error": {
+        "unknown": "No background was found with that name.",
+        "dont_own": "You don't own this background.",
+        "own": "You already own this background."
+      },
+      "description": "Allows you to modify your profile background.",
+      "changed": "Background updated."
+    },
+    "bug": {
+      "description": "Shows information about bug reporting."
+    },
+    "r6": {
+      "usages": {
+        "discord": "Displays the Rainbow Six Siege profile of a Discord user.",
+        "public": "Displays the profile of any Rainbow Six Siege player, platform is optional and supported entries are UPLAY, XBOX, PSN",
+        "save": "Saves a Rainbow Six Siege username to your profile."
+      },
+      "error": {
+        "invalid_platform": "That is not a valid platform. (Available: UPLAY, XONE, PS4)",
+        "invalid_usage": "Invalid usage, please follow the `username/platform` pattern."
+      },
+      "saved": "Username saved.",
+      "description": "Displays Rainbow Six Siege profile information for players."
+    }
   }
 }
