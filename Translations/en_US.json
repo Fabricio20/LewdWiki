@@ -119,10 +119,10 @@
       "error": {
         "already": "You already have this badge!"
       },
-      "description": "LewdBot Badges! Display custom badges on your profile. Earn them by completing their designated tasks.",
+      "description": "Lindsey Badges! Display custom badges on your profile. Earn them by completing their designated tasks.",
       "owned": "You have this badge!",
       "badge_beta": "Awarded to those who helped test the badge system.",
-      "translator": "You are now a member of the LewdBot translation team.",
+      "translator": "You are now a member of the Lindsey translation team.",
       "halloween_2017": "Spoo.py!",
       "fbi": "What have you done?",
       "halloween_2018": "Spookier than ever!",
@@ -181,15 +181,15 @@
     },
     "join": {
       "usage": {
-        "default": "Makes LewdBot connect to your current voice channel.",
-        "channel": "Makes LewdBot connect to the specified channel."
+        "default": "Makes Lindsey connect to your current voice channel.",
+        "channel": "Makes Lindsey connect to the specified channel."
       },
       "error": {
         "failed_connect": "Failed to connect to voice channel.",
         "not_on_voice": "You are not in a voice channel!"
       },
       "connected": "Connected to `{0}` from `{1}`",
-      "description": "Connects LewdBot to a voice channel."
+      "description": "Connects Lindsey to a voice channel."
     },
     "advertising": {
       "usage": {
@@ -226,7 +226,7 @@
       "error": {
         "unknown_node": "Unknown permission node, make sure you typed it correctly."
       },
-      "description": "Manages LewdBot's permissions on a per-role basis.",
+      "description": "Manages Lindsey's permissions on a per-role basis.",
       "role_reset": "Permissions for the role {0} were reset.",
       "permission_reset": "Permission `{0}` reset for role {1}.",
       "role_updated": "Permissions for role {0} updated.",
@@ -235,8 +235,8 @@
     },
     "ignore": {
       "usage": {
-        "list": "Lists all ignored channels (Where LewdBot will effectively be disabled).",
-        "add": "Adds a channel to the ignored list, making LewdBot stop working there.",
+        "list": "Lists all ignored channels (Where Lindsey will effectively be disabled).",
+        "add": "Adds a channel to the ignored list, making Lindsey stop working there.",
         "remove": "Removes a channel from the ignored list."
       },
       "error": {
@@ -244,7 +244,7 @@
         "already": "This channel is already being ignored.",
         "not": "This channel is not being ignored."
       },
-      "description": "Ignores channels so LewdBot stops replying on them.",
+      "description": "Ignores channels so Lindsey stops replying on them.",
       "list": "Currently ignored channels:\n {0}",
       "ignored": "Channel `{0}` is now being ignored.",
       "removed": "Channel `{0}` is no longer being ignored."
@@ -270,17 +270,17 @@
         "timed": "Setup cancelled. (Timed out)",
         "no_channel": "No channel found with that name, please try again."
       },
-      "description": "Runs a setup to quickly get LewdBot ready for use.",
-      "welcome": "Welcome to the LewdBot setup, please answer the following questions by simply replying in the chat (no prefix needed).\nYou can quit any time by simply typing `cancel`.",
+      "description": "Runs a setup to quickly get Lindsey ready for use.",
+      "welcome": "Welcome to the Lindsey setup, please answer the following questions by simply replying in the chat (no prefix needed).\nYou can quit any time by simply typing `cancel`.",
       "cancelled": "Setup cancelled.",
       "setprefix": "Would you like to define a custom prefix/trigger? [Y/N]",
-      "typeprefix": "Please type the new prefix to use (Note: `L!` and `@LewdBot` will always work):",
+      "typeprefix": "Please type the new prefix to use (Note: `L!` and `@Lindsey` will always work):",
       "music": "Would you like to set up a music channel? [Y/N]",
       "musictag": "Please tag the channel to send music statuses.",
       "complete": "Setup is now complete."
     },
     "prefix": {
-      "description": "Changes LewdBot's prefix. (This does not disable L! and mention).",
+      "description": "Changes Lindsey's prefix. (This does not disable L! and mention).",
       "defined": "Prefix changed to {0}"
     },
     "game": {
@@ -290,7 +290,7 @@
         "name": "Changes the game",
         "streamname": "Changes the game and toggles streaming mode"
       },
-      "description": "Changes LewdBot's game."
+      "description": "Changes Lindsey's game."
     },
     "help": {
       "usages": {
@@ -301,7 +301,7 @@
         "not_found": "No help found for {0}."
       },
       "description": "Provides information on how to use the bot, along with a list of all available commands.",
-      "hello": "H-hello, I'm LewdBot, a multi-purpose discord bot, you can learn more about me here:\n<https://github.com/Fabricio20/LewdWiki/wiki>",
+      "hello": "H-hello, I'm Lindsey, a multi-purpose discord bot, you can learn more about me here:\n<https://github.com/Fabricio20/LewdWiki/wiki>",
       "requested_by": "Requested by {0}."
     },
     "iateacrayon": {
@@ -383,7 +383,7 @@
         "no_Perms": "You don't have permission to disable the premium mode of this guild.",
         "no_premium_left": "You do not have more premium slots available."
       },
-      "description": "Configures LewdBot premium.",
+      "description": "Configures Lindsey premium.",
       "enabled": "Premium mode **enabled**.",
       "disabled": "Premium mode **disabled**."
     },
@@ -416,16 +416,16 @@
       "disabled": "Registration system disabled."
     },
     "cookie": {
-      "description": "LewdBot Cookies! (Kind of a currency).\n More Info: https://goo.gl/2sXXyZ",
+      "description": "Lindsey Cookies! (Kind of a currency).\n More Info: https://goo.gl/2sXXyZ",
       "usage": {
         "daily": "Receives your daily cookies, do this every day for a streak bonus!",
-        "vote": "Vote for LewdBot daily and receive extra cookies!",
+        "vote": "Vote for Lindsey daily and receive extra cookies!",
         "give": "Sends cookies to a user!"
       },
       "vote_last": "You last voted on {0}. You can vote at: <https://discordbots.org/bot/119482224713269248/vote>",
       "vote_48": "You voted in the past 48h, vote again to keep your streak! <https://discordbots.org/bot/119482224713269248/vote>",
       "vote_24": "You already voted today! Check again in {0}.",
-      "vote": "Support LewdBot and Receive Cookies every day! Vote at <https://discordbots.org/bot/119482224713269248/vote>",
+      "vote": "Support Lindsey and Receive Cookies every day! Vote at <https://discordbots.org/bot/119482224713269248/vote>",
       "vote_thanks": "Thanks for voting! You received +{0} :cookie: (Vote every day for as streak!)"
     },
     "welcome": {
@@ -460,7 +460,7 @@
         "play_radio": "Starts playing the specified live radio, adding if needed.",
         "remove_name": "Removes a track by name.",
         "remove_pos": "Removes a track by it's position on the playlist.",
-        "setmusic": "Defines the channel where LewdBot sends music-related messages to.",
+        "setmusic": "Defines the channel where Lindsey sends music-related messages to.",
         "share": "Enables or disables playlist sharing.",
         "shuffle": "Toggles music shuffling on the playlist.",
         "mode": "Enables or disables playlist modes (like Queue or Shuffle)."
@@ -482,8 +482,8 @@
         "npl": "Displays what is currently playing on the bot.",
         "play": "Starts playing the given track, or skips to the next one.",
         "remove": "Removes tracks from the active playlist.",
-        "setmusic": "Defines the channel where LewdBot will send music info.",
-        "stop": "Makes LewdBot stop playing and disconnect.",
+        "setmusic": "Defines the channel where Lindsey will send music info.",
+        "stop": "Makes Lindsey stop playing and disconnect.",
         "volume": "Changes the volume of the bot.",
         "share": "Sharing allows other users to edit your playlist, by default sharing is disabled to prevent people from modifying your playlist.",
         "list": "Lists all the songs on the current playlist.",
@@ -671,9 +671,9 @@
     },
     "invite": {
       "usages": {
-        "default": "Displays invite links for LewdBot."
+        "default": "Displays invite links for Lindsey."
       },
-      "description": "Displays invite links for LewdBot."
+      "description": "Displays invite links for Lindsey."
     },
     "slot": {
       "usages": {

@@ -100,7 +100,7 @@
       "usage": {
         "list": "Listet alle verfügbaren Abzeichen mit Vorschau auf"
       },
-      "description": "LewdBot Abzeichen! Stelle Abzeichen auf deinem Profil aus. Du erhältst sie durch erfolgreiches Beenden bestimmter Aufgaben.",
+      "description": "Lindsey Abzeichen! Stelle Abzeichen auf deinem Profil aus. Du erhältst sie durch erfolgreiches Beenden bestimmter Aufgaben.",
       "owned": "Du besitzt dieses Abzeichen!"
     },
     "autoplay": {
@@ -161,7 +161,7 @@
       "error": {
         "unknown_node": "Unbekannte Berechtigung, bitte stell sicher alles richtig geschrieben zu haben."
       },
-      "description": "Verwaltet die Berechtigungen von LewdBot auf Rollenbasis.",
+      "description": "Verwaltet die Berechtigungen von Lindsey auf Rollenbasis.",
       "role_reset": "Berechtigungen für die Rolle {0} wurden zurückgesetzt.",
       "permission_reset": "Berechtigung `{0}` zurückgesetzt für Rolle {1}.",
       "role_updated": "Berechtigungen für Rolle {0} aktualisiert.",
@@ -170,8 +170,8 @@
     },
     "ignore": {
       "usage": {
-        "list": "Listet alle ignorierten Textkanäle auf (Kanäle in denen LewdBot deaktivert ist).",
-        "add": "Fügt einen Kanal zur Liste der ignorierten Kanäle hinzu, was zur Deaktivierung von LewdBot in jenem führt.",
+        "list": "Listet alle ignorierten Textkanäle auf (Kanäle in denen Lindsey deaktivert ist).",
+        "add": "Fügt einen Kanal zur Liste der ignorierten Kanäle hinzu, was zur Deaktivierung von Lindsey in jenem führt.",
         "remove": "Entfernt einen Kanal von der Liste der ignorierten Kanäle."
       },
       "error": {
@@ -179,7 +179,7 @@
         "already": "Dieser Kanal wird bereits ignoriert.",
         "not": "Dieser Kanal wird nicht ignoriert."
       },
-      "description": "Ignoriert Kanäle, damit LewdBot nicht mehr antworten kann.",
+      "description": "Ignoriert Kanäle, damit Lindsey nicht mehr antworten kann.",
       "list": "Aktuell ignorierte Kanäle:\n {0}",
       "ignored": "Kanal `{0}` wird jetzt ignoriert.",
       "removed": "Kanal `{0}` wird nicht länger ignoriert."
@@ -192,7 +192,7 @@
         "info": "Erhalte den Status eines Moduls."
       },
       "error": {
-        "default": "Durch deaktivieren dieses Moduls ist LewdBot nicht länger verwendbar. Deaktivierung unmöglich.",
+        "default": "Durch deaktivieren dieses Moduls ist Lindsey nicht länger verwendbar. Deaktivierung unmöglich.",
         "not_found": "Modul nicht gefunden."
       },
       "description": "Aktiviert oder deaktiviert Gruppen von Funktionen",
@@ -206,11 +206,11 @@
         "more_channel": "Mehr als ein Kanal mit diesem Namen gefunden, erneut versuchen? [Y/N]",
         "no_channel": "Kein Kanal mit diesem Namen gefunden, erneut versuchen? [Y/N]"
       },
-      "description": "Startet ein Setup zur korrekten Einstellung LewdBots.",
-      "welcome": "Willkommen bei der LewdBot-Konfiguration, bitte beantworte die nachfolgenden Fragen einfach durch Antworten im Chat (kein Präfix benötigt).\nDas Setup kann jederzeit durch Eingabe von `cancel` abgebrochen werden.",
+      "description": "Startet ein Setup zur korrekten Einstellung Lindseys.",
+      "welcome": "Willkommen bei der Lindsey-Konfiguration, bitte beantworte die nachfolgenden Fragen einfach durch Antworten im Chat (kein Präfix benötigt).\nDas Setup kann jederzeit durch Eingabe von `cancel` abgebrochen werden.",
       "cancelled": "Setup abgebrochen.",
       "setprefix": "Würdest du gerne ein benutzerdefiniertes Präfix einstellen? [Y/N]",
-      "typeprefix": "Bitte gib das neue Präfix ein, das du benutzen willst (Anmerkung: `L!` und `@LewdBot` werden trotzdem immer funktioneren):",
+      "typeprefix": "Bitte gib das neue Präfix ein, das du benutzen willst (Anmerkung: `L!` und `@Lindsey` werden trotzdem immer funktioneren):",
       "prefixchanged": "Präfix geändert, willst du die NSFW-Features aktivieren? [Y/N]",
       "nsfw": "Ok, willst du die NSFW-Features aktivieren? [Y/N]",
       "nsfwenabled": "NSFW-Modul aktiviert. Willst du einen Musik-Kanal aufsetzen?",
@@ -219,11 +219,11 @@
       "complete": "Konfiguration erfolgreich beendet."
     },
     "prefix": {
-      "description": "Ändert das Präfix von LewdBot. (Deaktiviert weder L! noch Erwähnung).",
+      "description": "Ändert das Präfix von Lindsey. (Deaktiviert weder L! noch Erwähnung).",
       "defined": "Präfix zu {0} geändert"
     },
     "game": {
-      "description": "Ändert LewdBots Spiel.",
+      "description": "Ändert Lindseys Spiel.",
       "usages": {
         "next": "springt zum nächsten Spiel",
         "stream": "schaltet Streamer-Modus um",
@@ -237,7 +237,7 @@
       "already": "Du hast dieses Abzeichen bereits!"
     },
     "badge_beta": "Für diejenigen, die geholfen haben, das Abzeichensystem zu testen.",
-    "translator": "Du bist jetzt ein Mitglied des LewdBot-Übersetzer Teams.",
+    "translator": "Du bist jetzt ein Mitglied des Lindsey-Übersetzer Teams.",
     "halloween_2017": "Spoo.py!",
     "fbi": "Was hast du angestellt?"
   }

@@ -80,7 +80,7 @@
       "already": "Tato role už v GiveMe seznamu je."
     },
     "badges": {
-      "description": "LewdBot Badges! Zobraz vlastní odznaky na svém profilu. Získej je splněním jejich úloh.",
+      "description": "Lindsey Badges! Zobraz vlastní odznaky na svém profilu. Získej je splněním jejich úloh.",
       "owned": "Tenhle odznak už máš!"
     },
     "autoplay": {
@@ -118,7 +118,7 @@
       "already": "Už máš tento odznak!"
     },
     "badge_beta": "Uděleno těm, kteří pomohli otestovat systém odznaků.",
-    "translator": "Stal jste se členem překladatelského teamu LewdBot.",
+    "translator": "Stal jste se členem překladatelského teamu Lindsey.",
     "halloween_2017": "Spoo.py!",
     "fbi": "Co jsi udělal?"
   }

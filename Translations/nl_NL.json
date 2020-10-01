@@ -100,7 +100,7 @@
       "already": "Deze rol is al in de RoleMe lijst."
     },
     "badges": {
-      "description": "LewdBot Badges! Geef badges weer in je profiel. Verdien ze door hun toegewezen taken uit te voeren.",
+      "description": "Lindsey Badges! Geef badges weer in je profiel. Verdien ze door hun toegewezen taken uit te voeren.",
       "owned": "Je hebt deze badge!"
     },
     "autoplay": {
@@ -145,7 +145,7 @@
       "error": {
         "unknown_node": "Unknown permissie node, weet je zeker dat je het juist hebt getypt?"
       },
-      "description": "Beheer LewdBot's permissies via een per-role basis",
+      "description": "Beheer Lindsey's permissies via een per-role basis",
       "role_reset": "Permissies voor de rol {0} zijn gereset",
       "permission_reset": "Permissie `{0}` gereset voor rol {1}.",
       "role_updated": "Permissies voor rol {0} bijgewerkt.",
@@ -158,7 +158,7 @@
       "already": "Je hebt deze badge al!"
     },
     "badge_beta": "Gegeven aan mensen die geholpen hebben met het testen van het badge systeem.",
-    "translator": "Je bent nu lid van het LewdBot vertaler team.",
+    "translator": "Je bent nu lid van het Lindsey vertaler team.",
     "halloween_2017": "Spoo.py!",
     "fbi": "Wat heb je gedaan?"
   }

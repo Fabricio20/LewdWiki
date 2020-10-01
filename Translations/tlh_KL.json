@@ -234,7 +234,7 @@
       "welcome": "yu'mey DajangnIS (pagh aq).\nbup `cancel` jatlh.",
       "cancelled": "qIlpu' mIw.",
       "setprefix": "aq le' Dachen'a'? [Y/N]",
-      "typeprefix": "aq DajatlhnIS (vumlaH `L!` `@LewdBot` je):",
+      "typeprefix": "aq DajatlhnIS (vumlaH `L!` `@Lindsey` je):",
       "prefixchanged": "aq choHta', Say'Ha Se'mey Dachaw''a'? [Y/N]",
       "nsfw": "Say'Ha Se'mey Dachaw''a'? [Y/N]",
       "nsfwenabled": "Say'Ha Se'mey chaw'ta', QoQ Se' DabeH'a'? [Y/N]",
@@ -243,7 +243,7 @@
       "complete": "naQ mIw."
     },
     "prefix": {
-      "description": "luDqoq aq choH. (vumlaH `L!` `@LewdBot` je)",
+      "description": "luDqoq aq choH. (vumlaH `L!` `@Lindsey` je)",
       "defined": "{0} aq choH."
     },
     "game": {

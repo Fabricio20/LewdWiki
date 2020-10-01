@@ -80,7 +80,7 @@
       "already": "这个身分组已经存在于GiveMe列表中"
     },
     "badges": {
-      "description": " LewdBot徽章!请在个人资料显示徽章。透过徽章的指定任务来取得徽章",
+      "description": " Lindsey徽章!请在个人资料显示徽章。透过徽章的指定任务来取得徽章",
       "owned": "你拥有此徽章!"
     },
     "autoplay": {
@@ -110,7 +110,7 @@
       "already": "你已经拥有此徽章!"
     },
     "badge_beta": "给予那些帮助测试徽章系统的人",
-    "translator": "你现在是LewdBot的翻译成员",
+    "translator": "你现在是Lindsey的翻译成员",
     "halloween_2017": " Spoo.py!",
     "fbi": "你做了什麽?"
   }

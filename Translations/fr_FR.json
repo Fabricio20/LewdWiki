@@ -79,7 +79,7 @@
       "already": "Ce rôle fait déjà partie de la liste GiveMe."
     },
     "badges": {
-      "description": "Badges LewdBot ! Affichez des badges personnalisés sur votre profil. Gagnez-les en accomplissant les tâches qui leur sont assignées.",
+      "description": "Badges Lindsey ! Affichez des badges personnalisés sur votre profil. Gagnez-les en accomplissant les tâches qui leur sont assignées.",
       "owned": "Vous avez ce badge !"
     },
     "autoplay": {
@@ -104,7 +104,7 @@
       "already": "Vous avez déjà ce badge !"
     },
     "badge_beta": "Décerné à ceux qui ont aidé à tester le système de badge.",
-    "translator": "Vous êtes maintenant membre de l'équipe de traduction LewdBot.",
+    "translator": "Vous êtes maintenant membre de l'équipe de traduction Lindsey.",
     "halloween_2017": "Spoo.py !",
     "fbi": "Qu'est-ce que tu as fait?"
   }
