@@ -126,7 +126,9 @@
       "halloween_2017": "Spoo.py!",
       "fbi": "What have you done?",
       "halloween_2018": "Spookier than ever!",
-      "halloween_2019": "Meguween!"
+      "halloween_2019": "Meguween!",
+      "halloween_2020": "Is it christmas yet",
+      "christmas_2020": "HASHIRE SORI YO"
     },
     "autoplay": {
       "description": "(Premium) Auto starts playing when a user joins the selected voice channel.",
